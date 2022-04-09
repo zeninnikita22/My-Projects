@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Number Generator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="box">
+        <div class="outer-box">
+          <div class="title">
+            <h1>Random number generator</h1>
+          </div>
+        </div>
+        <div class="inner-box">
+          <div class="range">
+            <div class="range__input">
+              <p>Min</p>
+              <input type="number" min="0" id="min-number" />
+            </div>
+            <div class="range__input">
+              <p>Max</p>
+              <input type="number" max="1000000000" id="max-number" />
+            </div>
+          </div>
+          <div class="button">
+            <input type="button" value="Generate" id="button__generate" />
+          </div>
+          <div class="number">
+            <div class="number__text">Your number:</div>
+            <p id="number__display">0</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
