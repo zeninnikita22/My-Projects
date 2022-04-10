@@ -1,8 +1,6 @@
-// console.log(minValue);
-// console.log(maxValue);
 const generateButton = document.getElementById("button__generate");
 const finalNumber = document.getElementById("number__display");
-generateButton.addEventListener("click", motherFunction);
+generateButton.addEventListener("click", displayRandomNumber);
 
 function getValueMin() {
   const minValue = document.getElementById("min-number").value;
@@ -26,19 +24,26 @@ function randomNumber(min, max) {
   return Math.floor(Math.random() * (max - min)) + min;
 }
 
-function motherFunction() {
+function displayRandomNumber() {
   const minimum = getValueMin();
   const maximum = getValueMax();
   const final = randomNumber(minimum, maximum);
-  finalNumber.innerHTML = `${final}`;
-}
+  const animationArray = [
+    10001,
+    256,
+    9,
+    58533,
+    4538,
+    3679,
+    11,
+    733,
+    25020,
+    `${final}`,
+  ];
 
-// function numberAnimation () {
-//   finalNumber.innerHTML = "100001";
-//   finalNumber.innerHTML = "110011";
-//   finalNumber.innerHTML = "120031";
-//   finalNumber.innerHTML = "123456";
-//   finalNumber.innerHTML = "654321";
-//   finalNumber.innerHTML = "132721";
-//   finalNumber.innerHTML = "195683";
-// }
+  animationArray.forEach((element, index) => {
+    setTimeout(() => {
+      finalNumber.innerHTML = `${element}`;
+    }, 100 * (index + 1));
+  });
+}
