@@ -21,7 +21,9 @@
             <div class="header__info-icon">
               <img src="icons\location.png" alt="" />
             </div>
-            <div class="header__info-location">Dubai</div>
+            <div class="header__info-location">
+              <span id="city">Berlin, </span><span id="country">DE</span>
+            </div>
             <!-- <div class="header__info-date">24.02</div> -->
           </div>
           <div class="header__buttons">
@@ -33,7 +35,7 @@
           <div class="box__weather">
             <div class="box__weather-upper">
               <div class="box__weather-icon">
-                <img src="icons\cloud.png" />
+                <img src="" id="weather-img" />
                 <div class="box__weather-lower">cloudy</div>
               </div>
               <div class="box__weather-degrees">
@@ -43,17 +45,17 @@
             </div>
           </div>
           <div class="box__add">
-            <div class="box__add-data" id="wind">
-              <img src="icons\wind.png" />25km/hour
+            <div class="box__add-data" id="wind-box">
+              <img src="icons\wind.png" /><span id="wind">25km/hour</span>
             </div>
-            <div class="box__add-data" id="humidity">
-              <img src="icons\humidity.png" />62%
+            <div class="box__add-data" id="humidity-box">
+              <img src="icons\humidity.png" /><span id="humidity">60%</span>
             </div>
-            <div class="box__add-data" id="pressure">
-              <img src="icons\pressure.png" />1024 Pa
+            <div class="box__add-data" id="pressure-box">
+              <img src="icons\pressure.png" /><span id="pressure">1000</span>
             </div>
-            <div class="box__add-data" id="ultraviolet">
-              <img src="icons\ultraviolet.png" />0
+            <div class="box__add-data" id="visibility-box">
+              <img src="icons\visibility.png" /><span id="visibility">0</span>
             </div>
           </div>
         </div>
