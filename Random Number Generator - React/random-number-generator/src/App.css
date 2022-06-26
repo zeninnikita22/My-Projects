@@ -1,0 +1,118 @@
+@import url(https://fonts.googleapis.com/css?family=Varela+Round:regular);
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  height: 1vw;
+  font-family: "Varela Round";
+  background-color: #eef4f8;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.inner-box {
+  display: flex;
+  min-width: 50%;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 25px;
+  background-color: #dde7ee;
+  box-shadow: 4px 4px #d5dde3dc;
+  padding: 10px 10px 10px 10px;
+}
+.form {
+  display: inherit;
+  flex-direction: column;
+  align-items: center;
+}
+.outer-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title {
+  min-width: 500px;
+  display: flex;
+  justify-content: center;
+  font-size: 17pt;
+  font-weight: 600;
+}
+.range {
+  display: flex;
+}
+.range__input {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 10px 10px 10px;
+  font-size: 14pt;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  border: 4px solid #354b5a;
+  border-radius: 15px;
+  background-color: #f2f8fc;
+  height: 40px;
+  font-family: inherit;
+  font-weight: 1000;
+  text-align: center;
+}
+
+.range__input > label {
+  margin: 10px 0px;
+  align-self: center;
+  font-weight: 500;
+}
+.button {
+  margin-bottom: 40px;
+}
+#button__generate {
+  margin-top: 30px;
+  background-color: #354b5a;
+  border-radius: 30px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Varela Round";
+  transition-duration: 0.4s;
+  font-weight: 400;
+}
+
+#button__generate:hover {
+  background-color: #172027;
+  cursor: pointer;
+}
+
+.number {
+  font-size: 18pt;
+  display: flex;
+  flex-direction: column;
+}
+.number__text {
+  margin-bottom: 5px;
+}
+#number__display {
+  align-self: center;
+  font-weight: 800;
+  padding: 5px;
+  border: 3px solid #50c5b7;
+  border-radius: 10px;
+  margin-top: 4px;
+}
