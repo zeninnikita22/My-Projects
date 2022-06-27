@@ -1,0 +1,144 @@
+@import url(https://fonts.googleapis.com/css?family=DM+Sans:regular,italic,500,500italic,700,700italic);
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "DM Sans", "sans-serif";
+  background: rgb(15, 119, 143);
+  background: linear-gradient(
+    90deg,
+    rgba(15, 119, 143, 1) 32%,
+    rgba(7, 80, 96, 1) 75%
+  );
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  background-color: #f8f6f6;
+  min-width: 450px;
+  margin: 50px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 30px 30px 59px #032831, -30px -30px 59px #09768f;
+  transition: 1s;
+}
+
+.body-field {
+  width: 90%;
+}
+.header-field {
+  margin: 25px 0px;
+}
+
+.header-field__title {
+  color: #064f60;
+  font-weight: 900;
+  font-size: 30px;
+}
+
+#todo-input {
+  font-family: inherit;
+  font-size: inherit;
+  font-style: italic;
+  padding: 5px;
+  margin-right: 10px;
+  border: 1px solid rgb(196, 195, 195);
+  width: 60%;
+  border-radius: 7px;
+  background: #ededed;
+  /* box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06); */
+}
+
+.input-field {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 25px 0;
+}
+
+.input-field button {
+  font-family: inherit;
+  font-size: inherit;
+  padding: 5px 10px;
+  border: 1px solid rgb(196, 195, 195);
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #ffad47;
+  color: white;
+}
+
+.input-field button:hover {
+  font-family: inherit;
+  font-size: inherit;
+  padding: 5px 10px;
+  border: 1px solid rgb(196, 195, 195);
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #064f60;
+  color: white;
+  transition: 0.6s;
+}
+
+.todo-list-item {
+  color: #064f60;
+  font-weight: 500;
+  margin: 15px 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background: #ededed;
+  cursor: pointer;
+}
+.completed {
+  text-decoration: line-through;
+  font-style: italic;
+  color: #064f608d;
+  background: #edededa0;
+  transition: all 0.5s;
+}
+
+.delete-field {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 0 15px 0;
+}
+
+.delete-field button {
+  font-family: inherit;
+  font-size: inherit;
+  padding: 10px;
+  border: 1px solid rgb(196, 195, 195);
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #ffad47;
+  color: white;
+}
+
+.delete-field button:hover {
+  font-family: inherit;
+  font-size: inherit;
+  padding: 10px;
+  border: 1px solid rgb(196, 195, 195);
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #dd2c2cd4;
+  color: white;
+  transition: 0.6s;
+}
