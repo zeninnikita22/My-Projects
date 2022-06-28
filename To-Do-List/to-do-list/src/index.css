@@ -105,6 +105,15 @@ code {
   background: #ededed;
   cursor: pointer;
 }
+
+.todo-list-date {
+  font-style: italic;
+  font-size: small;
+  font-weight: 200;
+  padding-top: 5px;
+  color: #acacac;
+}
+
 .completed {
   text-decoration: line-through;
   font-style: italic;

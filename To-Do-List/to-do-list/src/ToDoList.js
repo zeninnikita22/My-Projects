@@ -1,23 +1,17 @@
 import React, { useState } from "react";
+import InputField from "./InputField";
 
 function ToDoList() {
-  const [inputState, setInputState] = useState("");
   const [toDoArray, setToDoArray] = useState([]);
+  const [inputShow, setInputShow] = useState(false);
+  const currentDate = new Date().toISOString().slice(0, 10);
 
-  function handleChange(e) {
-    setInputState(e.target.value);
-  }
-
-  function handleSubmit(e) {
-    e.preventDefault();
-    setInputState("");
-    // randomizing ID will require changes
-    const newToDoItem = {
-      title: inputState,
-      id: Math.floor(Math.random() * 1000000),
-      completed: false,
-    };
-    setToDoArray([newToDoItem, ...toDoArray]);
+  function showInput() {
+    if (inputShow === false) {
+      setInputShow(true);
+    } else {
+      setInputShow(false);
+    }
   }
 
   function changeCompleted(clickedId) {
@@ -38,9 +32,26 @@ function ToDoList() {
     setToDoArray([...updatedToDoArray]);
   }
 
+  const tomorrowDate = new Date();
+  tomorrowDate.setDate(tomorrowDate.getDate() + 1);
+
+  // if (itemDate === new Date().toISOString().slice(0, 10)) {
+  //   return "Today";
+  // } else if (itemDate === tomorrowDate.toISOString().slice(0, 10)) {
+  //   return "Tomorrow";
+  // } else if (itemDate > new Date().toISOString().slice(0, 10)) {
+  //   return itemDate;
+  // } else {
+  //   return "Error MSG";
+  // }
+
   return (
     <div className="body-field">
-      <form className="input-field" onSubmit={handleSubmit}>
+      <button onClick={showInput}>Add new todo</button>
+      {inputShow ? (
+        <InputField toDoArray={toDoArray} setToDoArray={setToDoArray} />
+      ) : null}
+      {/* <form className="input-field" onSubmit={handleSubmit}>
         <input
           type="text"
           id="todo-input"
@@ -49,19 +60,35 @@ function ToDoList() {
           onChange={handleChange}
         ></input>
         <button type="submit">Add task</button>
-      </form>
+      </form> */}
       <div className="todo-list">
-        {toDoArray.map((item) => (
-          <div
-            className={
-              item.completed ? "todo-list-item completed" : "todo-list-item"
-            }
-            key={item.id}
-            onClick={() => changeCompleted(item.id)}
-          >
-            {item.title}
-          </div>
-        ))}
+        {toDoArray
+          .sort((a, b) => {
+            return b.date - a.date;
+          })
+          .map((item) => (
+            <div
+              className={
+                item.completed ? "todo-list-item completed" : "todo-list-item"
+              }
+              key={item.id}
+              onClick={() => changeCompleted(item.id)}
+            >
+              {item.title}
+              <div className="todo-list-date">
+                {(() => {
+                  switch (item.date) {
+                    case new Date().toISOString().slice(0, 10):
+                      return "Today";
+                    case tomorrowDate.toISOString().slice(0, 10):
+                      return "Tomorrow";
+                    default:
+                      return item.date;
+                  }
+                })()}
+              </div>
+            </div>
+          ))}
       </div>
       <div className="delete-field">
         <button onClick={deleteCompleted}>Delete completed tasks</button>
