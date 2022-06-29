@@ -29,7 +29,7 @@ code {
 
 .box {
   background-color: #f8f6f6;
-  min-width: 450px;
+  min-width: 575px;
   margin: 50px;
   padding: 10px;
   display: flex;
@@ -39,6 +39,7 @@ code {
   border-radius: 10px;
   box-shadow: 30px 30px 59px #032831, -30px -30px 59px #09768f;
   transition: 1s;
+  color: #ffad47;
 }
 
 .body-field {
@@ -54,6 +55,20 @@ code {
   font-size: 30px;
 }
 
+.toggle-form-button {
+  width: 100%;
+  margin-bottom: 10px;
+  font-family: inherit;
+  font-size: inherit;
+  padding: 9px 10px;
+  border: 1px solid rgb(196, 195, 195);
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #064f60;
+  color: white;
+  transition: 0.6s;
+}
+
 #todo-input {
   font-family: inherit;
   font-size: inherit;
@@ -64,7 +79,21 @@ code {
   width: 60%;
   border-radius: 7px;
   background: #ededed;
-  /* box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06); */
+}
+
+input[type="date"]:not(:valid)::-webkit-datetime-edit {
+  color: grey;
+}
+
+#date-input {
+  font-family: inherit;
+  font-size: inherit;
+  font-style: italic;
+  padding: 5px;
+  margin-right: 10px;
+  border: 1px solid rgb(196, 195, 195);
+  border-radius: 7px;
+  background: #ededed;
 }
 
 .input-field {
@@ -94,6 +123,10 @@ code {
   background-color: #064f60;
   color: white;
   transition: 0.6s;
+}
+
+.todo-list {
+  width: 100%;
 }
 
 .todo-list-item {
@@ -150,4 +183,8 @@ code {
   background-color: #dd2c2cd4;
   color: white;
   transition: 0.6s;
+}
+
+.inactive {
+  display: none;
 }

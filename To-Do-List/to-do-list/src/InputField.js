@@ -10,20 +10,6 @@ function InputField({ toDoArray, setToDoArray }) {
 
   function handleDateChange(e) {
     setDateInputState(e.target.value);
-
-    // const date = new Date();
-
-    // date.setDate(date.getDate() + 1);
-
-    // if (e.target.value === new Date().toISOString().slice(0, 10)) {
-    //   console.log("Today");
-    // } else if (e.target.value === date.toISOString().slice(0, 10)) {
-    //   console.log("Tomorrow");
-    // } else if (e.target.value > new Date().toISOString().slice(0, 10)) {
-    //   console.log("Bigger");
-    // } else {
-    //   console.log("Lower");
-    // }
   }
 
   function handleSubmit(e) {
@@ -36,7 +22,6 @@ function InputField({ toDoArray, setToDoArray }) {
       completed: false,
       date: dateInputState,
     };
-    // what to do with that?
     setToDoArray([newToDoItem, ...toDoArray]);
   }
 
@@ -48,14 +33,16 @@ function InputField({ toDoArray, setToDoArray }) {
         placeholder="Type in your todo..."
         value={todoInputState}
         onChange={handleTodoChange}
+        required
       ></input>
       <input
         type="date"
         id="date-input"
         value={dateInputState}
         onChange={handleDateChange}
+        required
       ></input>
-      <button type="submit">Add task</button>
+      <button type="submit">Add todo</button>
     </form>
   );
 }

@@ -4,13 +4,23 @@ import InputField from "./InputField";
 function ToDoList() {
   const [toDoArray, setToDoArray] = useState([]);
   const [inputShow, setInputShow] = useState(false);
+  const [addNewTodo, setAddNewTodo] = useState("+");
+
   const currentDate = new Date().toISOString().slice(0, 10);
+  const tomorrowDate = new Date();
+  tomorrowDate.setDate(tomorrowDate.getDate() + 1);
 
   function showInput() {
     if (inputShow === false) {
       setInputShow(true);
     } else {
       setInputShow(false);
+    }
+
+    if (addNewTodo === "+") {
+      setAddNewTodo("-");
+    } else {
+      setAddNewTodo("+");
     }
   }
 
@@ -32,39 +42,20 @@ function ToDoList() {
     setToDoArray([...updatedToDoArray]);
   }
 
-  const tomorrowDate = new Date();
-  tomorrowDate.setDate(tomorrowDate.getDate() + 1);
-
-  // if (itemDate === new Date().toISOString().slice(0, 10)) {
-  //   return "Today";
-  // } else if (itemDate === tomorrowDate.toISOString().slice(0, 10)) {
-  //   return "Tomorrow";
-  // } else if (itemDate > new Date().toISOString().slice(0, 10)) {
-  //   return itemDate;
-  // } else {
-  //   return "Error MSG";
-  // }
-
   return (
     <div className="body-field">
-      <button onClick={showInput}>Add new todo</button>
-      {inputShow ? (
-        <InputField toDoArray={toDoArray} setToDoArray={setToDoArray} />
-      ) : null}
-      {/* <form className="input-field" onSubmit={handleSubmit}>
-        <input
-          type="text"
-          id="todo-input"
-          placeholder="Type in your todo..."
-          value={inputState}
-          onChange={handleChange}
-        ></input>
-        <button type="submit">Add task</button>
-      </form> */}
+      <div className="form-field">
+        <button onClick={showInput} className="toggle-form-button">
+          {addNewTodo} Add new todo
+        </button>
+        {inputShow ? (
+          <InputField toDoArray={toDoArray} setToDoArray={setToDoArray} />
+        ) : null}
+      </div>
       <div className="todo-list">
         {toDoArray
           .sort((a, b) => {
-            return b.date - a.date;
+            return new Date(a.date) - new Date(b.date);
           })
           .map((item) => (
             <div
@@ -77,20 +68,28 @@ function ToDoList() {
               {item.title}
               <div className="todo-list-date">
                 {(() => {
-                  switch (item.date) {
-                    case new Date().toISOString().slice(0, 10):
+                  switch (true) {
+                    case item.date < currentDate:
+                      return (
+                        item.date.toLocaleString().slice(0, 10) + " (outdated)"
+                      );
+                    case item.date === new Date().toISOString().slice(0, 10):
                       return "Today";
-                    case tomorrowDate.toISOString().slice(0, 10):
+                    case item.date === tomorrowDate.toISOString().slice(0, 10):
                       return "Tomorrow";
                     default:
-                      return item.date;
+                      return item.date.toLocaleString().slice(0, 10);
                   }
                 })()}
               </div>
             </div>
           ))}
       </div>
-      <div className="delete-field">
+      <div
+        className={
+          toDoArray.length > 0 ? "delete-field" : "delete-field inactive"
+        }
+      >
         <button onClick={deleteCompleted}>Delete completed tasks</button>
       </div>
     </div>
