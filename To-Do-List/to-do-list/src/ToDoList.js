@@ -2,13 +2,20 @@ import React, { useState } from "react";
 import InputField from "./InputField";
 
 function ToDoList() {
-  const [toDoArray, setToDoArray] = useState([]);
+  const [toDoArray, setToDoArray] = useState(
+    JSON.parse(window.localStorage.getItem("todos")) || []
+  );
   const [inputShow, setInputShow] = useState(false);
   const [addNewTodo, setAddNewTodo] = useState("+");
 
   const currentDate = new Date().toISOString().slice(0, 10);
   const tomorrowDate = new Date();
   tomorrowDate.setDate(tomorrowDate.getDate() + 1);
+
+  // look at dependencies
+  React.useEffect(() => {
+    window.localStorage.setItem("todos", JSON.stringify(toDoArray));
+  });
 
   function showInput() {
     if (inputShow === false) {
@@ -42,6 +49,19 @@ function ToDoList() {
     setToDoArray([...updatedToDoArray]);
   }
 
+  const getDate = (date) => {
+    switch (true) {
+      case date < currentDate:
+        return date.toLocaleString().slice(0, 10) + " (outdated)";
+      case date === new Date().toISOString().slice(0, 10):
+        return "Today";
+      case date === tomorrowDate.toISOString().slice(0, 10):
+        return "Tomorrow";
+      default:
+        return date.toLocaleString().slice(0, 10);
+    }
+  };
+
   return (
     <div className="body-field">
       <div className="form-field">
@@ -66,22 +86,7 @@ function ToDoList() {
               onClick={() => changeCompleted(item.id)}
             >
               {item.title}
-              <div className="todo-list-date">
-                {(() => {
-                  switch (true) {
-                    case item.date < currentDate:
-                      return (
-                        item.date.toLocaleString().slice(0, 10) + " (outdated)"
-                      );
-                    case item.date === new Date().toISOString().slice(0, 10):
-                      return "Today";
-                    case item.date === tomorrowDate.toISOString().slice(0, 10):
-                      return "Tomorrow";
-                    default:
-                      return item.date.toLocaleString().slice(0, 10);
-                  }
-                })()}
-              </div>
+              <div className="todo-list-date">{getDate(item.date)}</div>
             </div>
           ))}
       </div>

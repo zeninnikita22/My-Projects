@@ -32,16 +32,16 @@ function InputField({ toDoArray, setToDoArray }) {
         id="todo-input"
         placeholder="Type in your todo..."
         value={todoInputState}
-        onChange={handleTodoChange}
+        onChange={(e) => handleTodoChange(e)}
         required
-      ></input>
+      />
       <input
         type="date"
         id="date-input"
         value={dateInputState}
         onChange={handleDateChange}
         required
-      ></input>
+      />
       <button type="submit">Add todo</button>
     </form>
   );
