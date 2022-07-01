@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import InputField from "./InputField";
+import { format } from "date-fns";
 
 function ToDoList() {
   const [toDoArray, setToDoArray] = useState(
@@ -52,13 +53,13 @@ function ToDoList() {
   const getDate = (date) => {
     switch (true) {
       case date < currentDate:
-        return date.toLocaleString().slice(0, 10) + " (outdated)";
+        return format(new Date(date), "PPP") + " (outdated)";
       case date === new Date().toISOString().slice(0, 10):
         return "Today";
       case date === tomorrowDate.toISOString().slice(0, 10):
         return "Tomorrow";
       default:
-        return date.toLocaleString().slice(0, 10);
+        return format(new Date(date), "PPP");
     }
   };
 
