@@ -16,7 +16,7 @@ function ToDoList() {
   // look at dependencies
   React.useEffect(() => {
     window.localStorage.setItem("todos", JSON.stringify(toDoArray));
-  });
+  }, [toDoArray]);
 
   function showInput() {
     if (inputShow === false) {
