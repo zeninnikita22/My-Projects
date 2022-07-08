@@ -14,3 +14,21 @@
 .toggled {
   display: block;
 }
+
+.tickets-form {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.suggestion {
+  display: flex;
+  border: 1px solid black;
+  justify-content: space-between;
+  padding: 0 5px;
+  cursor: pointer;
+}
+
+.not-active {
+  display: none;
+}
