@@ -80,17 +80,20 @@ function Tickets({ toggleTickets }) {
       .then((response) => response.json())
       .then((response) => {
         console.log(response.data);
-
         const array = Object.entries(response.data);
-        const newArray = array.map((item) => {
-          return { airport: item[0], ...item[1] };
-        });
-        setFlights(newArray);
-        console.log(flights);
+        setFlights(array);
       })
-      //   .then(console.log(flights))
+      .then(console.log(flights))
       .catch((err) => console.error(err));
   }, [code, currency]);
+
+  //   function iterateObj({ item }) {
+  //     if (item[1].key === 0) {
+  //       return item[1][0].price;
+  //     } else {
+  //       return item[1][1].price;
+  //     }
+  //   }
 
   return (
     <div className={toggleTickets ? "tickets-box toggled" : "tickets-box"}>
@@ -122,13 +125,16 @@ function Tickets({ toggleTickets }) {
         })}
         <button type="submit">Search</button>
       </form>
-      {/* {flights.map((item, index) => {
+      {flights.map((item, index) => {
         return (
           <div className="flight" key={index}>
-            <p>{item[0].price}</p>
+            <p>{item[0]}</p>
+            {/* <p>{iterateObj(item)}</p> */}
+            {/* <p>{item[0][1].price}</p> */}
+            {/* <p>{item[1][0].airline}</p> */}
           </div>
         );
-      })} */}
+      })}
     </div>
   );
 }
