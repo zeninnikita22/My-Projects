@@ -32,3 +32,10 @@
 .not-active {
   display: none;
 }
+
+.flight {
+  border: 1px solid grey;
+  display: flex;
+  justify-content: space-between;
+  padding: 1px 5px;
+}

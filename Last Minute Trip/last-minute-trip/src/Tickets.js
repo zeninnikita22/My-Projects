@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import React from "react";
+import airports from "./data/airports.json";
 
 function Tickets({ toggleTickets }) {
   //   const [url, setUrl] = useState("");
@@ -42,6 +43,7 @@ function Tickets({ toggleTickets }) {
       .catch((err) => console.error(err));
   }, [origin]);
 
+  console.log(airports);
   //   useEffect(() => {
   //     fetch(
   //       `https://airlabs.co/api/v9/suggest?q=${origin}&api_key=b8df7667-18bb-44a3-a65b-94909f83753b`
@@ -81,7 +83,16 @@ function Tickets({ toggleTickets }) {
       .then((response) => {
         console.log(response.data);
         const array = Object.entries(response.data);
-        setFlights(array);
+        const finalArray = array
+          .map((element) => {
+            let newObj = Object.values(element[1]);
+            newObj.forEach((e) => {
+              e.airport = element[0];
+            });
+            return newObj;
+          })
+          .flat();
+        setFlights(finalArray);
       })
       .then(console.log(flights))
       .catch((err) => console.error(err));
@@ -128,7 +139,10 @@ function Tickets({ toggleTickets }) {
       {flights.map((item, index) => {
         return (
           <div className="flight" key={index}>
-            <p>{item[0]}</p>
+            <p>Price is {item.price} USD</p>
+            <p>Arrival airport is {item.airport}</p>
+            <p>Airline is {item.airline}</p>
+            <p>Your flight number is {item.flight_number}</p>
             {/* <p>{iterateObj(item)}</p> */}
             {/* <p>{item[0][1].price}</p> */}
             {/* <p>{item[1][0].airline}</p> */}

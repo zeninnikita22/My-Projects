@@ -1,0 +1,8586 @@
+[
+   {
+      "name":"RusLine",
+      "code":"7R",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"RusLine"
+      }
+   },
+   {
+      "name":"Korongo Airlines",
+      "code":"ZC",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Korongo Airlines"
+      }
+   },
+   {
+      "name":"Air Macau",
+      "code":"NX",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Macau"
+      }
+   },
+   {
+      "name":"PT Aerosystems Indonesia",
+      "code":"1T",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"PT Aerosystems Indonesia"
+      }
+   },
+   {
+      "name":"S7 Airlines",
+      "code":"S7",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"S7 Airlines"
+      }
+   },
+   {
+      "name":"National Airlines",
+      "code":"N8",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"National Airlines"
+      }
+   },
+   {
+      "name":"UIA",
+      "code":"PS",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"UIA"
+      }
+   },
+   {
+      "name":"Zapways, Inc.",
+      "code":"R1",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Zapways, Inc."
+      }
+   },
+   {
+      "name":"Cayman Airways",
+      "code":"KX",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Cayman Airways"
+      }
+   },
+   {
+      "name":"Cobalt Air",
+      "code":"CO",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Cobalt Air"
+      }
+   },
+   {
+      "name":"Island Air",
+      "code":"WP",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Island Air"
+      }
+   },
+   {
+      "name":"Fuji Dream Airlines",
+      "code":"JH",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Fuji Dream Airlines"
+      }
+   },
+   {
+      "name":"Jordan Aviation",
+      "code":"R5",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Jordan Aviation"
+      }
+   },
+   {
+      "name":"Air Namibia",
+      "code":"SW",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Namibia"
+      }
+   },
+   {
+      "name":"Air Greenland",
+      "code":"GL",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Greenland"
+      }
+   },
+   {
+      "name":"East Horizon Airlines",
+      "code":"EA",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"East Horizon Airlines"
+      }
+   },
+   {
+      "name":"Norwegian Air",
+      "code":"DI",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Norwegian Air"
+      }
+   },
+   {
+      "name":"Africa World Airlines",
+      "code":"AW",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Africa World Airlines"
+      }
+   },
+   {
+      "name":"OpenSkies",
+      "code":"EC",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"OpenSkies"
+      }
+   },
+   {
+      "name":"Raya Airways Sdn. Bhd.dba Raya Airways",
+      "code":"TH",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Raya Airways Sdn. Bhd.dba Raya Airways"
+      }
+   },
+   {
+      "name":"CEIBA Intercontinental",
+      "code":"C2",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"CEIBA Intercontinental"
+      }
+   },
+   {
+      "name":"Spring Airlines",
+      "code":"9C",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Spring Airlines"
+      }
+   },
+   {
+      "name":"Air North Charter and Training Ltd.",
+      "code":"4N",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air North Charter and Training Ltd."
+      }
+   },
+   {
+      "name":"Trade Air",
+      "code":"C3",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Trade Air"
+      }
+   },
+   {
+      "name":"Avianca Ecuador",
+      "code":"2K",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Avianca Ecuador"
+      }
+   },
+   {
+      "name":"AHK Air Hong Kong Limited",
+      "code":"LD",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"AHK Air Hong Kong Limited"
+      }
+   },
+   {
+      "name":"Arik Air",
+      "code":"W3",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Arik Air"
+      }
+   },
+   {
+      "name":"Jetlink Express",
+      "code":"J0",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Jetlink Express"
+      }
+   },
+   {
+      "name":"Ak Bars Aero",
+      "code":"2B",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Ak Bars Aero"
+      }
+   },
+   {
+      "name":"Amerijet International Inc.",
+      "code":"M6",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Amerijet International Inc."
+      }
+   },
+   {
+      "name":"Amaszonas",
+      "code":"Z8",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Amaszonas"
+      }
+   },
+   {
+      "name":"Ryan Air Service",
+      "code":"7S",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Ryan Air Service"
+      }
+   },
+   {
+      "name":"Héli Sécurité Hélicopter Airline",
+      "code":"HS",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Héli Sécurité Hélicopter Airline"
+      }
+   },
+   {
+      "name":"Exec Air, Inc. of Naples",
+      "code":"X7",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Exec Air, Inc. of Naples"
+      }
+   },
+   {
+      "name":"ZIPAIR Tokyo",
+      "code":"ZG",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"ZIPAIR Tokyo"
+      }
+   },
+   {
+      "name":"Japan Air Commuter",
+      "code":"JC",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Japan Air Commuter"
+      }
+   },
+   {
+      "name":"Safarilink Aviation",
+      "code":"F2",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Safarilink Aviation"
+      }
+   },
+   {
+      "name":"AccesRail",
+      "code":"9B",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"AccesRail"
+      }
+   },
+   {
+      "name":"Korean Air",
+      "code":"KE",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Korean Air"
+      }
+   },
+   {
+      "name":"Small Planet Airlines",
+      "code":"P7",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Small Planet Airlines"
+      }
+   },
+   {
+      "name":"Air Uganda",
+      "code":"U7",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Uganda"
+      }
+   },
+   {
+      "name":"Air Panama",
+      "code":"7P",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Panama"
+      }
+   },
+   {
+      "name":"Jetstar Asia",
+      "code":"3K",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Jetstar Asia"
+      }
+   },
+   {
+      "name":"Syphax Airlines",
+      "code":"FS",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Syphax Airlines"
+      }
+   },
+   {
+      "name":"Travel Air",
+      "code":"4P",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Travel Air"
+      }
+   },
+   {
+      "name":"Viva Air Colombia",
+      "code":"VH",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Viva Air Colombia"
+      }
+   },
+   {
+      "name":"Chengdu Airlines",
+      "code":"EU",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Chengdu Airlines"
+      }
+   },
+   {
+      "name":"Fiji Airways",
+      "code":"FJ",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Fiji Airways"
+      }
+   },
+   {
+      "name":"Polynesian Airlines",
+      "code":"OL",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Polynesian Airlines"
+      }
+   },
+   {
+      "name":"Somon Air",
+      "code":"SZ",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Somon Air"
+      }
+   },
+   {
+      "name":"Airkenya Express",
+      "code":"QP",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Airkenya Express"
+      }
+   },
+   {
+      "name":"GetJet",
+      "code":"GW",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"GetJet"
+      }
+   },
+   {
+      "name":"Aircalin",
+      "code":"SB",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Aircalin"
+      }
+   },
+   {
+      "name":"Air Transport Association of Americad\\b\\a Airlines for America",
+      "code":"XD",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Transport Association of Americad\\b\\a Airlines for America"
+      }
+   },
+   {
+      "name":"Air Freight NZ",
+      "code":"OG",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Freight NZ"
+      }
+   },
+   {
+      "name":"Bemidji Airlines",
+      "code":"CH",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Bemidji Airlines"
+      }
+   },
+   {
+      "name":"Air Excel",
+      "code":"0X",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Excel"
+      }
+   },
+   {
+      "name":"Electronic Data Systems Corporation",
+      "code":"1Y",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Electronic Data Systems Corporation"
+      }
+   },
+   {
+      "name":"Druk Air",
+      "code":"KB",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Druk Air"
+      }
+   },
+   {
+      "name":"Russian Railways",
+      "code":"R0",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Russian Railways"
+      }
+   },
+   {
+      "name":"CemAir",
+      "code":"5Z",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"CemAir"
+      }
+   },
+   {
+      "name":"China Postal Airlines Ltd.",
+      "code":"CF",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"China Postal Airlines Ltd."
+      }
+   },
+   {
+      "name":"Norwegian Air Shuttle",
+      "code":"DY",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Norwegian Air Shuttle"
+      }
+   },
+   {
+      "name":"AirExplore",
+      "code":"ED",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"AirExplore"
+      }
+   },
+   {
+      "name":"LATAM Brasil",
+      "code":"JJ",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"LATAM Brasil"
+      }
+   },
+   {
+      "name":"ITA Software Inc.",
+      "code":"1U",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"ITA Software Inc."
+      }
+   },
+   {
+      "name":"Uni-Top Airlines",
+      "code":"UW",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Uni-Top Airlines"
+      }
+   },
+   {
+      "name":"MyWay Airlines",
+      "code":"MJ",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"MyWay Airlines"
+      }
+   },
+   {
+      "name":"Skyward Express",
+      "code":"OW",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Skyward Express"
+      }
+   },
+   {
+      "name":"Great Lakes Airlines",
+      "code":"ZK",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Great Lakes Airlines"
+      }
+   },
+   {
+      "name":"Air Transat",
+      "code":"TS",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Transat"
+      }
+   },
+   {
+      "name":"Hahn Air",
+      "code":"H1",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Hahn Air"
+      }
+   },
+   {
+      "name":"SNCF",
+      "code":"2C",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"SNCF"
+      }
+   },
+   {
+      "name":"Sun-Air of Scandinavia",
+      "code":"EZ",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Sun-Air of Scandinavia"
+      }
+   },
+   {
+      "name":"Air Mekong",
+      "code":"P8",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Mekong"
+      }
+   },
+   {
+      "name":"SmartLynx Airlines",
+      "code":"6Y",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"SmartLynx Airlines"
+      }
+   },
+   {
+      "name":"Skytrans Airlines",
+      "code":"Q6",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Skytrans Airlines"
+      }
+   },
+   {
+      "name":"Bringer Air Cargo",
+      "code":"E6",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Bringer Air Cargo"
+      }
+   },
+   {
+      "name":"Thomas Cook Airlines",
+      "code":"MT",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Thomas Cook Airlines"
+      }
+   },
+   {
+      "name":"Calima Aviacion S.L",
+      "code":"3C",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Calima Aviacion S.L"
+      }
+   },
+   {
+      "name":"Oriental Air Bridge",
+      "code":"OC",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Oriental Air Bridge"
+      }
+   },
+   {
+      "name":"Wizz Air",
+      "code":"W9",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Wizz Air"
+      }
+   },
+   {
+      "name":"Austrian Airlines",
+      "code":"OS",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Austrian Airlines"
+      }
+   },
+   {
+      "name":"Monacair",
+      "code":"QM",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Monacair"
+      }
+   },
+   {
+      "name":"Yakutia Airlines",
+      "code":"R3",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Yakutia Airlines"
+      }
+   },
+   {
+      "name":"Continental Micronesia, Inc.",
+      "code":"CS",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Continental Micronesia, Inc."
+      }
+   },
+   {
+      "name":"Pacific Coastal Airlines",
+      "code":"8P",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Pacific Coastal Airlines"
+      }
+   },
+   {
+      "name":"Shuttle America",
+      "code":"S5",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Shuttle America"
+      }
+   },
+   {
+      "name":"IBC Airways",
+      "code":"II",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"IBC Airways"
+      }
+   },
+   {
+      "name":"Galileo International",
+      "code":"1V",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Galileo International"
+      }
+   },
+   {
+      "name":"fastjet",
+      "code":"FN",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"fastjet"
+      }
+   },
+   {
+      "name":"Servicios Aéreos de los Andes",
+      "code":"FP",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Servicios Aéreos de los Andes"
+      }
+   },
+   {
+      "name":"Aerolineas Argentinas",
+      "code":"AR",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Aerolineas Argentinas"
+      }
+   },
+   {
+      "name":"Kharkiv Airlines",
+      "code":"KW",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Kharkiv Airlines"
+      }
+   },
+   {
+      "name":"Corendon Airlines",
+      "code":"XC",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Corendon Airlines"
+      }
+   },
+   {
+      "name":"Amtrak",
+      "code":"2V",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Amtrak"
+      }
+   },
+   {
+      "name":"Buraq Air Transport (BRQ)",
+      "code":"UZ",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Buraq Air Transport (BRQ)"
+      }
+   },
+   {
+      "name":"VivaAerobus",
+      "code":"VB",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"VivaAerobus"
+      }
+   },
+   {
+      "name":"Airkenya Express",
+      "code":"P2",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Airkenya Express"
+      }
+   },
+   {
+      "name":"Kenmore Air",
+      "code":"M5",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Kenmore Air"
+      }
+   },
+   {
+      "name":"ACT Havayollari A.S.",
+      "code":"9T",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"ACT Havayollari A.S."
+      }
+   },
+   {
+      "name":"Eurostar",
+      "code":"9F",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Eurostar"
+      }
+   },
+   {
+      "name":"Up Israel",
+      "code":"86",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Up Israel"
+      }
+   },
+   {
+      "name":"Air Urga",
+      "code":"3N",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Urga"
+      }
+   },
+   {
+      "name":"UM Airlines",
+      "code":"UF",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"UM Airlines"
+      }
+   },
+   {
+      "name":"Envoy Air",
+      "code":"MQ",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Envoy Air"
+      }
+   },
+   {
+      "name":"Hesa Airlines",
+      "code":"H8",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Hesa Airlines"
+      }
+   },
+   {
+      "name":"Shirak Avia",
+      "code":"5G",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Shirak Avia"
+      }
+   },
+   {
+      "name":"VLM Airlines",
+      "code":"VG",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"VLM Airlines"
+      }
+   },
+   {
+      "name":"Tailwind Airlines",
+      "code":"TI",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Tailwind Airlines"
+      }
+   },
+   {
+      "name":"Aztec Airways",
+      "code":"AJ",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Aztec Airways"
+      }
+   },
+   {
+      "name":"Transasia Airways",
+      "code":"GE",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Transasia Airways"
+      }
+   },
+   {
+      "name":"Aero Contractors",
+      "code":"NG",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Aero Contractors"
+      }
+   },
+   {
+      "name":"Lao Airlines",
+      "code":"QV",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Lao Airlines"
+      }
+   },
+   {
+      "name":"TRIP Linhas Aéreas",
+      "code":"T4",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"TRIP Linhas Aéreas"
+      }
+   },
+   {
+      "name":"Islena de Inversiones S.A. de C.V.dba Islena Airlines",
+      "code":"WC",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Islena de Inversiones S.A. de C.V.dba Islena Airlines"
+      }
+   },
+   {
+      "name":"SkyWork Airlines",
+      "code":"SX",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"SkyWork Airlines"
+      }
+   },
+   {
+      "name":"Aeromexico",
+      "code":"AM",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Aeromexico"
+      }
+   },
+   {
+      "name":"Bahamasair",
+      "code":"UP",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Bahamasair"
+      }
+   },
+   {
+      "name":"Atlasjet Ukraine",
+      "code":"UH",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Atlasjet Ukraine"
+      }
+   },
+   {
+      "name":"Mercury Air Cargo, Inc.",
+      "code":"4X",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Mercury Air Cargo, Inc."
+      }
+   },
+   {
+      "name":"Maldivian",
+      "code":"Q2",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Maldivian"
+      }
+   },
+   {
+      "name":"RUS Aviation",
+      "code":"R4",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"RUS Aviation"
+      }
+   },
+   {
+      "name":"Sky Regional Airlines",
+      "code":"RS",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Sky Regional Airlines"
+      }
+   },
+   {
+      "name":"Germania",
+      "code":"ST",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Germania"
+      }
+   },
+   {
+      "name":"Papillon Airways",
+      "code":"HI",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Papillon Airways"
+      }
+   },
+   {
+      "name":"TAB - Transportes Aéreos Bolivianos",
+      "code":"B1",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"TAB - Transportes Aéreos Bolivianos"
+      }
+   },
+   {
+      "name":"Public Charters",
+      "code":"P1",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Public Charters"
+      }
+   },
+   {
+      "name":"PT.Trigana Air Service",
+      "code":"IL",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"PT.Trigana Air Service"
+      }
+   },
+   {
+      "name":"Worldspan",
+      "code":"1P",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Worldspan"
+      }
+   },
+   {
+      "name":"Mann Yadanarpon Airlines",
+      "code":"7Y",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Mann Yadanarpon Airlines"
+      }
+   },
+   {
+      "name":"Aviacon Zitotrans Air Company JSC",
+      "code":"ZR",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Aviacon Zitotrans Air Company JSC"
+      }
+   },
+   {
+      "name":"Uzbekistan Airways",
+      "code":"HY",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Uzbekistan Airways"
+      }
+   },
+   {
+      "name":"Jet Aviation Business",
+      "code":"PP",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Jet Aviation Business"
+      }
+   },
+   {
+      "name":"Air Arabia Egypt",
+      "code":"E5",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Air Arabia Egypt"
+      }
+   },
+   {
+      "name":"Sky Express",
+      "code":"GQ",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Sky Express"
+      }
+   },
+   {
+      "name":"Donavia",
+      "code":"D9",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Donavia"
+      }
+   },
+   {
+      "name":"Linea Aerea Carguera de Colombia S.A.",
+      "code":"L7",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Linea Aerea Carguera de Colombia S.A."
+      }
+   },
+   {
+      "name":"JSC Aircompany ATMA",
+      "code":"IM",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"JSC Aircompany ATMA"
+      }
+   },
+   {
+      "name":"Asian Wings Airways Limited",
+      "code":"YJ",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Asian Wings Airways Limited"
+      }
+   },
+   {
+      "name":"Air East",
+      "code":"ER",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air East"
+      }
+   },
+   {
+      "name":"Northwest",
+      "code":"0E",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Northwest"
+      }
+   },
+   {
+      "name":"ASL Airlines France",
+      "code":"5O",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"ASL Airlines France"
+      }
+   },
+   {
+      "name":"American Eagle",
+      "code":"ZZ",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"American Eagle"
+      }
+   },
+   {
+      "name":"Labrador Airways Limited",
+      "code":"WJ",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Labrador Airways Limited"
+      }
+   },
+   {
+      "name":"Komiaviatrans",
+      "code":"KO",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Komiaviatrans"
+      }
+   },
+   {
+      "name":"Chautauqua Airlines",
+      "code":"RP",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Chautauqua Airlines"
+      }
+   },
+   {
+      "name":"Air Niugini",
+      "code":"PX",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Niugini"
+      }
+   },
+   {
+      "name":"Red Wings Airlines",
+      "code":"WZ",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Red Wings Airlines"
+      }
+   },
+   {
+      "name":"South East Asian Airlines (SEAIR)International, Inc.",
+      "code":"XO",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"South East Asian Airlines (SEAIR)International, Inc."
+      }
+   },
+   {
+      "name":"Tigerair Philippines",
+      "code":"DG",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Tigerair Philippines"
+      }
+   },
+   {
+      "name":"All Nippon Airways",
+      "code":"NH",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"All Nippon Airways"
+      }
+   },
+   {
+      "name":"Joon",
+      "code":"JN",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Joon"
+      }
+   },
+   {
+      "name":"Jet Ops",
+      "code":"J6",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Jet Ops"
+      }
+   },
+   {
+      "name":"Laudamotion",
+      "code":"OE",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Laudamotion"
+      }
+   },
+   {
+      "name":"BQB Lineas Aereas",
+      "code":"5Q",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"BQB Lineas Aereas"
+      }
+   },
+   {
+      "name":"Mango",
+      "code":"JE",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Mango"
+      }
+   },
+   {
+      "name":"Frontier Airlines",
+      "code":"F9",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Frontier Airlines"
+      }
+   },
+   {
+      "name":"Azur Air Ukraine",
+      "code":"QU",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Azur Air Ukraine"
+      }
+   },
+   {
+      "name":"Dana Airlines Limited",
+      "code":"9J",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Dana Airlines Limited"
+      }
+   },
+   {
+      "name":"Polar Airlines",
+      "code":"PI",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Polar Airlines"
+      }
+   },
+   {
+      "name":"9G Rail",
+      "code":"9G",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"9G Rail"
+      }
+   },
+   {
+      "name":"Skyview Airways Company Limiteddba Skyview",
+      "code":"RK",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Skyview Airways Company Limiteddba Skyview"
+      }
+   },
+   {
+      "name":"Sky Wings Airlines",
+      "code":"ND",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Sky Wings Airlines"
+      }
+   },
+   {
+      "name":"Air Flamenco",
+      "code":"F4",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Flamenco"
+      }
+   },
+   {
+      "name":"Air China",
+      "code":"CA",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air China"
+      }
+   },
+   {
+      "name":"NAYSA",
+      "code":"ZN",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"NAYSA"
+      }
+   },
+   {
+      "name":"Mokulele Airlines",
+      "code":"MW",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Mokulele Airlines"
+      }
+   },
+   {
+      "name":"Tyrolean Airways",
+      "code":"VO",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Tyrolean Airways"
+      }
+   },
+   {
+      "name":"Ellinair",
+      "code":"EL",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Ellinair"
+      }
+   },
+   {
+      "name":"NordStar",
+      "code":"Y7",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"NordStar"
+      }
+   },
+   {
+      "name":"SATA",
+      "code":"S4",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"SATA"
+      }
+   },
+   {
+      "name":"Business Air Co Ltd",
+      "code":"8B",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Business Air Co Ltd"
+      }
+   },
+   {
+      "name":"Hawaiian Airlines",
+      "code":"HA",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Hawaiian Airlines"
+      }
+   },
+   {
+      "name":"SCAT",
+      "code":"DV",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"SCAT"
+      }
+   },
+   {
+      "name":"Malta Air",
+      "code":"AL",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Malta Air"
+      }
+   },
+   {
+      "name":"Aviateca",
+      "code":"GU",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Aviateca"
+      }
+   },
+   {
+      "name":"Sun Express",
+      "code":"XQ",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Sun Express"
+      }
+   },
+   {
+      "name":"Croatia Airlines",
+      "code":"OU",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Croatia Airlines"
+      }
+   },
+   {
+      "name":"Skypower Express Airways",
+      "code":"NB",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Skypower Express Airways"
+      }
+   },
+   {
+      "name":"Primera Air",
+      "code":"PF",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Primera Air"
+      }
+   },
+   {
+      "name":"Globus Airlines",
+      "code":"GH",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Globus Airlines"
+      }
+   },
+   {
+      "name":"Kenya Airways",
+      "code":"KQ",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Kenya Airways"
+      }
+   },
+   {
+      "name":"Air Ocean",
+      "code":"0O",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Ocean"
+      }
+   },
+   {
+      "name":"Cargolux",
+      "code":"CV",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Cargolux"
+      }
+   },
+   {
+      "name":"Sunrise Airways",
+      "code":"S6",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Sunrise Airways"
+      }
+   },
+   {
+      "name":"Equaflight Service",
+      "code":"E7",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Equaflight Service"
+      }
+   },
+   {
+      "name":"Polar Air Cargo Worldwide, Inc.",
+      "code":"PO",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Polar Air Cargo Worldwide, Inc."
+      }
+   },
+   {
+      "name":"Condor",
+      "code":"DE",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Condor"
+      }
+   },
+   {
+      "name":"Itek Air",
+      "code":"GI",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Itek Air"
+      }
+   },
+   {
+      "name":"Norwegian Air International",
+      "code":"D8",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Norwegian Air International"
+      }
+   },
+   {
+      "name":"Bahrain Air",
+      "code":"BN",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Bahrain Air"
+      }
+   },
+   {
+      "name":"Asiana Airlines",
+      "code":"OZ",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Asiana Airlines"
+      }
+   },
+   {
+      "name":"JSC \"Sirena-Travel\"",
+      "code":"1H",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"JSC \"Sirena-Travel\""
+      }
+   },
+   {
+      "name":"Sutra Inc.",
+      "code":"1K",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Sutra Inc."
+      }
+   },
+   {
+      "name":"ASKY Airlines",
+      "code":"KP",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"ASKY Airlines"
+      }
+   },
+   {
+      "name":"Iran Aseman Airlines",
+      "code":"EP",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Iran Aseman Airlines"
+      }
+   },
+   {
+      "name":"LAN COLOMBIA AIRLINES",
+      "code":"4C",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"LAN COLOMBIA AIRLINES"
+      }
+   },
+   {
+      "name":"Air Transport International L.L.C.",
+      "code":"8C",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Transport International L.L.C."
+      }
+   },
+   {
+      "name":"Executive Express Aviation LLC dbaSouthern Airways",
+      "code":"9X",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Executive Express Aviation LLC dbaSouthern Airways"
+      }
+   },
+   {
+      "name":"Air Sinai",
+      "code":"4D",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Sinai"
+      }
+   },
+   {
+      "name":"Tassili Airlines",
+      "code":"SF",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Tassili Airlines"
+      }
+   },
+   {
+      "name":"Air Timor",
+      "code":"6C",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Timor"
+      }
+   },
+   {
+      "name":"Air Moldova",
+      "code":"9U",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Moldova"
+      }
+   },
+   {
+      "name":"DOT LT",
+      "code":"R6",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"DOT LT"
+      }
+   },
+   {
+      "name":"Air Creebec",
+      "code":"YN",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Creebec"
+      }
+   },
+   {
+      "name":"Maya Island Air",
+      "code":"MY",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Maya Island Air"
+      }
+   },
+   {
+      "name":"Asian Air",
+      "code":"DM",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Asian Air"
+      }
+   },
+   {
+      "name":"Avianca Brazil",
+      "code":"O6",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Avianca Brazil"
+      }
+   },
+   {
+      "name":"Bul Air",
+      "code":"LB",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Bul Air"
+      }
+   },
+   {
+      "name":"Alsa Grupo SLU",
+      "code":"5I",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Alsa Grupo SLU"
+      }
+   },
+   {
+      "name":"Malaysia Airlines",
+      "code":"MH",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Malaysia Airlines"
+      }
+   },
+   {
+      "name":"Buzz",
+      "code":"RR",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Buzz"
+      }
+   },
+   {
+      "name":"Porter Airlines",
+      "code":"PD",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Porter Airlines"
+      }
+   },
+   {
+      "name":"Animawings",
+      "code":"A2",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Animawings"
+      }
+   },
+   {
+      "name":"Wings Air",
+      "code":"IW",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Wings Air"
+      }
+   },
+   {
+      "name":"Syrian Arab Airlines",
+      "code":"RB",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Syrian Arab Airlines"
+      }
+   },
+   {
+      "name":"Lumiwings",
+      "code":"L9",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Lumiwings"
+      }
+   },
+   {
+      "name":"JSC Transport Automated InformationSystems - TAIS",
+      "code":"1M",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"JSC Transport Automated InformationSystems - TAIS"
+      }
+   },
+   {
+      "name":"Vieques Air Link",
+      "code":"V4",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Vieques Air Link"
+      }
+   },
+   {
+      "name":"Hi Air",
+      "code":"4H",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Hi Air"
+      }
+   },
+   {
+      "name":"White Airways",
+      "code":"WI",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"White Airways"
+      }
+   },
+   {
+      "name":"Flyadeal",
+      "code":"F3",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Flyadeal"
+      }
+   },
+   {
+      "name":"Yemenia",
+      "code":"IY",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Yemenia"
+      }
+   },
+   {
+      "name":"Aurigny Air Services",
+      "code":"GR",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Aurigny Air Services"
+      }
+   },
+   {
+      "name":"Marsland Aviation",
+      "code":"M7",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Marsland Aviation"
+      }
+   },
+   {
+      "name":"SpiceJet",
+      "code":"SG",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"SpiceJet"
+      }
+   },
+   {
+      "name":"Hewlett-Packard (Schweiz) GmbH",
+      "code":"1C",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Hewlett-Packard (Schweiz) GmbH"
+      }
+   },
+   {
+      "name":"Aerolíneas Mas",
+      "code":"N3",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Aerolíneas Mas"
+      }
+   },
+   {
+      "name":"Compass Airlines",
+      "code":"CP",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Compass Airlines"
+      }
+   },
+   {
+      "name":"Air Seychelles",
+      "code":"HM",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Seychelles"
+      }
+   },
+   {
+      "name":"Special Ground Handling Service -XH",
+      "code":"XH",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Special Ground Handling Service -XH"
+      }
+   },
+   {
+      "name":"TUIfly Nordic",
+      "code":"6B",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"TUIfly Nordic"
+      }
+   },
+   {
+      "name":"Alliance Airlines",
+      "code":"QQ",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Alliance Airlines"
+      }
+   },
+   {
+      "name":"Azerbaijan Airlines",
+      "code":"J2",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Azerbaijan Airlines"
+      }
+   },
+   {
+      "name":"Ruili Airlines",
+      "code":"DR",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Ruili Airlines"
+      }
+   },
+   {
+      "name":"Precision Air",
+      "code":"PW",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Precision Air"
+      }
+   },
+   {
+      "name":"Bearskin Airlines",
+      "code":"JV",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Bearskin Airlines"
+      }
+   },
+   {
+      "name":"Aero-Tropics Air Services",
+      "code":"HC",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Aero-Tropics Air Services"
+      }
+   },
+   {
+      "name":"Titan Airways Limited",
+      "code":"ZT",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Titan Airways Limited"
+      }
+   },
+   {
+      "name":"S.C. Ten Airways S.R.L.",
+      "code":"X5",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"S.C. Ten Airways S.R.L."
+      }
+   },
+   {
+      "name":"Canaryfly",
+      "code":"PM",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Canaryfly"
+      }
+   },
+   {
+      "name":"Transavia",
+      "code":"TO",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Transavia"
+      }
+   },
+   {
+      "name":"Donghai Airlines",
+      "code":"DZ",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Donghai Airlines"
+      }
+   },
+   {
+      "name":"KrasAvia",
+      "code":"KI",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"KrasAvia"
+      }
+   },
+   {
+      "name":"Buta Airways",
+      "code":"55",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Buta Airways"
+      }
+   },
+   {
+      "name":"Jetstar",
+      "code":"JQ",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Jetstar"
+      }
+   },
+   {
+      "name":"Fly Jordan",
+      "code":"F0",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Fly Jordan"
+      }
+   },
+   {
+      "name":"Kunming Airlines",
+      "code":"KY",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Kunming Airlines"
+      }
+   },
+   {
+      "name":"BRA",
+      "code":"TF",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"BRA"
+      }
+   },
+   {
+      "name":"Yan Air Ltd",
+      "code":"YE",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Yan Air Ltd"
+      }
+   },
+   {
+      "name":"Airbus Transport International",
+      "code":"4Y",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Airbus Transport International"
+      }
+   },
+   {
+      "name":"C.A.I. Second",
+      "code":"VE",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"C.A.I. Second"
+      }
+   },
+   {
+      "name":"China Express Airlines",
+      "code":"G5",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"China Express Airlines"
+      }
+   },
+   {
+      "name":"Liat",
+      "code":"LI",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Liat"
+      }
+   },
+   {
+      "name":"Chang An Airlines",
+      "code":"9H",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Chang An Airlines"
+      }
+   },
+   {
+      "name":"XL Airways France",
+      "code":"SE",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"XL Airways France"
+      }
+   },
+   {
+      "name":"TurboJET",
+      "code":"8S",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"TurboJET"
+      }
+   },
+   {
+      "name":"T'way Air",
+      "code":"TW",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"T'way Air"
+      }
+   },
+   {
+      "name":"Virgin America ",
+      "code":"VX",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Virgin America "
+      }
+   },
+   {
+      "name":"Sounds Air Travel \u0026 Tourism Ltd.",
+      "code":"S8",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Sounds Air Travel \u0026 Tourism Ltd."
+      }
+   },
+   {
+      "name":"Jetstar Japan",
+      "code":"GK",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Jetstar Japan"
+      }
+   },
+   {
+      "name":"Jazz",
+      "code":"QK",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Jazz"
+      }
+   },
+   {
+      "name":"Yangtze River Express",
+      "code":"Y8",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Yangtze River Express"
+      }
+   },
+   {
+      "name":"Safair",
+      "code":"FA",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Safair"
+      }
+   },
+   {
+      "name":"IrAero",
+      "code":"IO",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"IrAero"
+      }
+   },
+   {
+      "name":"Sriwijaya Air",
+      "code":"SJ",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Sriwijaya Air"
+      }
+   },
+   {
+      "name":"Zambezi Airlines",
+      "code":"ZJ",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Zambezi Airlines"
+      }
+   },
+   {
+      "name":"Air Manas",
+      "code":"ZM",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Air Manas"
+      }
+   },
+   {
+      "name":"Renegade Air",
+      "code":"0R",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Renegade Air"
+      }
+   },
+   {
+      "name":"Comair",
+      "code":"MN",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Comair"
+      }
+   },
+   {
+      "name":"K-Mile Air Co. Ltd",
+      "code":"8K",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"K-Mile Air Co. Ltd"
+      }
+   },
+   {
+      "name":"Travel Service",
+      "code":"7O",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Travel Service"
+      }
+   },
+   {
+      "name":"Myanmar Airways International",
+      "code":"8M",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Myanmar Airways International"
+      }
+   },
+   {
+      "name":"Taquan Air",
+      "code":"K3",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Taquan Air"
+      }
+   },
+   {
+      "name":"Kyrgyz Trans Avia",
+      "code":"6K",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Kyrgyz Trans Avia"
+      }
+   },
+   {
+      "name":"Aero Transporte S.A.",
+      "code":"4A",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Aero Transporte S.A."
+      }
+   },
+   {
+      "name":"Aeromar",
+      "code":"VW",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Aeromar"
+      }
+   },
+   {
+      "name":"ALS Ltd.",
+      "code":"K4",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"ALS Ltd."
+      }
+   },
+   {
+      "name":"Tarom",
+      "code":"RO",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Tarom"
+      }
+   },
+   {
+      "name":"South African Express",
+      "code":"XZ",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"South African Express"
+      }
+   },
+   {
+      "name":"Stobart Air",
+      "code":"RE",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Stobart Air"
+      }
+   },
+   {
+      "name":"DoKaSch",
+      "code":"3D",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"DoKaSch"
+      }
+   },
+   {
+      "name":"FlyArystan",
+      "code":"0Y",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"FlyArystan"
+      }
+   },
+   {
+      "name":"Eagle Atlantic Airlines",
+      "code":"E2",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Eagle Atlantic Airlines"
+      }
+   },
+   {
+      "name":"KLM",
+      "code":"KL",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"KLM"
+      }
+   },
+   {
+      "name":"Topas Co. Ltd.",
+      "code":"K1",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Topas Co. Ltd."
+      }
+   },
+   {
+      "name":"Pan American World Airways",
+      "code":"7N",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Pan American World Airways"
+      }
+   },
+   {
+      "name":"Novoair",
+      "code":"VQ",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Novoair"
+      }
+   },
+   {
+      "name":"Seaborne Airlines",
+      "code":"BB",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Seaborne Airlines"
+      }
+   },
+   {
+      "name":"Tunisair Express",
+      "code":"UG",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Tunisair Express"
+      }
+   },
+   {
+      "name":"PT Kal Star Aviation",
+      "code":"KD",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"PT Kal Star Aviation"
+      }
+   },
+   {
+      "name":"Skymark Airlines",
+      "code":"BC",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Skymark Airlines"
+      }
+   },
+   {
+      "name":"EasyJet",
+      "code":"U2",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"EasyJet"
+      }
+   },
+   {
+      "name":"AirAsia X",
+      "code":"D7",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"AirAsia X"
+      }
+   },
+   {
+      "name":"Grand China Air",
+      "code":"CN",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Grand China Air"
+      }
+   },
+   {
+      "name":"Solar Cargo, C.A.",
+      "code":"4S",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Solar Cargo, C.A."
+      }
+   },
+   {
+      "name":"AIS Airlines B.V.",
+      "code":"IS",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"AIS Airlines B.V."
+      }
+   },
+   {
+      "name":"Rutas Aereas, C.A. dba  RUTACA",
+      "code":"5R",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Rutas Aereas, C.A. dba  RUTACA"
+      }
+   },
+   {
+      "name":"Clairmont Holdings Ltd dba VI Air Link",
+      "code":"V6",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Clairmont Holdings Ltd dba VI Air Link"
+      }
+   },
+   {
+      "name":"Air Malta",
+      "code":"KM",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Malta"
+      }
+   },
+   {
+      "name":"Alpha Air Transport",
+      "code":"7U",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Alpha Air Transport"
+      }
+   },
+   {
+      "name":"Onur Air",
+      "code":"8Q",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Onur Air"
+      }
+   },
+   {
+      "name":"West Link Airlines",
+      "code":"9L",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"West Link Airlines"
+      }
+   },
+   {
+      "name":"South Airlines",
+      "code":"YG",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"South Airlines"
+      }
+   },
+   {
+      "name":"TAR Aerolíneas",
+      "code":"YQ",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"TAR Aerolíneas"
+      }
+   },
+   {
+      "name":"Aero Nomad Airlines",
+      "code":"KA",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Aero Nomad Airlines"
+      }
+   },
+   {
+      "name":"China Eastern Airlines",
+      "code":"MU",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"China Eastern Airlines"
+      }
+   },
+   {
+      "name":"Surinam Airways",
+      "code":"PY",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Surinam Airways"
+      }
+   },
+   {
+      "name":"CM Airlines",
+      "code":"CC",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"CM Airlines"
+      }
+   },
+   {
+      "name":"LAN Chile Cargo",
+      "code":"UC",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"LAN Chile Cargo"
+      }
+   },
+   {
+      "name":"Braathens Regional",
+      "code":"DC",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Braathens Regional"
+      }
+   },
+   {
+      "name":"Emetebe S.A.",
+      "code":"0A",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Emetebe S.A."
+      }
+   },
+   {
+      "name":"Tectimes Sudamerica",
+      "code":"C1",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Tectimes Sudamerica"
+      }
+   },
+   {
+      "name":"Hahn Air",
+      "code":"HR",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Hahn Air"
+      }
+   },
+   {
+      "name":"Avia Traffic Company",
+      "code":"YK",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Avia Traffic Company"
+      }
+   },
+   {
+      "name":"Southern Air Charter",
+      "code":"PL",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Southern Air Charter"
+      }
+   },
+   {
+      "name":"Kyrgyz Air",
+      "code":"KH",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Kyrgyz Air"
+      }
+   },
+   {
+      "name":"Airtran Airways",
+      "code":"FL",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Airtran Airways"
+      }
+   },
+   {
+      "name":"Cinnamon Air",
+      "code":"C7",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Cinnamon Air"
+      }
+   },
+   {
+      "name":"Nesma Airlines",
+      "code":"NA",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Nesma Airlines"
+      }
+   },
+   {
+      "name":"Premium Jet AG",
+      "code":"0J",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Premium Jet AG"
+      }
+   },
+   {
+      "name":"Air Iceland",
+      "code":"NY",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Iceland"
+      }
+   },
+   {
+      "name":"African Express Airways (K)  Limited",
+      "code":"XU",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"African Express Airways (K)  Limited"
+      }
+   },
+   {
+      "name":"Air Tindi",
+      "code":"8T",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Tindi"
+      }
+   },
+   {
+      "name":"Thai Vietjet Air",
+      "code":"V9",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Thai Vietjet Air"
+      }
+   },
+   {
+      "name":"Transaero Airlines",
+      "code":"UN",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Transaero Airlines"
+      }
+   },
+   {
+      "name":"Vistara",
+      "code":"UK",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Vistara"
+      }
+   },
+   {
+      "name":"FedEx",
+      "code":"FX",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"FedEx"
+      }
+   },
+   {
+      "name":"Smartavia",
+      "code":"5N",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Smartavia"
+      }
+   },
+   {
+      "name":"LOT Polish Airlines",
+      "code":"LO",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"LOT Polish Airlines"
+      }
+   },
+   {
+      "name":"Transavia",
+      "code":"HV",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Transavia"
+      }
+   },
+   {
+      "name":"SmartWings",
+      "code":"QS",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"SmartWings"
+      }
+   },
+   {
+      "name":"Vanilla Air",
+      "code":"JW",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Vanilla Air"
+      }
+   },
+   {
+      "name":"Tandem Aero",
+      "code":"TQ",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Tandem Aero"
+      }
+   },
+   {
+      "name":"Chu Kong Passenger Transport Co. Ltd.",
+      "code":"3A",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Chu Kong Passenger Transport Co. Ltd."
+      }
+   },
+   {
+      "name":"Air Japan",
+      "code":"NQ",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Japan"
+      }
+   },
+   {
+      "name":"Armenia Aircompany",
+      "code":"RM",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Armenia Aircompany"
+      }
+   },
+   {
+      "name":"Aerotranscargo",
+      "code":"F5",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Aerotranscargo"
+      }
+   },
+   {
+      "name":"Connellan air disaster",
+      "code":"RF",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Connellan air disaster"
+      }
+   },
+   {
+      "name":"BVI Airways",
+      "code":"XV",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"BVI Airways"
+      }
+   },
+   {
+      "name":"Travelport Global Distribution SystemB.V.",
+      "code":"1G",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Travelport Global Distribution SystemB.V."
+      }
+   },
+   {
+      "name":"Austral Lineas Aereas",
+      "code":"AU",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Austral Lineas Aereas"
+      }
+   },
+   {
+      "name":"Mistral Air",
+      "code":"M4",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Mistral Air"
+      }
+   },
+   {
+      "name":"Helicópteros del Sureste",
+      "code":"UV",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Helicópteros del Sureste"
+      }
+   },
+   {
+      "name":"Azimut",
+      "code":"A4",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Azimut"
+      }
+   },
+   {
+      "name":"Fly Jamaica Airways",
+      "code":"OJ",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Fly Jamaica Airways"
+      }
+   },
+   {
+      "name":"North Flying",
+      "code":"M3",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"North Flying"
+      }
+   },
+   {
+      "name":"Horizon Air",
+      "code":"QX",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Horizon Air"
+      }
+   },
+   {
+      "name":"Royal Flight",
+      "code":"RL",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Royal Flight"
+      }
+   },
+   {
+      "name":"Thai Airways",
+      "code":"TG",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Thai Airways"
+      }
+   },
+   {
+      "name":"Cambodia Angkor Air",
+      "code":"K6",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Cambodia Angkor Air"
+      }
+   },
+   {
+      "name":"Almasria Universal Airlines",
+      "code":"UJ",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Almasria Universal Airlines"
+      }
+   },
+   {
+      "name":"Tarco Air",
+      "code":"3T",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Tarco Air"
+      }
+   },
+   {
+      "name":"Air Niamey",
+      "code":"A7",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Air Niamey"
+      }
+   },
+   {
+      "name":"Premier Airlines",
+      "code":"PRM",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Premier Airlines"
+      }
+   },
+   {
+      "name":"Nolinor Aviation",
+      "code":"N5",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Nolinor Aviation"
+      }
+   },
+   {
+      "name":"TAME Linea Aerea del Ecuador",
+      "code":"EQ",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"TAME Linea Aerea del Ecuador"
+      }
+   },
+   {
+      "name":"Winair",
+      "code":"WM",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Winair"
+      }
+   },
+   {
+      "name":"VietjetAir",
+      "code":"VJ",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"VietjetAir"
+      }
+   },
+   {
+      "name":"Asian Express Airline",
+      "code":"KV",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Asian Express Airline"
+      }
+   },
+   {
+      "name":"Arkia",
+      "code":"IZ",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Arkia"
+      }
+   },
+   {
+      "name":"Travelsky Technology Limited",
+      "code":"1E",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Travelsky Technology Limited"
+      }
+   },
+   {
+      "name":"Qanot Sharq",
+      "code":"HH",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Qanot Sharq"
+      }
+   },
+   {
+      "name":"OAG",
+      "code":"CR",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"OAG"
+      }
+   },
+   {
+      "name":"Deutsche Bahn AG",
+      "code":"2A",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Deutsche Bahn AG"
+      }
+   },
+   {
+      "name":"Miami Air International",
+      "code":"LL",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Miami Air International"
+      }
+   },
+   {
+      "name":"Oman Air",
+      "code":"WY",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Oman Air"
+      }
+   },
+   {
+      "name":"Department of National Defence",
+      "code":"YF",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Department of National Defence"
+      }
+   },
+   {
+      "name":"Safi Airways",
+      "code":"4Q",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Safi Airways"
+      }
+   },
+   {
+      "name":"Northwest Airlines",
+      "code":"NW",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Northwest Airlines"
+      }
+   },
+   {
+      "name":"Pegasus Airlines",
+      "code":"PC",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Pegasus Airlines"
+      }
+   },
+   {
+      "name":"Penair",
+      "code":"KS",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Penair"
+      }
+   },
+   {
+      "name":"ABX Air, Inc.",
+      "code":"GB",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"ABX Air, Inc."
+      }
+   },
+   {
+      "name":"UVT Aero",
+      "code":"RT",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"UVT Aero"
+      }
+   },
+   {
+      "name":"Tus Airways",
+      "code":"U8",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Tus Airways"
+      }
+   },
+   {
+      "name":"LGW Luftfahrtgesellschaft Walter",
+      "code":"HE",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"LGW Luftfahrtgesellschaft Walter"
+      }
+   },
+   {
+      "name":"Palau National Airlines",
+      "code":"4L",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Palau National Airlines"
+      }
+   },
+   {
+      "name":"Inter Air",
+      "code":"D6",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Inter Air"
+      }
+   },
+   {
+      "name":"Avia Traffic Company",
+      "code":"ТФ",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Avia Traffic Company"
+      }
+   },
+   {
+      "name":"ARINC(Aeronautical Radio, Inc.)",
+      "code":"XA",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"ARINC(Aeronautical Radio, Inc.)"
+      }
+   },
+   {
+      "name":"JetBlue Airways",
+      "code":"B6",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"JetBlue Airways"
+      }
+   },
+   {
+      "name":"Iran Air",
+      "code":"IR",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Iran Air"
+      }
+   },
+   {
+      "name":"Kinda Airlines",
+      "code":"2S",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Kinda Airlines"
+      }
+   },
+   {
+      "name":"Czech Airlines",
+      "code":"OK",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Czech Airlines"
+      }
+   },
+   {
+      "name":"Aklak Air",
+      "code":"6L",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Aklak Air"
+      }
+   },
+   {
+      "name":"Colorful Guizhou Airlines",
+      "code":"GY",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Colorful Guizhou Airlines"
+      }
+   },
+   {
+      "name":"BADR AIRLINES",
+      "code":"J4",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"BADR AIRLINES"
+      }
+   },
+   {
+      "name":"Germania Flug",
+      "code":"GM",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Germania Flug"
+      }
+   },
+   {
+      "name":"JSC Kazaviaspas",
+      "code":"ZS",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"JSC Kazaviaspas"
+      }
+   },
+   {
+      "name":"Severstal Air",
+      "code":"D2",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Severstal Air"
+      }
+   },
+   {
+      "name":"CitizenPlane",
+      "code":"1L",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"CitizenPlane"
+      }
+   },
+   {
+      "name":"Air New Zealand",
+      "code":"NZ",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air New Zealand"
+      }
+   },
+   {
+      "name":"Thai AirAsia",
+      "code":"FD",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Thai AirAsia"
+      }
+   },
+   {
+      "name":"Interjet",
+      "code":"4O",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Interjet"
+      }
+   },
+   {
+      "name":"Lion Air",
+      "code":"JT",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Lion Air"
+      }
+   },
+   {
+      "name":"BB Airways",
+      "code":"BO",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"BB Airways"
+      }
+   },
+   {
+      "name":"WOW Air ehf",
+      "code":"WW",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"WOW Air ehf"
+      }
+   },
+   {
+      "name":"Gulf Air",
+      "code":"GF",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Gulf Air"
+      }
+   },
+   {
+      "name":"Fly CamInter",
+      "code":"EF",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Fly CamInter"
+      }
+   },
+   {
+      "name":"Air Astana",
+      "code":"KC",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Astana"
+      }
+   },
+   {
+      "name":"Regional Express",
+      "code":"ZL",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Regional Express"
+      }
+   },
+   {
+      "name":"Travel Technology Interactive SA",
+      "code":"Y1",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Travel Technology Interactive SA"
+      }
+   },
+   {
+      "name":"Caribbean Air Export Import Inc.",
+      "code":"CB",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Caribbean Air Export Import Inc."
+      }
+   },
+   {
+      "name":"Sky Airlines",
+      "code":"ZY",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Sky Airlines"
+      }
+   },
+   {
+      "name":"Silk Way Airlines",
+      "code":"ZP",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Silk Way Airlines"
+      }
+   },
+   {
+      "name":"Republic Airlines",
+      "code":"YX",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Republic Airlines"
+      }
+   },
+   {
+      "name":"Sundair",
+      "code":"SR",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Sundair"
+      }
+   },
+   {
+      "name":"Air Caraibes",
+      "code":"TX",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Caraibes"
+      }
+   },
+   {
+      "name":"Jazeera Airways",
+      "code":"J9",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Jazeera Airways"
+      }
+   },
+   {
+      "name":"Cimber",
+      "code":"QA",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Cimber"
+      }
+   },
+   {
+      "name":"Canadian North",
+      "code":"5T",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Canadian North"
+      }
+   },
+   {
+      "name":"LATAM Argentina",
+      "code":"4M",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"LATAM Argentina"
+      }
+   },
+   {
+      "name":"Utair",
+      "code":"UT",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Utair"
+      }
+   },
+   {
+      "name":"Boliviana de Aviación",
+      "code":"OB",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Boliviana de Aviación"
+      }
+   },
+   {
+      "name":"Alidaunia",
+      "code":"D4",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Alidaunia"
+      }
+   },
+   {
+      "name":"Carpatair",
+      "code":"V3",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Carpatair"
+      }
+   },
+   {
+      "name":"Iliamna Air Taxi Inc.",
+      "code":"V8",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Iliamna Air Taxi Inc."
+      }
+   },
+   {
+      "name":"Sky-Taxi",
+      "code":"TE",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Sky-Taxi"
+      }
+   },
+   {
+      "name":"Malindo Air",
+      "code":"OD",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Malindo Air"
+      }
+   },
+   {
+      "name":"Lao Skyway",
+      "code":"LK",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Lao Skyway"
+      }
+   },
+   {
+      "name":"Guangxi Beibu Gulf Airlines Co., Ltd.",
+      "code":"GP",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Guangxi Beibu Gulf Airlines Co., Ltd."
+      }
+   },
+   {
+      "name":"Perimeter Aviation Ltd.",
+      "code":"YP",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Perimeter Aviation Ltd."
+      }
+   },
+   {
+      "name":"Air Saint Pierre",
+      "code":"PJ",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Saint Pierre"
+      }
+   },
+   {
+      "name":"Siam Ga Co. Ltd.",
+      "code":"5E",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Siam Ga Co. Ltd."
+      }
+   },
+   {
+      "name":"Air Tahiti",
+      "code":"VT",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Tahiti"
+      }
+   },
+   {
+      "name":"Air Caucasus",
+      "code":"UY",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Caucasus"
+      }
+   },
+   {
+      "name":"Luxair",
+      "code":"LG",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Luxair"
+      }
+   },
+   {
+      "name":"Central Mountain Air",
+      "code":"9M",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Central Mountain Air"
+      }
+   },
+   {
+      "name":"Jet Airways",
+      "code":"9W",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Jet Airways"
+      }
+   },
+   {
+      "name":"VIM Airlines",
+      "code":"NN",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"VIM Airlines"
+      }
+   },
+   {
+      "name":"China Cargo Airlines",
+      "code":"CK",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"China Cargo Airlines"
+      }
+   },
+   {
+      "name":"Lignes Aeriennes Congolaises",
+      "code":"4V",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Lignes Aeriennes Congolaises"
+      }
+   },
+   {
+      "name":"Daallo Airlines",
+      "code":"D3",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Daallo Airlines"
+      }
+   },
+   {
+      "name":"Sunsplash Aviation, LLC.",
+      "code":"YH",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Sunsplash Aviation, LLC."
+      }
+   },
+   {
+      "name":"Air India",
+      "code":"AI",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air India"
+      }
+   },
+   {
+      "name":"Bulgarian Air Charter",
+      "code":"H6",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Bulgarian Air Charter"
+      }
+   },
+   {
+      "name":"Air Berlin",
+      "code":"AB",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Berlin"
+      }
+   },
+   {
+      "name":"Regional Air Services",
+      "code":"8N",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Regional Air Services"
+      }
+   },
+   {
+      "name":"Himalaya Airlines",
+      "code":"H9",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Himalaya Airlines"
+      }
+   },
+   {
+      "name":"Star Peru",
+      "code":"2I",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Star Peru"
+      }
+   },
+   {
+      "name":"Air Inuit",
+      "code":"3H",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Inuit"
+      }
+   },
+   {
+      "name":"Rossiya Airlines",
+      "code":"FV",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Rossiya Airlines"
+      }
+   },
+   {
+      "name":"Air Koryo",
+      "code":"JS",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Koryo"
+      }
+   },
+   {
+      "name":"Bering Air",
+      "code":"8E",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Bering Air"
+      }
+   },
+   {
+      "name":"Myanmar National Airlines",
+      "code":"UB",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Myanmar National Airlines"
+      }
+   },
+   {
+      "name":"TACV Cabo Verde Airlines",
+      "code":"VR",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"TACV Cabo Verde Airlines"
+      }
+   },
+   {
+      "name":"Level",
+      "code":"LV",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Level"
+      }
+   },
+   {
+      "name":"China United Airlines",
+      "code":"KN",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"China United Airlines"
+      }
+   },
+   {
+      "name":"AnadoluJet",
+      "code":"0T",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"AnadoluJet"
+      }
+   },
+   {
+      "name":"Air Montenegro",
+      "code":"YM",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Montenegro"
+      }
+   },
+   {
+      "name":"Wizz Air Ukraine",
+      "code":"WU",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Wizz Air Ukraine"
+      }
+   },
+   {
+      "name":"Golden Myanmar Airlines Public Co., Ltd",
+      "code":"Y5",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Golden Myanmar Airlines Public Co., Ltd"
+      }
+   },
+   {
+      "name":"Fly Branson Travel dba Branson AirExpress",
+      "code":"1X",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Fly Branson Travel dba Branson AirExpress"
+      }
+   },
+   {
+      "name":"Farelogix Qatar Airways",
+      "code":"F1",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Farelogix Qatar Airways"
+      }
+   },
+   {
+      "name":"MNG Airlines",
+      "code":"MB",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"MNG Airlines"
+      }
+   },
+   {
+      "name":"Jetstar Pacific Airlines",
+      "code":"BL",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Jetstar Pacific Airlines"
+      }
+   },
+   {
+      "name":"Southwest Airlines",
+      "code":"WN",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Southwest Airlines"
+      }
+   },
+   {
+      "name":"Eaglexpress Air Charter Sdn.Bhd.dbaEaglexpress Air",
+      "code":"9A",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Eaglexpress Air Charter Sdn.Bhd.dbaEaglexpress Air"
+      }
+   },
+   {
+      "name":"Portugália",
+      "code":"NI",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Portugália"
+      }
+   },
+   {
+      "name":"iFly Airlines",
+      "code":"F7",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"iFly Airlines"
+      }
+   },
+   {
+      "name":"Fuzhou Airlines",
+      "code":"FU",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Fuzhou Airlines"
+      }
+   },
+   {
+      "name":"British Airways",
+      "code":"BA",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"British Airways"
+      }
+   },
+   {
+      "name":"Air Mediterranee",
+      "code":"ML",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Mediterranee"
+      }
+   },
+   {
+      "name":"New England Airlines",
+      "code":"EJ",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"New England Airlines"
+      }
+   },
+   {
+      "name":"Loganair",
+      "code":"LM",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Loganair"
+      }
+   },
+   {
+      "name":"Scandinavian Airlines",
+      "code":"SK",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Scandinavian Airlines"
+      }
+   },
+   {
+      "name":"Royal Brunei",
+      "code":"BI",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Royal Brunei"
+      }
+   },
+   {
+      "name":"Jet2.com",
+      "code":"LS",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Jet2.com"
+      }
+   },
+   {
+      "name":"AirBridgeCargo",
+      "code":"RU",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"AirBridgeCargo"
+      }
+   },
+   {
+      "name":"Citilink Airlines",
+      "code":"QG",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Citilink Airlines"
+      }
+   },
+   {
+      "name":"airBaltic",
+      "code":"BT",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"airBaltic"
+      }
+   },
+   {
+      "name":"Globus LLС",
+      "code":"XT",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Globus LLС"
+      }
+   },
+   {
+      "name":"Kam Air",
+      "code":"RQ",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Kam Air"
+      }
+   },
+   {
+      "name":"Qeshm Air",
+      "code":"QB",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Qeshm Air"
+      }
+   },
+   {
+      "name":"Stabo Air Limited",
+      "code":"4E",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Stabo Air Limited"
+      }
+   },
+   {
+      "name":"Karinou Airlines",
+      "code":"U5",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Karinou Airlines"
+      }
+   },
+   {
+      "name":"Air Cargo Carriers, LLC.",
+      "code":"2Q",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Cargo Carriers, LLC."
+      }
+   },
+   {
+      "name":"PAL Express",
+      "code":"2P",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"PAL Express"
+      }
+   },
+   {
+      "name":"North-Wright Airways",
+      "code":"HW",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"North-Wright Airways"
+      }
+   },
+   {
+      "name":"Ravn Alaska",
+      "code":"7H",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Ravn Alaska"
+      }
+   },
+   {
+      "name":"Danish Air Transport",
+      "code":"DX",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Danish Air Transport"
+      }
+   },
+   {
+      "name":"Ernest Airline",
+      "code":"EG",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Ernest Airline"
+      }
+   },
+   {
+      "name":"SunExpress Deutschland",
+      "code":"XG",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"SunExpress Deutschland"
+      }
+   },
+   {
+      "name":"Sky Airline",
+      "code":"H2",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Sky Airline"
+      }
+   },
+   {
+      "name":"ZanAir",
+      "code":"B4",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"ZanAir"
+      }
+   },
+   {
+      "name":"Redemption Inc.",
+      "code":"2O",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Redemption Inc."
+      }
+   },
+   {
+      "name":"CommutAir",
+      "code":"C5",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"CommutAir"
+      }
+   },
+   {
+      "name":"Turkish Airlines",
+      "code":"TK",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Turkish Airlines"
+      }
+   },
+   {
+      "name":"Northwestern Air",
+      "code":"J3",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Northwestern Air"
+      }
+   },
+   {
+      "name":"Air Alsie",
+      "code":"6I",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Alsie"
+      }
+   },
+   {
+      "name":"Helvetic Airways",
+      "code":"2L",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Helvetic Airways"
+      }
+   },
+   {
+      "name":"Trans States Airlines",
+      "code":"AX",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Trans States Airlines"
+      }
+   },
+   {
+      "name":"EcoJet",
+      "code":"8J",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"EcoJet"
+      }
+   },
+   {
+      "name":"AirAsia",
+      "code":"AK",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"AirAsia"
+      }
+   },
+   {
+      "name":"Hi Fly Ltd",
+      "code":"5M",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Hi Fly Ltd"
+      }
+   },
+   {
+      "name":"Pakistan International Airlines",
+      "code":"PK",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Pakistan International Airlines"
+      }
+   },
+   {
+      "name":"Shenzhen Airlines",
+      "code":"ZH",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Shenzhen Airlines"
+      }
+   },
+   {
+      "name":"LC Busre SAC",
+      "code":"W4",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"LC Busre SAC"
+      }
+   },
+   {
+      "name":"Avianca Cargo",
+      "code":"QT",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Avianca Cargo"
+      }
+   },
+   {
+      "name":"TEM Enterprises",
+      "code":"XP",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"TEM Enterprises"
+      }
+   },
+   {
+      "name":"IndiGo",
+      "code":"6E",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"IndiGo"
+      }
+   },
+   {
+      "name":"Afric Aviation",
+      "code":"L8",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Afric Aviation"
+      }
+   },
+   {
+      "name":"DHL Aviation EEMEA B.S.C.(c)",
+      "code":"ES",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"DHL Aviation EEMEA B.S.C.(c)"
+      }
+   },
+   {
+      "name":"GoJet Airlines",
+      "code":"G7",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"GoJet Airlines"
+      }
+   },
+   {
+      "name":"Air Mobility Command",
+      "code":"MC",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Mobility Command"
+      }
+   },
+   {
+      "name":"Grumeti Air",
+      "code":"0G",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Grumeti Air"
+      }
+   },
+   {
+      "name":"Gol Transportes Aéreos",
+      "code":"G3",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Gol Transportes Aéreos"
+      }
+   },
+   {
+      "name":"Sabre Pacific",
+      "code":"1Z",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Sabre Pacific"
+      }
+   },
+   {
+      "name":"Peach",
+      "code":"MM",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Peach"
+      }
+   },
+   {
+      "name":"Air Bishkek",
+      "code":"KR",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Bishkek"
+      }
+   },
+   {
+      "name":"Norwegian Long Haul",
+      "code":"DU",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Norwegian Long Haul"
+      }
+   },
+   {
+      "name":"Sky Lease I, Inc.",
+      "code":"GG",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Sky Lease I, Inc."
+      }
+   },
+   {
+      "name":"Bassaka Air Limited",
+      "code":"5B",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Bassaka Air Limited"
+      }
+   },
+   {
+      "name":"IBS Software Services Americas, Inc.",
+      "code":"V1",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"IBS Software Services Americas, Inc."
+      }
+   },
+   {
+      "name":"TACA Peru",
+      "code":"T0",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"TACA Peru"
+      }
+   },
+   {
+      "name":"Blue Air",
+      "code":"0B",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Blue Air"
+      }
+   },
+   {
+      "name":"Major Airline",
+      "code":"YY",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Major Airline"
+      }
+   },
+   {
+      "name":"Monarch Airlines",
+      "code":"ZB",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Monarch Airlines"
+      }
+   },
+   {
+      "name":"Silkair",
+      "code":"MI",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Silkair"
+      }
+   },
+   {
+      "name":"40-Mile Air",
+      "code":"Q5",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"40-Mile Air"
+      }
+   },
+   {
+      "name":"Wizz Air",
+      "code":"W6",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Wizz Air"
+      }
+   },
+   {
+      "name":"BMI Regional",
+      "code":"BM",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"BMI Regional"
+      }
+   },
+   {
+      "name":"United Airlines",
+      "code":"UA",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"United Airlines"
+      }
+   },
+   {
+      "name":"Wizz Air",
+      "code":"5W",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Wizz Air"
+      }
+   },
+   {
+      "name":"Ryanair",
+      "code":"FR",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Ryanair"
+      }
+   },
+   {
+      "name":"FlyOne",
+      "code":"3F",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"FlyOne"
+      }
+   },
+   {
+      "name":"FlyOne",
+      "code":"5F",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"FlyOne"
+      }
+   },
+   {
+      "name":"C.A.I. First",
+      "code":"XM",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"C.A.I. First"
+      }
+   },
+   {
+      "name":"LATAM Chile",
+      "code":"LA",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"LATAM Chile"
+      }
+   },
+   {
+      "name":"Thalys International",
+      "code":"2H",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Thalys International"
+      }
+   },
+   {
+      "name":"Lufthansa CityLine",
+      "code":"CL",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Lufthansa CityLine"
+      }
+   },
+   {
+      "name":"Air Do",
+      "code":"HD",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Air Do"
+      }
+   },
+   {
+      "name":"Xiamen Airlines",
+      "code":"MF",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Xiamen Airlines"
+      }
+   },
+   {
+      "name":"Qingdao Airlines",
+      "code":"QW",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Qingdao Airlines"
+      }
+   },
+   {
+      "name":"Mandarin Airlines",
+      "code":"AE",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Mandarin Airlines"
+      }
+   },
+   {
+      "name":"Silver Airways",
+      "code":"3M",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Silver Airways"
+      }
+   },
+   {
+      "name":"Dobrolet",
+      "code":"QD",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Dobrolet"
+      }
+   },
+   {
+      "name":"Delta Air Lines",
+      "code":"DL",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Delta Air Lines"
+      }
+   },
+   {
+      "name":"TAAG Angola Airlines",
+      "code":"DT",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"TAAG Angola Airlines"
+      }
+   },
+   {
+      "name":"Georgian Airways",
+      "code":"A9",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Georgian Airways"
+      }
+   },
+   {
+      "name":"9 Air",
+      "code":"AQ",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"9 Air"
+      }
+   },
+   {
+      "name":"Radixx Solutions International, Inc.",
+      "code":"1D",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Radixx Solutions International, Inc."
+      }
+   },
+   {
+      "name":"Mauritania Airlines International",
+      "code":"L6",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Mauritania Airlines International"
+      }
+   },
+   {
+      "name":"Trans-Mediterranean Airways",
+      "code":"N2",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Trans-Mediterranean Airways"
+      }
+   },
+   {
+      "name":"Bulgaria Air",
+      "code":"FB",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Bulgaria Air"
+      }
+   },
+   {
+      "name":"Kan Air",
+      "code":"K8",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Kan Air"
+      }
+   },
+   {
+      "name":"Amapola Flyg AB",
+      "code":"HP",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Amapola Flyg AB"
+      }
+   },
+   {
+      "name":"Saudia",
+      "code":"SV",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Saudia"
+      }
+   },
+   {
+      "name":"Nova Airways",
+      "code":"N9",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Nova Airways"
+      }
+   },
+   {
+      "name":"Bird Information Systems Private Limited",
+      "code":"1R",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Bird Information Systems Private Limited"
+      }
+   },
+   {
+      "name":"Qantas",
+      "code":"QF",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Qantas"
+      }
+   },
+   {
+      "name":"Sunwing Airlines",
+      "code":"WG",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Sunwing Airlines"
+      }
+   },
+   {
+      "name":"Mid Africa Aviation",
+      "code":"8G",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Mid Africa Aviation"
+      }
+   },
+   {
+      "name":"Air Italy",
+      "code":"I9",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Italy"
+      }
+   },
+   {
+      "name":"Grant Aviation, Inc.",
+      "code":"GV",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Grant Aviation, Inc."
+      }
+   },
+   {
+      "name":"Eastar Jet",
+      "code":"ZE",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Eastar Jet"
+      }
+   },
+   {
+      "name":"SkyJet",
+      "code":"M8",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"SkyJet"
+      }
+   },
+   {
+      "name":"Alitalia CityLiner",
+      "code":"CT",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Alitalia CityLiner"
+      }
+   },
+   {
+      "name":"Kuwait Airways",
+      "code":"KU",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Kuwait Airways"
+      }
+   },
+   {
+      "name":"Grand Canyon Airlines, Inc.dba Scenic Airlines",
+      "code":"YR",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Grand Canyon Airlines, Inc.dba Scenic Airlines"
+      }
+   },
+   {
+      "name":"ExpressJet",
+      "code":"EV",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"ExpressJet"
+      }
+   },
+   {
+      "name":"Orient Thai Airlines",
+      "code":"OX",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Orient Thai Airlines"
+      }
+   },
+   {
+      "name":"Flydubai",
+      "code":"FZ",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Flydubai"
+      }
+   },
+   {
+      "name":"Air Excursion, LLC",
+      "code":"X4",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Excursion, LLC"
+      }
+   },
+   {
+      "name":"FlyBosnia",
+      "code":"6W",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"FlyBosnia"
+      }
+   },
+   {
+      "name":"Camair-Co",
+      "code":"QC",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Camair-Co"
+      }
+   },
+   {
+      "name":"Coastal Travels",
+      "code":"CQ",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Coastal Travels"
+      }
+   },
+   {
+      "name":"Blue1",
+      "code":"KF",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Blue1"
+      }
+   },
+   {
+      "name":"InterCaribbean Airways",
+      "code":"JY",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"InterCaribbean Airways"
+      }
+   },
+   {
+      "name":"Armenia Airways",
+      "code":"6A",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Armenia Airways"
+      }
+   },
+   {
+      "name":"Jet Lite",
+      "code":"S2",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Jet Lite"
+      }
+   },
+   {
+      "name":"Hinterland Aviation",
+      "code":"OI",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Hinterland Aviation"
+      }
+   },
+   {
+      "name":"Conviasa",
+      "code":"V0",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Conviasa"
+      }
+   },
+   {
+      "name":"Eurowings",
+      "code":"EW",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Eurowings"
+      }
+   },
+   {
+      "name":"CJSC Royal Flight airlines",
+      "code":"4R",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"CJSC Royal Flight airlines"
+      }
+   },
+   {
+      "name":"Hunnu Air",
+      "code":"MR",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Hunnu Air"
+      }
+   },
+   {
+      "name":"World Ticket Ltd",
+      "code":"W1",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"World Ticket Ltd"
+      }
+   },
+   {
+      "name":"Eastern Airways",
+      "code":"T3",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Eastern Airways"
+      }
+   },
+   {
+      "name":"NokScoot",
+      "code":"XW",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"NokScoot"
+      }
+   },
+   {
+      "name":"Urumqi Air",
+      "code":"UQ",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Urumqi Air"
+      }
+   },
+   {
+      "name":"First Air",
+      "code":"7F",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"First Air"
+      }
+   },
+   {
+      "name":"Air Tahiti Nui",
+      "code":"TN",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Tahiti Nui"
+      }
+   },
+   {
+      "name":"Nippon Cargo Airlines",
+      "code":"KZ",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Nippon Cargo Airlines"
+      }
+   },
+   {
+      "name":"Loong Air",
+      "code":"GJ",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Loong Air"
+      }
+   },
+   {
+      "name":"Etihad Airways",
+      "code":"EY",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Etihad Airways"
+      }
+   },
+   {
+      "name":"Regent Airways",
+      "code":"RX",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Regent Airways"
+      }
+   },
+   {
+      "name":"Hawkair",
+      "code":"BH",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Hawkair"
+      }
+   },
+   {
+      "name":"Nakina Air Service",
+      "code":"T2",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Nakina Air Service"
+      }
+   },
+   {
+      "name":"Jet Express",
+      "code":"G2",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Jet Express"
+      }
+   },
+   {
+      "name":"Yamal Airlines",
+      "code":"YC",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Yamal Airlines"
+      }
+   },
+   {
+      "name":"European Air Transport",
+      "code":"QY",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"European Air Transport"
+      }
+   },
+   {
+      "name":"Norse Atlantic Airways",
+      "code":"N0",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Norse Atlantic Airways"
+      }
+   },
+   {
+      "name":"Blue Panorama Airlines",
+      "code":"BV",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Blue Panorama Airlines"
+      }
+   },
+   {
+      "name":"La Compagnie",
+      "code":"B0",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"La Compagnie"
+      }
+   },
+   {
+      "name":"MetroJet",
+      "code":"7K",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"MetroJet"
+      }
+   },
+   {
+      "name":"Air Service Liege",
+      "code":"L4",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Service Liege"
+      }
+   },
+   {
+      "name":"Belair Airlines",
+      "code":"4T",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Belair Airlines"
+      }
+   },
+   {
+      "name":"FlyDamas",
+      "code":"4J",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"FlyDamas"
+      }
+   },
+   {
+      "name":"Nok Air",
+      "code":"DD",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Nok Air"
+      }
+   },
+   {
+      "name":"Pobeda",
+      "code":"DP",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Pobeda"
+      }
+   },
+   {
+      "name":"Southern Air",
+      "code":"9R",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Southern Air"
+      }
+   },
+   {
+      "name":"Air Indus",
+      "code":"I6",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Indus"
+      }
+   },
+   {
+      "name":"Jeju Air",
+      "code":"7C",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Jeju Air"
+      }
+   },
+   {
+      "name":"Air India Express",
+      "code":"IX",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Air India Express"
+      }
+   },
+   {
+      "name":"Aigle Azur",
+      "code":"ZI",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Aigle Azur"
+      }
+   },
+   {
+      "name":"MHS Aviation",
+      "code":"M2",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"MHS Aviation"
+      }
+   },
+   {
+      "name":"Calm Air International",
+      "code":"MO",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Calm Air International"
+      }
+   },
+   {
+      "name":"Far Eastern Air Transport",
+      "code":"FE",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Far Eastern Air Transport"
+      }
+   },
+   {
+      "name":"Fly540",
+      "code":"5H",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Fly540"
+      }
+   },
+   {
+      "name":"El Al Israel Airlines",
+      "code":"LY",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"El Al Israel Airlines"
+      }
+   },
+   {
+      "name":"Eastern Airlines, LLC",
+      "code":"2D",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Eastern Airlines, LLC"
+      }
+   },
+   {
+      "name":"Aegean Airlines",
+      "code":"A3",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Aegean Airlines"
+      }
+   },
+   {
+      "name":"Thai Vietjet Air",
+      "code":"VZ",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Thai Vietjet Air"
+      }
+   },
+   {
+      "name":"SkyWest Airlines",
+      "code":"OO",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"SkyWest Airlines"
+      }
+   },
+   {
+      "name":"ChallengAir",
+      "code":"1I",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"ChallengAir"
+      }
+   },
+   {
+      "name":"LAM Mozambique Airlines",
+      "code":"TM",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"LAM Mozambique Airlines"
+      }
+   },
+   {
+      "name":"Air Incheon",
+      "code":"KJ",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Incheon"
+      }
+   },
+   {
+      "name":"Thai Smile",
+      "code":"WE",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Thai Smile"
+      }
+   },
+   {
+      "name":"Allegiant Air",
+      "code":"G4",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Allegiant Air"
+      }
+   },
+   {
+      "name":"Airshop B.V.",
+      "code":"FF",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Airshop B.V."
+      }
+   },
+   {
+      "name":"Alpine Aviation Inc.",
+      "code":"5A",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Alpine Aviation Inc."
+      }
+   },
+   {
+      "name":"American Airlines",
+      "code":"AA",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"American Airlines"
+      }
+   },
+   {
+      "name":"Aero-Charter Ukraine",
+      "code":"DW",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Aero-Charter Ukraine"
+      }
+   },
+   {
+      "name":"KLM Cityhopper",
+      "code":"WA",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"KLM Cityhopper"
+      }
+   },
+   {
+      "name":"Hellas Jet",
+      "code":"HJ",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Hellas Jet"
+      }
+   },
+   {
+      "name":"SITA - Airlines WorldwideTelecommunications and Information Svcs",
+      "code":"XS",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"SITA - Airlines WorldwideTelecommunications and Information Svcs"
+      }
+   },
+   {
+      "name":"Volotea",
+      "code":"V7",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Volotea"
+      }
+   },
+   {
+      "name":"Antrak Air",
+      "code":"O4",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Antrak Air"
+      }
+   },
+   {
+      "name":"SiAvia",
+      "code":"KT",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"SiAvia"
+      }
+   },
+   {
+      "name":"Viva Air",
+      "code":"VV",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Viva Air"
+      }
+   },
+   {
+      "name":"PT Republic Express Airlines",
+      "code":"RH",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"PT Republic Express Airlines"
+      }
+   },
+   {
+      "name":"Blue Bird Airways",
+      "code":"BZ",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Blue Bird Airways"
+      }
+   },
+   {
+      "name":"Welcome Air",
+      "code":"2W",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Welcome Air"
+      }
+   },
+   {
+      "name":"Indonesia AirAsia",
+      "code":"QZ",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Indonesia AirAsia"
+      }
+   },
+   {
+      "name":"Aurora",
+      "code":"HZ",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Aurora"
+      }
+   },
+   {
+      "name":"Siam Air",
+      "code":"O8",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Siam Air"
+      }
+   },
+   {
+      "name":"Zacarias Moreno",
+      "code":"6M",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Zacarias Moreno"
+      }
+   },
+   {
+      "name":"Corendon Dutch Airlines",
+      "code":"CD",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Corendon Dutch Airlines"
+      }
+   },
+   {
+      "name":"Boutique Air",
+      "code":"4B",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Boutique Air"
+      }
+   },
+   {
+      "name":"Vueling",
+      "code":"VY",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Vueling"
+      }
+   },
+   {
+      "name":"Euro-Asia Air",
+      "code":"6Z",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Euro-Asia Air"
+      }
+   },
+   {
+      "name":"Edelweiss Air",
+      "code":"WK",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Edelweiss Air"
+      }
+   },
+   {
+      "name":"Wideroe",
+      "code":"WF",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Wideroe"
+      }
+   },
+   {
+      "name":"Aerovías DAP",
+      "code":"V5",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Aerovías DAP"
+      }
+   },
+   {
+      "name":"Interstate Airlines",
+      "code":"I4",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Interstate Airlines"
+      }
+   },
+   {
+      "name":"Okay Airways",
+      "code":"BK",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Okay Airways"
+      }
+   },
+   {
+      "name":"Virgin Atlantic",
+      "code":"VS",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Virgin Atlantic"
+      }
+   },
+   {
+      "name":"Air Armenia",
+      "code":"QN",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Armenia"
+      }
+   },
+   {
+      "name":"Skyway Costa Rica",
+      "code":"LC",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Skyway Costa Rica"
+      }
+   },
+   {
+      "name":"Air Serbia",
+      "code":"JU",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Serbia"
+      }
+   },
+   {
+      "name":"Smokey Bay Air, Inc.",
+      "code":"2E",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Smokey Bay Air, Inc."
+      }
+   },
+   {
+      "name":"Merpati Nusantara Airlines",
+      "code":"MZ",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Merpati Nusantara Airlines"
+      }
+   },
+   {
+      "name":"Elite Airways",
+      "code":"7Q",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Elite Airways"
+      }
+   },
+   {
+      "name":"Business jet",
+      "code":"0W",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Business jet"
+      }
+   },
+   {
+      "name":"Thai Lion Air",
+      "code":"SL",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Thai Lion Air"
+      }
+   },
+   {
+      "name":"Belle Air",
+      "code":"LZ",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Belle Air"
+      }
+   },
+   {
+      "name":"Afriqiyah Airways",
+      "code":"8U",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Afriqiyah Airways"
+      }
+   },
+   {
+      "name":"China Airlines",
+      "code":"CI",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"China Airlines"
+      }
+   },
+   {
+      "name":"Asia Atlantic Airlines",
+      "code":"HB",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Asia Atlantic Airlines"
+      }
+   },
+   {
+      "name":"Tunisair",
+      "code":"TU",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Tunisair"
+      }
+   },
+   {
+      "name":"Wright Air Service",
+      "code":"8V",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Wright Air Service"
+      }
+   },
+   {
+      "name":"SeaPort Airlines",
+      "code":"K5",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"SeaPort Airlines"
+      }
+   },
+   {
+      "name":"easyJet Switzerland",
+      "code":"DS",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"easyJet Switzerland"
+      }
+   },
+   {
+      "name":"Jet Asia Airways",
+      "code":"JF",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Jet Asia Airways"
+      }
+   },
+   {
+      "name":"Travel Service Polska Sp. z.o.o.",
+      "code":"3Z",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Travel Service Polska Sp. z.o.o."
+      }
+   },
+   {
+      "name":"Premier Trans Aire Inc.",
+      "code":"3X",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Premier Trans Aire Inc."
+      }
+   },
+   {
+      "name":"Federal Air",
+      "code":"7V",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Federal Air"
+      }
+   },
+   {
+      "name":"French Armed Forces",
+      "code":"RD",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"French Armed Forces"
+      }
+   },
+   {
+      "name":"Air Jamaica",
+      "code":"JM",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Jamaica"
+      }
+   },
+   {
+      "name":"Singapore Airlines",
+      "code":"SQ",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Singapore Airlines"
+      }
+   },
+   {
+      "name":"Fortune",
+      "code":"X1",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Fortune"
+      }
+   },
+   {
+      "name":"Avianca Costa Rica",
+      "code":"LR",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Avianca Costa Rica"
+      }
+   },
+   {
+      "name":"Avianca",
+      "code":"AV",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Avianca"
+      }
+   },
+   {
+      "name":"Discovery Airways",
+      "code":"DO",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Discovery Airways"
+      }
+   },
+   {
+      "name":"LATAM Ecuador",
+      "code":"XL",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"LATAM Ecuador"
+      }
+   },
+   {
+      "name":"Insel Air",
+      "code":"7I",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Insel Air"
+      }
+   },
+   {
+      "name":"Air Canada",
+      "code":"AC",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Canada"
+      }
+   },
+   {
+      "name":"Alliance Air",
+      "code":"9I",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Alliance Air"
+      }
+   },
+   {
+      "name":"Uganda Airlines",
+      "code":"UR",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Uganda Airlines"
+      }
+   },
+   {
+      "name":"Hong Kong Express Airways",
+      "code":"UO",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Hong Kong Express Airways"
+      }
+   },
+   {
+      "name":"Swoop",
+      "code":"WO",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Swoop"
+      }
+   },
+   {
+      "name":"Telair International GmbH",
+      "code":"T8",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Telair International GmbH"
+      }
+   },
+   {
+      "name":"Angara Airlines",
+      "code":"2G",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Angara Airlines"
+      }
+   },
+   {
+      "name":"Alaska Seaplane",
+      "code":"J5",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Alaska Seaplane"
+      }
+   },
+   {
+      "name":"Jin Air",
+      "code":"LJ",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Jin Air"
+      }
+   },
+   {
+      "name":"Cityjet",
+      "code":"WX",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Cityjet"
+      }
+   },
+   {
+      "name":"Nextjet",
+      "code":"2N",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Nextjet"
+      }
+   },
+   {
+      "name":"Major Airline",
+      "code":"XX",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Major Airline"
+      }
+   },
+   {
+      "name":"Airlines PNG",
+      "code":"CG",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Airlines PNG"
+      }
+   },
+   {
+      "name":"Afghan Jet International",
+      "code":"HN",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Afghan Jet International"
+      }
+   },
+   {
+      "name":"Transavia Denmark",
+      "code":"PH",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Transavia Denmark"
+      }
+   },
+   {
+      "name":"Anguilla Air Services, Ltd",
+      "code":"Q3",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Anguilla Air Services, Ltd"
+      }
+   },
+   {
+      "name":"Yeti Airlines Domestic Pvt. Ltd.",
+      "code":"YT",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Yeti Airlines Domestic Pvt. Ltd."
+      }
+   },
+   {
+      "name":"B\u0026H Airlines",
+      "code":"JA",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"B\u0026H Airlines"
+      }
+   },
+   {
+      "name":"Mesa Airlines",
+      "code":"YV",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Mesa Airlines"
+      }
+   },
+   {
+      "name":"Zagros Air Co.",
+      "code":"Z4",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Zagros Air Co."
+      }
+   },
+   {
+      "name":"PM Air LLC",
+      "code":"Z3",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"PM Air LLC"
+      }
+   },
+   {
+      "name":"Orange Air, LLCN/A",
+      "code":"O3",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Orange Air, LLCN/A"
+      }
+   },
+   {
+      "name":"Apsara International Air",
+      "code":"IP",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Apsara International Air"
+      }
+   },
+   {
+      "name":"Air Nostrum",
+      "code":"YW",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Nostrum"
+      }
+   },
+   {
+      "name":"Brindabella Airlines",
+      "code":"FQ",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Brindabella Airlines"
+      }
+   },
+   {
+      "name":"Hainan Airlines",
+      "code":"HU",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Hainan Airlines"
+      }
+   },
+   {
+      "name":"Turkmenistan Airlines",
+      "code":"T5",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Turkmenistan Airlines"
+      }
+   },
+   {
+      "name":"TAP Portugal",
+      "code":"TP",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"TAP Portugal"
+      }
+   },
+   {
+      "name":"Icelandair",
+      "code":"FI",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Icelandair"
+      }
+   },
+   {
+      "name":"Azur Air",
+      "code":"ZF",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Azur Air"
+      }
+   },
+   {
+      "name":"Air Via Ltd.",
+      "code":"VL",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Via Ltd."
+      }
+   },
+   {
+      "name":"Air Busan",
+      "code":"BX",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Air Busan"
+      }
+   },
+   {
+      "name":"Air Corsica",
+      "code":"XK",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Corsica"
+      }
+   },
+   {
+      "name":"Solomon Airlines",
+      "code":"IE",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Solomon Airlines"
+      }
+   },
+   {
+      "name":"Eva Air",
+      "code":"BR",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Eva Air"
+      }
+   },
+   {
+      "name":"Aeropelican Air Services",
+      "code":"OT",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Aeropelican Air Services"
+      }
+   },
+   {
+      "name":"Air Alps Aviation",
+      "code":"A6",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Alps Aviation"
+      }
+   },
+   {
+      "name":"Orenair",
+      "code":"R2",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Orenair"
+      }
+   },
+   {
+      "name":"Volga-Dnepr Airlines",
+      "code":"VI",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Volga-Dnepr Airlines"
+      }
+   },
+   {
+      "name":"Tibet Airlines",
+      "code":"TV",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Tibet Airlines"
+      }
+   },
+   {
+      "name":"Air City",
+      "code":"4F",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air City"
+      }
+   },
+   {
+      "name":"Vision Airlines",
+      "code":"V2",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Vision Airlines"
+      }
+   },
+   {
+      "name":"Westair Aviation",
+      "code":"WV",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Westair Aviation"
+      }
+   },
+   {
+      "name":"SalamAir",
+      "code":"OV",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"SalamAir"
+      }
+   },
+   {
+      "name":"Hex Air",
+      "code":"UD",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Hex Air"
+      }
+   },
+   {
+      "name":"Royal Nepal Airlines",
+      "code":"RA",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Royal Nepal Airlines"
+      }
+   },
+   {
+      "name":"Cape Air",
+      "code":"9K",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Cape Air"
+      }
+   },
+   {
+      "name":"Aruba Airlines",
+      "code":"AG",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Aruba Airlines"
+      }
+   },
+   {
+      "name":"Thomas Cook Airlines Belgium",
+      "code":"HQ",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Thomas Cook Airlines Belgium"
+      }
+   },
+   {
+      "name":"Spring Airlines Japan",
+      "code":"IJ",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Spring Airlines Japan"
+      }
+   },
+   {
+      "name":"ITA Airways",
+      "code":"AZ",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"ITA Airways"
+      }
+   },
+   {
+      "name":"Air Wisconsin Airlines Corporation(AWAC)",
+      "code":"ZW",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Wisconsin Airlines Corporation(AWAC)"
+      }
+   },
+   {
+      "name":"Compagnie Africaine d'Aviation",
+      "code":"BU",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Compagnie Africaine d'Aviation"
+      }
+   },
+   {
+      "name":"Southern Air Inc.",
+      "code":"9S",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Southern Air Inc."
+      }
+   },
+   {
+      "name":"SUN-AIR",
+      "code":"ZU",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"SUN-AIR"
+      }
+   },
+   {
+      "name":"Olympic Air",
+      "code":"OA",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Olympic Air"
+      }
+   },
+   {
+      "name":"Royal Jordanian",
+      "code":"RJ",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Royal Jordanian"
+      }
+   },
+   {
+      "name":"Hydro - Quebec",
+      "code":"0Q",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Hydro - Quebec"
+      }
+   },
+   {
+      "name":"Nas Air",
+      "code":"XY",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Nas Air"
+      }
+   },
+   {
+      "name":"STP Airways",
+      "code":"8F",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"STP Airways"
+      }
+   },
+   {
+      "name":"Ibex Airlines",
+      "code":"FW",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Ibex Airlines"
+      }
+   },
+   {
+      "name":"ULS Airlines Cargo",
+      "code":"GO",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"ULS Airlines Cargo"
+      }
+   },
+   {
+      "name":"Tigerair Mandala",
+      "code":"RI",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Tigerair Mandala"
+      }
+   },
+   {
+      "name":"Lucky Air",
+      "code":"8L",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Lucky Air"
+      }
+   },
+   {
+      "name":"IATA - Clearing HouseInternational Air Transport Association",
+      "code":"XB",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"IATA - Clearing HouseInternational Air Transport Association"
+      }
+   },
+   {
+      "name":"Corsair International",
+      "code":"SS",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Corsair International"
+      }
+   },
+   {
+      "name":"Andes Lineas Aereas",
+      "code":"OY",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Andes Lineas Aereas"
+      }
+   },
+   {
+      "name":"Air Mandalay",
+      "code":"6T",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Mandalay"
+      }
+   },
+   {
+      "name":"Airmax S.A.",
+      "code":"X8",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Airmax S.A."
+      }
+   },
+   {
+      "name":"Jatayu Airlines",
+      "code":"JZ",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Jatayu Airlines"
+      }
+   },
+   {
+      "name":"Starbow",
+      "code":"S9",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Starbow"
+      }
+   },
+   {
+      "name":"Thomas Cook Airlines Scandinavia",
+      "code":"DK",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Thomas Cook Airlines Scandinavia"
+      }
+   },
+   {
+      "name":"HOP!",
+      "code":"AN",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"HOP!"
+      }
+   },
+   {
+      "name":"Vuelos Economicos Centroamericanos",
+      "code":"VU",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Vuelos Economicos Centroamericanos"
+      }
+   },
+   {
+      "name":"Iran Air Tours",
+      "code":"B9",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Iran Air Tours"
+      }
+   },
+   {
+      "name":"Kenn Borek Air Ltd.",
+      "code":"4K",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Kenn Borek Air Ltd."
+      }
+   },
+   {
+      "name":"Aeronautical Telecommunications Ltd.(AEROTEL)",
+      "code":"XI",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Aeronautical Telecommunications Ltd.(AEROTEL)"
+      }
+   },
+   {
+      "name":"Jetairfly",
+      "code":"TB",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Jetairfly"
+      }
+   },
+   {
+      "name":"Empire Airlines",
+      "code":"EM",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Empire Airlines"
+      }
+   },
+   {
+      "name":"Proflight Zambia",
+      "code":"P0",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Proflight Zambia"
+      }
+   },
+   {
+      "name":"LAN Express",
+      "code":"LU",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"LAN Express"
+      }
+   },
+   {
+      "name":"Eritrean Airlines",
+      "code":"B8",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Eritrean Airlines"
+      }
+   },
+   {
+      "name":"Nature Air",
+      "code":"5C",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Nature Air"
+      }
+   },
+   {
+      "name":"Nile Air",
+      "code":"NP",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Nile Air"
+      }
+   },
+   {
+      "name":"BH Air",
+      "code":"8H",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"BH Air"
+      }
+   },
+   {
+      "name":"Pascan Aviation",
+      "code":"P6",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Pascan Aviation"
+      }
+   },
+   {
+      "name":"Atlantis European Airways",
+      "code":"TD",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Atlantis European Airways"
+      }
+   },
+   {
+      "name":"Tradewind Aviation",
+      "code":"TJ",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Tradewind Aviation"
+      }
+   },
+   {
+      "name":"Volaris",
+      "code":"Y4",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Volaris"
+      }
+   },
+   {
+      "name":"INFINI Travel Information, Inc.",
+      "code":"1F",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"INFINI Travel Information, Inc."
+      }
+   },
+   {
+      "name":"Caribbean Airlines",
+      "code":"BW",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Caribbean Airlines"
+      }
+   },
+   {
+      "name":"Lodyssey",
+      "code":"0L",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Lodyssey"
+      }
+   },
+   {
+      "name":"Qazaq Air",
+      "code":"IQ",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Qazaq Air"
+      }
+   },
+   {
+      "name":"Air Arabia",
+      "code":"G9",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Air Arabia"
+      }
+   },
+   {
+      "name":"DHL Air Limited",
+      "code":"D0",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"DHL Air Limited"
+      }
+   },
+   {
+      "name":"Tigerair Taiwan",
+      "code":"IT",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Tigerair Taiwan"
+      }
+   },
+   {
+      "name":"Aer Lingus",
+      "code":"EI",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Aer Lingus"
+      }
+   },
+   {
+      "name":"Air Arabia Jordan",
+      "code":"9P",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Air Arabia Jordan"
+      }
+   },
+   {
+      "name":"Japan Transocean Air",
+      "code":"NU",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Japan Transocean Air"
+      }
+   },
+   {
+      "name":"Tiara Air Aruba",
+      "code":"3P",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Tiara Air Aruba"
+      }
+   },
+   {
+      "name":"Air Côte d'Ivoire",
+      "code":"HF",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Côte d'Ivoire"
+      }
+   },
+   {
+      "name":"Air Rarotonga",
+      "code":"GZ",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Rarotonga"
+      }
+   },
+   {
+      "name":"Aerorepublica",
+      "code":"P5",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Aerorepublica"
+      }
+   },
+   {
+      "name":"Finnair",
+      "code":"AY",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Finnair"
+      }
+   },
+   {
+      "name":"Bamboo Airways",
+      "code":"QH",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Bamboo Airways"
+      }
+   },
+   {
+      "name":"LATAM Paraguay",
+      "code":"PZ",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"LATAM Paraguay"
+      }
+   },
+   {
+      "name":"Swiss International Air Lines",
+      "code":"LX",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Swiss International Air Lines"
+      }
+   },
+   {
+      "name":"Air Algerie",
+      "code":"AH",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Algerie"
+      }
+   },
+   {
+      "name":"Axess International Network Inc.",
+      "code":"1J",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Axess International Network Inc."
+      }
+   },
+   {
+      "name":"Virgin Australia",
+      "code":"XR",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Virgin Australia"
+      }
+   },
+   {
+      "name":"Sansa Airlines",
+      "code":"RZ",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Sansa Airlines"
+      }
+   },
+   {
+      "name":"Biman Bangladesh Airlines",
+      "code":"BG",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Biman Bangladesh Airlines"
+      }
+   },
+   {
+      "name":"Mahan Airlines",
+      "code":"W5",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Mahan Airlines"
+      }
+   },
+   {
+      "name":"Aerolink Uganda Limited",
+      "code":"A8",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Aerolink Uganda Limited"
+      }
+   },
+   {
+      "name":"Atlantic Airways",
+      "code":"RC",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Atlantic Airways"
+      }
+   },
+   {
+      "name":"Cyprus Airways",
+      "code":"CY",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Cyprus Airways"
+      }
+   },
+   {
+      "name":"Trans Air Congo",
+      "code":"Q8",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Trans Air Congo"
+      }
+   },
+   {
+      "name":"SKOL",
+      "code":"СД",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"SKOL"
+      }
+   },
+   {
+      "name":"Windrose Airlines",
+      "code":"7W",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Windrose Airlines"
+      }
+   },
+   {
+      "name":"Azul Brazilian Airlines",
+      "code":"AD",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Azul Brazilian Airlines"
+      }
+   },
+   {
+      "name":"Thomson Airways",
+      "code":"BY",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Thomson Airways"
+      }
+   },
+   {
+      "name":"Level",
+      "code":"VK",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Level"
+      }
+   },
+   {
+      "name":"AirAsia Zest",
+      "code":"Z2",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"AirAsia Zest"
+      }
+   },
+   {
+      "name":"Air Dolomiti",
+      "code":"EN",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Dolomiti"
+      }
+   },
+   {
+      "name":"Jet Airways Inc.",
+      "code":"QJ",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Jet Airways Inc."
+      }
+   },
+   {
+      "name":"Kish Airlines",
+      "code":"Y9",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Kish Airlines"
+      }
+   },
+   {
+      "name":"Blue Islands",
+      "code":"SI",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Blue Islands"
+      }
+   },
+   {
+      "name":"Vista Georgia",
+      "code":"GT",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Vista Georgia"
+      }
+   },
+   {
+      "name":"NAM Air",
+      "code":"IN",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"NAM Air"
+      }
+   },
+   {
+      "name":"Maluti Sky",
+      "code":"7D",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Maluti Sky"
+      }
+   },
+   {
+      "name":"Batik Air",
+      "code":"ID",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Batik Air"
+      }
+   },
+   {
+      "name":"Quikjet Cargo Airlines Pvt. Ltd",
+      "code":"QO",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Quikjet Cargo Airlines Pvt. Ltd"
+      }
+   },
+   {
+      "name":"Global Aviation Services Group",
+      "code":"5S",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Global Aviation Services Group"
+      }
+   },
+   {
+      "name":"Nordic Regional Airline",
+      "code":"N7",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Nordic Regional Airline"
+      }
+   },
+   {
+      "name":"Sharp Airlines",
+      "code":"SH",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Sharp Airlines"
+      }
+   },
+   {
+      "name":"Twin Jet",
+      "code":"T7",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Twin Jet"
+      }
+   },
+   {
+      "name":"Condor",
+      "code":"DF",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Condor"
+      }
+   },
+   {
+      "name":"Aserca Airlines",
+      "code":"R7",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Aserca Airlines"
+      }
+   },
+   {
+      "name":"Amaszonas",
+      "code":"Z7",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Amaszonas"
+      }
+   },
+   {
+      "name":"Wings of Lebanon S.a.l",
+      "code":"W7",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Wings of Lebanon S.a.l"
+      }
+   },
+   {
+      "name":"Airlink",
+      "code":"4Z",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Airlink"
+      }
+   },
+   {
+      "name":"Ethiopian Airlines",
+      "code":"ET",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Ethiopian Airlines"
+      }
+   },
+   {
+      "name":"Meraj Air",
+      "code":"JI",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Meraj Air"
+      }
+   },
+   {
+      "name":"Ural Airlines",
+      "code":"U6",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Ural Airlines"
+      }
+   },
+   {
+      "name":"LASER Airlines",
+      "code":"QL",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"LASER Airlines"
+      }
+   },
+   {
+      "name":"Binter Canarias",
+      "code":"NT",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Binter Canarias"
+      }
+   },
+   {
+      "name":"Cathay Pacific",
+      "code":"CX",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Cathay Pacific"
+      }
+   },
+   {
+      "name":"Moldavian Airlines",
+      "code":"2M",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Moldavian Airlines"
+      }
+   },
+   {
+      "name":"HiSky",
+      "code":"H4",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"HiSky"
+      }
+   },
+   {
+      "name":"Bek Air",
+      "code":"Z9",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Bek Air"
+      }
+   },
+   {
+      "name":"AirAsia India",
+      "code":"I5",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"AirAsia India"
+      }
+   },
+   {
+      "name":"ALROSA",
+      "code":"6R",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"ALROSA"
+      }
+   },
+   {
+      "name":"Go!",
+      "code":"G8",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Go!"
+      }
+   },
+   {
+      "name":"Laparkan Airways, Inc.",
+      "code":"LE",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Laparkan Airways, Inc."
+      }
+   },
+   {
+      "name":"As Avies",
+      "code":"U3",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"As Avies"
+      }
+   },
+   {
+      "name":"Niger Airlines",
+      "code":"6N",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Niger Airlines"
+      }
+   },
+   {
+      "name":"Flair Airlines Ltd.",
+      "code":"F8",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Flair Airlines Ltd."
+      }
+   },
+   {
+      "name":"Australian Airlines",
+      "code":"AO",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Australian Airlines"
+      }
+   },
+   {
+      "name":"Air Burkina",
+      "code":"2J",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Burkina"
+      }
+   },
+   {
+      "name":"Jonika Airlines",
+      "code":"JO",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Jonika Airlines"
+      }
+   },
+   {
+      "name":"Shandong Airlines",
+      "code":"SC",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Shandong Airlines"
+      }
+   },
+   {
+      "name":"Alaska Airlines",
+      "code":"AS",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Alaska Airlines"
+      }
+   },
+   {
+      "name":"RwandAir",
+      "code":"WB",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"RwandAir"
+      }
+   },
+   {
+      "name":"Air Georgian Ltd. dba Air Alliance",
+      "code":"ZX",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Georgian Ltd. dba Air Alliance"
+      }
+   },
+   {
+      "name":"Avior Airlines",
+      "code":"9V",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Avior Airlines"
+      }
+   },
+   {
+      "name":"Ningxia Cargo Airlines CO.,LTD",
+      "code":"HT",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Ningxia Cargo Airlines CO.,LTD"
+      }
+   },
+   {
+      "name":"E-Savtravel",
+      "code":"L1",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"E-Savtravel"
+      }
+   },
+   {
+      "name":"EgyptAir",
+      "code":"MS",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"EgyptAir"
+      }
+   },
+   {
+      "name":"8165343 Canada Inc. dba Air Canada rouge",
+      "code":"RV",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"8165343 Canada Inc. dba Air Canada rouge"
+      }
+   },
+   {
+      "name":"Air Italy",
+      "code":"IG",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Air Italy"
+      }
+   },
+   {
+      "name":"China Southern Airlines",
+      "code":"CZ",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"China Southern Airlines"
+      }
+   },
+   {
+      "name":"Miami Air Lease, Inc.",
+      "code":"MG",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Miami Air Lease, Inc."
+      }
+   },
+   {
+      "name":"Juneyao Airlines",
+      "code":"HO",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Juneyao Airlines"
+      }
+   },
+   {
+      "name":"Norwegian Air",
+      "code":"DN",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Norwegian Air"
+      }
+   },
+   {
+      "name":"ExpressJet",
+      "code":"XE",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"ExpressJet"
+      }
+   },
+   {
+      "name":"Philippine Airlines",
+      "code":"PR",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Philippine Airlines"
+      }
+   },
+   {
+      "name":"ANA Wings",
+      "code":"EH",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"ANA Wings"
+      }
+   },
+   {
+      "name":"SkyUp Airlines",
+      "code":"PQ",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"SkyUp Airlines"
+      }
+   },
+   {
+      "name":"Videcom International Limited",
+      "code":"U1",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Videcom International Limited"
+      }
+   },
+   {
+      "name":"Air Mauritius",
+      "code":"MK",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Mauritius"
+      }
+   },
+   {
+      "name":"Air Zimbabwe",
+      "code":"UM",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Zimbabwe"
+      }
+   },
+   {
+      "name":"Berjaya Air",
+      "code":"J8",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Berjaya Air"
+      }
+   },
+   {
+      "name":"Iberia Express",
+      "code":"I2",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Iberia Express"
+      }
+   },
+   {
+      "name":"Charter Air Transport, Inc.",
+      "code":"VC",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Charter Air Transport, Inc."
+      }
+   },
+   {
+      "name":"Sudan Airways",
+      "code":"SD",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Sudan Airways"
+      }
+   },
+   {
+      "name":"Aero VIP",
+      "code":"NJ",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Aero VIP"
+      }
+   },
+   {
+      "name":"Tigerair Australia",
+      "code":"TT",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Tigerair Australia"
+      }
+   },
+   {
+      "name":"Sabre Inc.",
+      "code":"1S",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Sabre Inc."
+      }
+   },
+   {
+      "name":"Bhutan Airlines",
+      "code":"B3",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Bhutan Airlines"
+      }
+   },
+   {
+      "name":"Air Arabia Abu Dhabi",
+      "code":"3L",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Arabia Abu Dhabi"
+      }
+   },
+   {
+      "name":"US Airways",
+      "code":"US",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"US Airways"
+      }
+   },
+   {
+      "name":"Solaseed Air",
+      "code":"6J",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Solaseed Air"
+      }
+   },
+   {
+      "name":"Joy Air",
+      "code":"JR",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Joy Air"
+      }
+   },
+   {
+      "name":"Motor Sich Airlines",
+      "code":"M9",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Motor Sich Airlines"
+      }
+   },
+   {
+      "name":"Hong Kong Airlines",
+      "code":"HX",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Hong Kong Airlines"
+      }
+   },
+   {
+      "name":"Air Europa",
+      "code":"UX",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Europa"
+      }
+   },
+   {
+      "name":"Aerolitoral S.A. de C.V.",
+      "code":"5D",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Aerolitoral S.A. de C.V."
+      }
+   },
+   {
+      "name":"Orbest",
+      "code":"6O",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Orbest"
+      }
+   },
+   {
+      "name":"airblue",
+      "code":"PA",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"airblue"
+      }
+   },
+   {
+      "name":"BA Cityflyer",
+      "code":"CJ",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"BA Cityflyer"
+      }
+   },
+   {
+      "name":"Douniah Airlines",
+      "code":"DH",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Douniah Airlines"
+      }
+   },
+   {
+      "name":"Atlas Global Airlines",
+      "code":"KK",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Atlas Global Airlines"
+      }
+   },
+   {
+      "name":"HiSky",
+      "code":"H7",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"HiSky"
+      }
+   },
+   {
+      "name":"Pacific Wings",
+      "code":"LW",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Pacific Wings"
+      }
+   },
+   {
+      "name":"Belavia",
+      "code":"B2",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Belavia"
+      }
+   },
+   {
+      "name":"People's Viennaline",
+      "code":"PE",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"People's Viennaline"
+      }
+   },
+   {
+      "name":"Abacus International Pte. Ltd.",
+      "code":"1B",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Abacus International Pte. Ltd."
+      }
+   },
+   {
+      "name":"Sunday Express",
+      "code":"0S",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Sunday Express"
+      }
+   },
+   {
+      "name":"Private Wings",
+      "code":"8W",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Private Wings"
+      }
+   },
+   {
+      "name":"Mexicana de Aviación",
+      "code":"MX",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Mexicana de Aviación"
+      }
+   },
+   {
+      "name":"Air Tanzania",
+      "code":"TC",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Tanzania"
+      }
+   },
+   {
+      "name":"Martinair",
+      "code":"MP",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Martinair"
+      }
+   },
+   {
+      "name":"Passaredo Transportes Aereos S.A.",
+      "code":"2Z",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Passaredo Transportes Aereos S.A."
+      }
+   },
+   {
+      "name":"MAYAir",
+      "code":"7M",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"MAYAir"
+      }
+   },
+   {
+      "name":"FlyCorporate",
+      "code":"FC",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"FlyCorporate"
+      }
+   },
+   {
+      "name":"Air KBZ",
+      "code":"K7",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air KBZ"
+      }
+   },
+   {
+      "name":"ATA Airlines",
+      "code":"I3",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"ATA Airlines"
+      }
+   },
+   {
+      "name":"Transportes Aéreos Regionales",
+      "code":"5U",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Transportes Aéreos Regionales"
+      }
+   },
+   {
+      "name":"Tatarstan Airlines",
+      "code":"U9",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Tatarstan Airlines"
+      }
+   },
+   {
+      "name":"Air Arabia Maroc",
+      "code":"3O",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Air Arabia Maroc"
+      }
+   },
+   {
+      "name":"East African Safari Air",
+      "code":"B5",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"East African Safari Air"
+      }
+   },
+   {
+      "name":"Armenia Airways",
+      "code":"ЕП",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Armenia Airways"
+      }
+   },
+   {
+      "name":"JETGO Australia",
+      "code":"JG",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"JETGO Australia"
+      }
+   },
+   {
+      "name":"Freebird Airlines",
+      "code":"FH",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Freebird Airlines"
+      }
+   },
+   {
+      "name":"Afrijet Business Service",
+      "code":"J7",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Afrijet Business Service"
+      }
+   },
+   {
+      "name":"Tianjin Airlines",
+      "code":"GS",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Tianjin Airlines"
+      }
+   },
+   {
+      "name":"Air Madagascar",
+      "code":"MD",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Madagascar"
+      }
+   },
+   {
+      "name":"Air Vanuatu",
+      "code":"NF",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Vanuatu"
+      }
+   },
+   {
+      "name":"TNT Airways",
+      "code":"3V",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"TNT Airways"
+      }
+   },
+   {
+      "name":"Everts Air Cargo",
+      "code":"5V",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Everts Air Cargo"
+      }
+   },
+   {
+      "name":"Uni Air",
+      "code":"B7",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Uni Air"
+      }
+   },
+   {
+      "name":"Southern Sky",
+      "code":"IH",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Southern Sky"
+      }
+   },
+   {
+      "name":"Cargojet Airways Ltd.",
+      "code":"W8",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Cargojet Airways Ltd."
+      }
+   },
+   {
+      "name":"Air Cargo Germany",
+      "code":"6U",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Cargo Germany"
+      }
+   },
+   {
+      "name":"Japan Airlines",
+      "code":"JL",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Japan Airlines"
+      }
+   },
+   {
+      "name":"MIAT Mongolian Airlines",
+      "code":"OM",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"MIAT Mongolian Airlines"
+      }
+   },
+   {
+      "name":"Shaheen Air",
+      "code":"NL",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Shaheen Air"
+      }
+   },
+   {
+      "name":"Sichuan Airlines",
+      "code":"3U",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Sichuan Airlines"
+      }
+   },
+   {
+      "name":"Felix Airways",
+      "code":"FO",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Felix Airways"
+      }
+   },
+   {
+      "name":"Lufthansa Systems",
+      "code":"S1",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Lufthansa Systems"
+      }
+   },
+   {
+      "name":"Bangkok Airways",
+      "code":"PG",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Bangkok Airways"
+      }
+   },
+   {
+      "name":"Starlink Aviation",
+      "code":"Q4",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Starlink Aviation"
+      }
+   },
+   {
+      "name":"Auric Air Services Limited",
+      "code":"UI",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Auric Air Services Limited"
+      }
+   },
+   {
+      "name":"Santa Barbara Airlines",
+      "code":"S3",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Santa Barbara Airlines"
+      }
+   },
+   {
+      "name":"Eurolot",
+      "code":"K2",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Eurolot"
+      }
+   },
+   {
+      "name":"Tajik Air",
+      "code":"7J",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Tajik Air"
+      }
+   },
+   {
+      "name":"Izhavia",
+      "code":"I8",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Izhavia"
+      }
+   },
+   {
+      "name":"South African Airways",
+      "code":"SA",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"South African Airways"
+      }
+   },
+   {
+      "name":"Firefly",
+      "code":"FY",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Firefly"
+      }
+   },
+   {
+      "name":"Cebu Pacific",
+      "code":"5J",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Cebu Pacific"
+      }
+   },
+   {
+      "name":"Insel Air",
+      "code":"8I",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Insel Air"
+      }
+   },
+   {
+      "name":"Premier Airlines",
+      "code":"0M",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Premier Airlines"
+      }
+   },
+   {
+      "name":"Warbelow's Air Ventures",
+      "code":"4W",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Warbelow's Air Ventures"
+      }
+   },
+   {
+      "name":"Cobham Aviation Services Australia",
+      "code":"NC",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Cobham Aviation Services Australia"
+      }
+   },
+   {
+      "name":"Air Caledonie",
+      "code":"TY",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Caledonie"
+      }
+   },
+   {
+      "name":"Trenitalia",
+      "code":"7T",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Trenitalia"
+      }
+   },
+   {
+      "name":"Swiftair",
+      "code":"WT",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Swiftair"
+      }
+   },
+   {
+      "name":"Sun d'Or International Airlines",
+      "code":"2U",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Sun d'Or International Airlines"
+      }
+   },
+   {
+      "name":"Malawian Airlines",
+      "code":"3W",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Malawian Airlines"
+      }
+   },
+   {
+      "name":"Air Sunshine Inc.",
+      "code":"YI",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Sunshine Inc."
+      }
+   },
+   {
+      "name":"Israir Airlines",
+      "code":"6H",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Israir Airlines"
+      }
+   },
+   {
+      "name":"AirAsia Japan",
+      "code":"DJ",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"AirAsia Japan"
+      }
+   },
+   {
+      "name":"Cronos Airlines",
+      "code":"C8",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Cronos Airlines"
+      }
+   },
+   {
+      "name":"Skywings Asia Airlines Co., Ltd.",
+      "code":"ZA",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Skywings Asia Airlines Co., Ltd."
+      }
+   },
+   {
+      "name":"VIA Rail Canada Inc.",
+      "code":"2R",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"VIA Rail Canada Inc."
+      }
+   },
+   {
+      "name":"US-Bangla Airlines",
+      "code":"BS",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"US-Bangla Airlines"
+      }
+   },
+   {
+      "name":"Libyan Airlines",
+      "code":"LN",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Libyan Airlines"
+      }
+   },
+   {
+      "name":"StarFlyer",
+      "code":"7G",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"StarFlyer"
+      }
+   },
+   {
+      "name":"NOVA Airlines",
+      "code":"O9",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"NOVA Airlines"
+      }
+   },
+   {
+      "name":"Ultimate Jetcharters",
+      "code":"UE",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Ultimate Jetcharters"
+      }
+   },
+   {
+      "name":"Linear Air",
+      "code":"O2",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Linear Air"
+      }
+   },
+   {
+      "name":"Heli Air Monaco",
+      "code":"YO",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Heli Air Monaco"
+      }
+   },
+   {
+      "name":"Air Austral",
+      "code":"UU",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Austral"
+      }
+   },
+   {
+      "name":"Cubana de Aviación",
+      "code":"CU",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Cubana de Aviación"
+      }
+   },
+   {
+      "name":"Navitaire",
+      "code":"1N",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Navitaire"
+      }
+   },
+   {
+      "name":"IHY Izmir Havayollari A.S.",
+      "code":"4I",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"IHY Izmir Havayollari A.S."
+      }
+   },
+   {
+      "name":"Copa Airlines",
+      "code":"CM",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Copa Airlines"
+      }
+   },
+   {
+      "name":"Dniproavia",
+      "code":"Z6",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Dniproavia"
+      }
+   },
+   {
+      "name":"Panama Airways",
+      "code":"8A",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Panama Airways"
+      }
+   },
+   {
+      "name":"Air France",
+      "code":"AF",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air France"
+      }
+   },
+   {
+      "name":"Adria Airways",
+      "code":"JP",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Adria Airways"
+      }
+   },
+   {
+      "name":"Gazpromavia",
+      "code":"4G",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Gazpromavia"
+      }
+   },
+   {
+      "name":"HOP!",
+      "code":"YS",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"HOP!"
+      }
+   },
+   {
+      "name":"Neos",
+      "code":"NO",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Neos"
+      }
+   },
+   {
+      "name":"FITS Aviation (Pvt) Ltd",
+      "code":"8D",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"FITS Aviation (Pvt) Ltd"
+      }
+   },
+   {
+      "name":"AIR CAIRO",
+      "code":"SM",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"AIR CAIRO"
+      }
+   },
+   {
+      "name":"Peruvian Airlines",
+      "code":"P9",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Peruvian Airlines"
+      }
+   },
+   {
+      "name":"Sqiva Sistem",
+      "code":"Q1",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Sqiva Sistem"
+      }
+   },
+   {
+      "name":"Air Kiribati Limited",
+      "code":"IK",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Kiribati Limited"
+      }
+   },
+   {
+      "name":"China West Air",
+      "code":"PN",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"China West Air"
+      }
+   },
+   {
+      "name":"Provincial Airlines",
+      "code":"PB",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Provincial Airlines"
+      }
+   },
+   {
+      "name":"Iberia",
+      "code":"IB",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Iberia"
+      }
+   },
+   {
+      "name":"Middle East Airlines",
+      "code":"ME",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Middle East Airlines"
+      }
+   },
+   {
+      "name":"Wamos Air",
+      "code":"EB",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Wamos Air"
+      }
+   },
+   {
+      "name":"Scoot",
+      "code":"TZ",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Scoot"
+      }
+   },
+   {
+      "name":"Villa Air Pvt. Ltd. dba Villa Air",
+      "code":"VP",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Villa Air Pvt. Ltd. dba Villa Air"
+      }
+   },
+   {
+      "name":"Tayaran Jet",
+      "code":"E8",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Tayaran Jet"
+      }
+   },
+   {
+      "name":"Airnorth",
+      "code":"TL",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Airnorth"
+      }
+   },
+   {
+      "name":"Lynx Aviation",
+      "code":"L3",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Lynx Aviation"
+      }
+   },
+   {
+      "name":"PT. My Indo Airlines",
+      "code":"2Y",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"PT. My Indo Airlines"
+      }
+   },
+   {
+      "name":"Bees Airline",
+      "code":"7B",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Bees Airline"
+      }
+   },
+   {
+      "name":"Skippers Aviation",
+      "code":"HK",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Skippers Aviation"
+      }
+   },
+   {
+      "name":"Caicos Express Airways",
+      "code":"9Q",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Caicos Express Airways"
+      }
+   },
+   {
+      "name":"Brussels Airlines",
+      "code":"SN",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Brussels Airlines"
+      }
+   },
+   {
+      "name":"Air Jet",
+      "code":"7A",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Jet"
+      }
+   },
+   {
+      "name":"Valuair",
+      "code":"VF",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Valuair"
+      }
+   },
+   {
+      "name":"Srilankan Airlines",
+      "code":"UL",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Srilankan Airlines"
+      }
+   },
+   {
+      "name":"Afrinat International Airlines",
+      "code":"2F",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Afrinat International Airlines"
+      }
+   },
+   {
+      "name":"Sun Air Express",
+      "code":"6G",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Sun Air Express"
+      }
+   },
+   {
+      "name":"Travel Service Slovensko",
+      "code":"6D",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Travel Service Slovensko"
+      }
+   },
+   {
+      "name":"SATA Air Acores",
+      "code":"SP",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"SATA Air Acores"
+      }
+   },
+   {
+      "name":"Spirit Airlines",
+      "code":"NK",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Spirit Airlines"
+      }
+   },
+   {
+      "name":"Ariana Afghan Airlines",
+      "code":"FG",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Ariana Afghan Airlines"
+      }
+   },
+   {
+      "name":"Vietnam Airlines",
+      "code":"VN",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Vietnam Airlines"
+      }
+   },
+   {
+      "name":"Kartika Airlines",
+      "code":"3Y",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Kartika Airlines"
+      }
+   },
+   {
+      "name":"Air Antilles Express",
+      "code":"3S",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Antilles Express"
+      }
+   },
+   {
+      "name":"Aerocaribbean",
+      "code":"7L",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Aerocaribbean"
+      }
+   },
+   {
+      "name":"Avior Airlines",
+      "code":"3R",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Avior Airlines"
+      }
+   },
+   {
+      "name":"Nouvelair",
+      "code":"BJ",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Nouvelair"
+      }
+   },
+   {
+      "name":"Manx2",
+      "code":"NM",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Manx2"
+      }
+   },
+   {
+      "name":"Beijing Capital Airlines",
+      "code":"JD",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Beijing Capital Airlines"
+      }
+   },
+   {
+      "name":"Evelop Airlines",
+      "code":"E9",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Evelop Airlines"
+      }
+   },
+   {
+      "name":"Royal Air Maroc",
+      "code":"AT",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Royal Air Maroc"
+      }
+   },
+   {
+      "name":"French Blue",
+      "code":"BF",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"French Blue"
+      }
+   },
+   {
+      "name":"Passaredo Linhas Aereas",
+      "code":"P3",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Passaredo Linhas Aereas"
+      }
+   },
+   {
+      "name":"FlexFlight",
+      "code":"W2",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"FlexFlight"
+      }
+   },
+   {
+      "name":"Ghadames Air Transport",
+      "code":"G6",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Ghadames Air Transport"
+      }
+   },
+   {
+      "name":"HOP!",
+      "code":"A5",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"HOP!"
+      }
+   },
+   {
+      "name":"Aerogaviota",
+      "code":"KG",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Aerogaviota"
+      }
+   },
+   {
+      "name":"Vladivostok Air",
+      "code":"XF",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Vladivostok Air"
+      }
+   },
+   {
+      "name":"Qatar Airways",
+      "code":"QR",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Qatar Airways"
+      }
+   },
+   {
+      "name":"V Air Corporation",
+      "code":"ZV",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"V Air Corporation"
+      }
+   },
+   {
+      "name":"Lynden Air Cargo, LLC",
+      "code":"L2",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Lynden Air Cargo, LLC"
+      }
+   },
+   {
+      "name":"Air Lituanica",
+      "code":"LT",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Lituanica"
+      }
+   },
+   {
+      "name":"Air One",
+      "code":"AP",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air One"
+      }
+   },
+   {
+      "name":"Jiangxi Air",
+      "code":"RY",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Jiangxi Air"
+      }
+   },
+   {
+      "name":"Garuda Indonesia",
+      "code":"GA",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Garuda Indonesia"
+      }
+   },
+   {
+      "name":"Sylt Air GmbH",
+      "code":"7E",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Sylt Air GmbH"
+      }
+   },
+   {
+      "name":"Regional Jet OÜ",
+      "code":"EE",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Regional Jet OÜ"
+      }
+   },
+   {
+      "name":"One Jet, Inc.",
+      "code":"J1",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"One Jet, Inc."
+      }
+   },
+   {
+      "name":"Air Botswana",
+      "code":"BP",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Botswana"
+      }
+   },
+   {
+      "name":"Lufthansa",
+      "code":"LH",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Lufthansa"
+      }
+   },
+   {
+      "name":"TIK Systems",
+      "code":"T1",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"TIK Systems"
+      }
+   },
+   {
+      "name":"Air Liaison",
+      "code":"Q9",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Liaison"
+      }
+   },
+   {
+      "name":"Aeroflot",
+      "code":"SU",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Aeroflot"
+      }
+   },
+   {
+      "name":"Webjet Linhas Aereas",
+      "code":"WH",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Webjet Linhas Aereas"
+      }
+   },
+   {
+      "name":"Germanwings",
+      "code":"4U",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Germanwings"
+      }
+   },
+   {
+      "name":"Endeavor Air",
+      "code":"9E",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Endeavor Air"
+      }
+   },
+   {
+      "name":"Helijet",
+      "code":"JB",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Helijet"
+      }
+   },
+   {
+      "name":"JetHunter",
+      "code":"01",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"JetHunter"
+      }
+   },
+   {
+      "name":"Hebei Airlines",
+      "code":"NS",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Hebei Airlines"
+      }
+   },
+   {
+      "name":"Nesma Airlines",
+      "code":"NE",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Nesma Airlines"
+      }
+   },
+   {
+      "name":"TACA Airlines",
+      "code":"TA",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"TACA Airlines"
+      }
+   },
+   {
+      "name":"Shanghai Airlines",
+      "code":"FM",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Shanghai Airlines"
+      }
+   },
+   {
+      "name":"Scoot",
+      "code":"TR",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Scoot"
+      }
+   },
+   {
+      "name":"Sun Country Airlines",
+      "code":"SY",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Sun Country Airlines"
+      }
+   },
+   {
+      "name":"Gambia International Airlines",
+      "code":"GC",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Gambia International Airlines"
+      }
+   },
+   {
+      "name":"Avion Express",
+      "code":"X9",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Avion Express"
+      }
+   },
+   {
+      "name":"Pegas Fly",
+      "code":"EO",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Pegas Fly"
+      }
+   },
+   {
+      "name":"Thai AirAsia X",
+      "code":"XJ",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Thai AirAsia X"
+      }
+   },
+   {
+      "name":"Gambia Bird Airlines",
+      "code":"3G",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Gambia Bird Airlines"
+      }
+   },
+   {
+      "name":"Flybe",
+      "code":"BE",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Flybe"
+      }
+   },
+   {
+      "name":"SkyBahamas Airlines",
+      "code":"Q7",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"SkyBahamas Airlines"
+      }
+   },
+   {
+      "name":"Hi Fly",
+      "code":"5K",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Hi Fly"
+      }
+   },
+   {
+      "name":"Conquest Air, Inc.",
+      "code":"C4",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Conquest Air, Inc."
+      }
+   },
+   {
+      "name":"Rotana Jet",
+      "code":"RG",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Rotana Jet"
+      }
+   },
+   {
+      "name":"Sol Lineas Aereas",
+      "code":"8R",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Sol Lineas Aereas"
+      }
+   },
+   {
+      "name":"Halcyonair",
+      "code":"7Z",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Halcyonair"
+      }
+   },
+   {
+      "name":"Cargo Three Inc. dba Pan Air Cargo",
+      "code":"3J",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Cargo Three Inc. dba Pan Air Cargo"
+      }
+   },
+   {
+      "name":"Brit Air",
+      "code":"DB",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Brit Air"
+      }
+   },
+   {
+      "name":"TUI Airlines Netherlands",
+      "code":"OR",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"TUI Airlines Netherlands"
+      }
+   },
+   {
+      "name":"TUI fly",
+      "code":"X3",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"TUI fly"
+      }
+   },
+   {
+      "name":"Thai Express Air Co. Ltd",
+      "code":"EX",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Thai Express Air Co. Ltd"
+      }
+   },
+   {
+      "name":"CanJet",
+      "code":"C6",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"CanJet"
+      }
+   },
+   {
+      "name":"Niki",
+      "code":"HG",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Niki"
+      }
+   },
+   {
+      "name":"Aerolíneas Sosa",
+      "code":"P4",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Aerolíneas Sosa"
+      }
+   },
+   {
+      "name":"Nomad Aviation (PTY) Ltd.",
+      "code":"N6",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Nomad Aviation (PTY) Ltd."
+      }
+   },
+   {
+      "name":"Nauru Airline",
+      "code":"ON",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Nauru Airline"
+      }
+   },
+   {
+      "name":"SW Italia s.p.a.",
+      "code":"IU",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"SW Italia s.p.a."
+      }
+   },
+   {
+      "name":"Chongqing Airlines",
+      "code":"OQ",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Chongqing Airlines"
+      }
+   },
+   {
+      "name":"EuroAtlantic Airways S.A.",
+      "code":"YU",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"EuroAtlantic Airways S.A."
+      }
+   },
+   {
+      "name":"Virgin Australia",
+      "code":"VA",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Virgin Australia"
+      }
+   },
+   {
+      "name":"AVANZA",
+      "code":"6V",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"AVANZA"
+      }
+   },
+   {
+      "name":"DHL Aero Expreso S.A.",
+      "code":"D5",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"DHL Aero Expreso S.A."
+      }
+   },
+   {
+      "name":"Nordwind Airlines",
+      "code":"N4",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Nordwind Airlines"
+      }
+   },
+   {
+      "name":"Air Choice One",
+      "code":"3E",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Air Choice One"
+      }
+   },
+   {
+      "name":"Atlas Air",
+      "code":"5Y",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Atlas Air"
+      }
+   },
+   {
+      "name":"Chalair Aviation",
+      "code":"CE",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Chalair Aviation"
+      }
+   },
+   {
+      "name":"Uzbekistan Airways Express",
+      "code":"0H",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Uzbekistan Airways Express"
+      }
+   },
+   {
+      "name":"Delta Connection",
+      "code":"DQ",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Delta Connection"
+      }
+   },
+   {
+      "name":"Amadeus IT Group SA",
+      "code":"1A",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Amadeus IT Group SA"
+      }
+   },
+   {
+      "name":"Westjet",
+      "code":"WS",
+      "is_lowcost":true,
+      "name_translations":{
+         "en":"Westjet"
+      }
+   },
+   {
+      "name":"UPS",
+      "code":"5X",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"UPS"
+      }
+   },
+   {
+      "name":"St Barth Commuter",
+      "code":"PV",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"St Barth Commuter"
+      }
+   },
+   {
+      "name":"Emirates",
+      "code":"EK",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Emirates"
+      }
+   },
+   {
+      "name":"Tropic Air Limited",
+      "code":"9N",
+      "is_lowcost":false,
+      "name_translations":{
+         "en":"Tropic Air Limited"
+      }
+   }
+]
