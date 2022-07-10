@@ -83,6 +83,7 @@ function Tickets({ toggleTickets }) {
       .then((response) => {
         console.log(response.data);
         const array = Object.entries(response.data);
+        const newRenderingObj = [];
         const finalArray = array
           .map((element) => {
             let newObj = Object.values(element[1]);
@@ -91,8 +92,15 @@ function Tickets({ toggleTickets }) {
             });
             return newObj;
           })
-          .flat();
-        setFlights(finalArray);
+          .flat()
+          .map((item) => {
+            return airports.map((element) => {
+              if (element.code === item.airport) {
+                newRenderingObj.push({ ...item, airport: element.name });
+              }
+            });
+          });
+        setFlights(newRenderingObj);
       })
       .then(console.log(flights))
       .catch((err) => console.error(err));
