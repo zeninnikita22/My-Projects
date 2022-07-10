@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import React from "react";
-import airports from "./data/airports.json";
+import airlines from "./data/airlines.json";
+import cities from "./data/cities.json";
 
 function Tickets({ toggleTickets }) {
   //   const [url, setUrl] = useState("");
@@ -10,8 +11,6 @@ function Tickets({ toggleTickets }) {
   const [code, setCode] = useState("");
   const [suggestionsClass, setSuggestionsClass] = useState(false);
   const [flights, setFlights] = useState([]);
-  const [info, setInfo] = useState({});
-  //   const [airports, setAirports] = useState([]);
 
   const handleChange = (e) => {
     e.preventDefault();
@@ -31,8 +30,6 @@ function Tickets({ toggleTickets }) {
     setSuggestionsClass(true);
   };
 
-  const responseData = [];
-
   useEffect(() => {
     fetch(
       `https://autocomplete.travelpayouts.com/places2?locale=en&types[]=city&term=${origin}`
@@ -43,32 +40,8 @@ function Tickets({ toggleTickets }) {
       .catch((err) => console.error(err));
   }, [origin]);
 
-  console.log(airports);
-  //   useEffect(() => {
-  //     fetch(
-  //       `https://airlabs.co/api/v9/suggest?q=${origin}&api_key=b8df7667-18bb-44a3-a65b-94909f83753b`
-  //     )
-  //       .then((response) => response.json())
-  //       .then((data) => {
-  //         setAirports([...data])
-  //         airports.map((item) => {
-  //             return fetch( `https://travelpayouts-travelpayouts-flight-data-v1.p.rapidapi.com/v1/prices/cheap?origin=${data.response.airports_by_cities[0].iata_code}&page=None&currency=${currency}&destination=-`,
-  //           options)
-  //         })
-  // fetch(
-  //   `https://travelpayouts-travelpayouts-flight-data-v1.p.rapidapi.com/v1/prices/cheap?origin=${data.response.airports_by_cities[0].iata_code}&page=None&currency=${currency}&destination=-`,
-  //   options
-  // )
-  //           .then((response) => response.json())
-  //           .then((response) => console.log(response))
-  //           .catch((err) => console.error(err));
-  //       })
-  //       .catch((err) => console.error(err));
-  //   }, [origin, currency, options]);
-
   useEffect(() => {
     const url = `https://travelpayouts-travelpayouts-flight-data-v1.p.rapidapi.com/v1/prices/cheap?origin=${code}&page=None&currency=${currency}&destination=-`;
-
     const options = {
       method: "GET",
       headers: {
@@ -83,7 +56,6 @@ function Tickets({ toggleTickets }) {
       .then((response) => {
         console.log(response.data);
         const array = Object.entries(response.data);
-        const newRenderingObj = [];
         const finalArray = array
           .map((element) => {
             let newObj = Object.values(element[1]);
@@ -94,25 +66,26 @@ function Tickets({ toggleTickets }) {
           })
           .flat()
           .map((item) => {
-            return airports.map((element) => {
+            cities.map((element) => {
               if (element.code === item.airport) {
-                newRenderingObj.push({ ...item, airport: element.name });
+                item = { ...item, airport: element.name };
               }
             });
+            item = {
+              ...item,
+              flight_number: item.airline + item.flight_number,
+            };
+            airlines.map((element) => {
+              if (element.code === item.airline) {
+                item = { ...item, airline: element.name };
+              }
+            });
+            return item;
           });
-        setFlights(newRenderingObj);
+        setFlights(finalArray);
       })
-      .then(console.log(flights))
       .catch((err) => console.error(err));
   }, [code, currency]);
-
-  //   function iterateObj({ item }) {
-  //     if (item[1].key === 0) {
-  //       return item[1][0].price;
-  //     } else {
-  //       return item[1][1].price;
-  //     }
-  //   }
 
   return (
     <div className={toggleTickets ? "tickets-box toggled" : "tickets-box"}>
@@ -151,9 +124,6 @@ function Tickets({ toggleTickets }) {
             <p>Arrival airport is {item.airport}</p>
             <p>Airline is {item.airline}</p>
             <p>Your flight number is {item.flight_number}</p>
-            {/* <p>{iterateObj(item)}</p> */}
-            {/* <p>{item[0][1].price}</p> */}
-            {/* <p>{item[1][0].airline}</p> */}
           </div>
         );
       })}
