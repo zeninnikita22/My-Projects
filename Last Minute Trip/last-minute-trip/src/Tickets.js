@@ -21,26 +21,6 @@ function Tickets({ toggleTickets }) {
   const handleSubmit = (e) => {
     e.preventDefault();
     setCurrency(e.target.elements.currency.value);
-  };
-
-  const handleClick = (e, code, name) => {
-    setCode(code);
-    console.log(e);
-    console.log(code, name);
-    setSuggestionsClass(true);
-  };
-
-  useEffect(() => {
-    fetch(
-      `https://autocomplete.travelpayouts.com/places2?locale=en&types[]=city&term=${origin}`
-    )
-      .then((response) => response.json())
-      .then((response) => setSuggestions(response))
-      //   .then(console.log(suggestions))
-      .catch((err) => console.error(err));
-  }, [origin]);
-
-  useEffect(() => {
     const url = `https://travelpayouts-travelpayouts-flight-data-v1.p.rapidapi.com/v1/prices/cheap?origin=${code}&page=None&currency=${currency}&destination=-`;
     const options = {
       method: "GET",
@@ -84,8 +64,33 @@ function Tickets({ toggleTickets }) {
           });
         setFlights(finalArray);
       })
+      .then(console.log(flights))
       .catch((err) => console.error(err));
-  }, [code, currency]);
+  };
+
+  const handleClick = (code, name) => {
+    setCode(code);
+    console.log(code, name);
+    setSuggestionsClass(true);
+    setOrigin(name);
+  };
+
+  const clearFields = () => {
+    setFlights([]);
+    setOrigin("");
+    setSuggestionsClass(!suggestionsClass);
+    setSuggestions([]);
+  };
+
+  useEffect(() => {
+    fetch(
+      `https://autocomplete.travelpayouts.com/places2?locale=en&types[]=city&term=${origin}`
+    )
+      .then((response) => response.json())
+      .then((response) => setSuggestions(response))
+      .then(console.log(suggestions))
+      .catch((err) => console.error(err));
+  }, [origin]);
 
   return (
     <div className={toggleTickets ? "tickets-box toggled" : "tickets-box"}>
@@ -98,7 +103,13 @@ function Tickets({ toggleTickets }) {
           <option value="UAH">UAH</option>
         </select>
         <label htmlFor="origin">Departure city</label>
-        <input name="origin" type="text" id="origin" onChange={handleChange} />
+        <input
+          name="origin"
+          type="text"
+          id="origin"
+          value={origin}
+          onChange={handleChange}
+        />
         {suggestions.map((item) => {
           return (
             <div
@@ -106,7 +117,7 @@ function Tickets({ toggleTickets }) {
                 suggestionsClass ? "suggestion not-active" : "suggestion"
               }
               key={item.code}
-              onClick={(e) => handleClick(e, item.code, item.name)}
+              onClick={(e) => handleClick(item.code, item.name)}
             >
               <p>
                 {item.name}, {item.country_name}
@@ -116,6 +127,9 @@ function Tickets({ toggleTickets }) {
           );
         })}
         <button type="submit">Search</button>
+        <button type="button" onClick={clearFields}>
+          Clear
+        </button>
       </form>
       {flights.map((item, index) => {
         return (
