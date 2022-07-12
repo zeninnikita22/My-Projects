@@ -4,7 +4,6 @@ import airlines from "./data/airlines.json";
 import cities from "./data/cities.json";
 
 function Tickets({ toggleTickets }) {
-  //   const [url, setUrl] = useState("");
   const [currency, setCurrency] = useState("USD");
   const [origin, setOrigin] = useState("");
   const [suggestions, setSuggestions] = useState([]);
