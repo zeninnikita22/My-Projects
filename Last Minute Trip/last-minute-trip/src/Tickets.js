@@ -60,7 +60,11 @@ function Tickets({ toggleTickets }) {
               }
             });
             return item;
-          });
+          })
+          .sort((a, b) => {
+            return a.price - b.price;
+          })
+          .slice(0, 19);
         setFlights(finalArray);
       })
       .then(console.log(flights))
