@@ -91,7 +91,8 @@ function Tickets({ toggleTickets }) {
     )
       .then((response) => response.json())
       .then((response) => setSuggestions(response))
-      .then(console.log(suggestions))
+      // .then(console.log(suggestions))
+      // fix a problem with first fetch here
       .catch((err) => console.error(err));
   }, [origin]);
 
@@ -101,9 +102,15 @@ function Tickets({ toggleTickets }) {
       <form onSubmit={handleSubmit} className="tickets-form">
         <label htmlFor="currency">Select currency</label>
         <select name="currency" id="currency">
-          <option value="USD">USD</option>
-          <option value="EUR">EUR</option>
-          <option value="UAH">UAH</option>
+          <option className="currency-option" value="USD">
+            USD
+          </option>
+          <option className="currency-option" value="EUR">
+            EUR
+          </option>
+          <option className="currency-option" value="UAH">
+            UAH
+          </option>
         </select>
         <label htmlFor="origin">Departure city</label>
         <input
