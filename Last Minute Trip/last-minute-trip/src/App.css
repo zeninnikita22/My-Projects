@@ -7,8 +7,12 @@
     -moz-osx-font-smoothing: grayscale; */
 /* } */
 
+/* font-family: 'Kalam', cursive; */
+
 .tickets-box {
   display: none;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+  font-weight: 500;
 }
 
 .toggled {
