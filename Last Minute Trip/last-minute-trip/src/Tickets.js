@@ -144,7 +144,9 @@ function Tickets({ toggleTickets }) {
       {flights.map((item, index) => {
         return (
           <div className="flight" key={index}>
-            <p>Price is {item.price} USD</p>
+            <p>
+              Price is {item.price} {currency}
+            </p>
             <p>Arrival airport is {item.airport}</p>
             <p>Airline is {item.airline}</p>
             <p>Your flight number is {item.flight_number}</p>
