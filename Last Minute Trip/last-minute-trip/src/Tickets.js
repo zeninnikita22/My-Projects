@@ -147,7 +147,7 @@ function Tickets({ toggleTickets }) {
             <p>
               Price is {item.price} {currency}
             </p>
-            <p>Arrival airport is {item.airport}</p>
+            <p>Arrival city is {item.airport}</p>
             <p>Airline is {item.airline}</p>
             <p>Your flight number is {item.flight_number}</p>
           </div>
