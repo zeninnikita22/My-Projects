@@ -21,7 +21,7 @@ function App() {
             rare as they are usually running operations from deep behind the
             frontline.
           </p>
-          <p>Russia has already lost nine.</p>
+          <p>Russia has already lost nine of them.</p>
           <p>
             Russia is losing its senior military commanders in unprecedented
             scale due to the major problems in Russian military operations in
