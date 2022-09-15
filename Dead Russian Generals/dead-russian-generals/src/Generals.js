@@ -1,4 +1,3 @@
-import { useRef } from "react";
 import sukhovetskyimg from "./Images/Andrey_Sukhovetsky_photo.jpg";
 import kolesnikovimg from "./Images/Kolesnikov.jpeg";
 import mityaevimg from "./Images/Mityaev.jpeg";
