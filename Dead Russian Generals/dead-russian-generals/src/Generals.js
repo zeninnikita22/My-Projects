@@ -9,6 +9,7 @@ import kutuzovimg from "./Images/Major_General_Roman_Kutuzov_gives_a_speech_in_C
 import nasbulinimg from "./Images/Nasbulin.webp";
 import Links from "./Links";
 import GeneralsInfo from "./GeneralsInfo";
+test;
 
 function Generals() {
   return (
