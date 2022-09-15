@@ -23,7 +23,9 @@ let getLocationPromise = new Promise((resolve, reject) => {
     navigator.geolocation.getCurrentPosition(function (position) {
       lat = position.coords.latitude;
       long = position.coords.longitude;
+      // const {latitude, longitude} = position.coords;
       resolve({ latitude: lat, longitude: long });
+      // resolve({ latitude, longitude});
     });
   } else {
     reject("your browser doesn't support geolocation API");
@@ -39,7 +41,6 @@ getLocationPromise
         return response.json();
       })
       .then((data) => {
-        console.log(data);
         displayData(data);
         celciusButton.addEventListener("click", function () {
           temperature.innerHTML = Math.floor(data.main.temp - 273.15);
@@ -52,41 +53,41 @@ getLocationPromise
           symbolDegree.innerHTML = "°F";
         });
       });
-
-    function displayData(data) {
-      city.innerHTML = data.name;
-      if (data.sys.country === undefined) {
-        country.innerHTML = "";
-      } else {
-        country.innerHTML = ", " + data.sys.country;
-      }
-
-      temperature.innerHTML = Math.floor(data.main.temp - 273.15);
-      wind.innerHTML = data.wind.speed + " km/hour";
-      humidity.innerHTML = data.main.humidity + " %";
-      pressure.innerHTML = data.main.pressure + " hPa";
-      visibility.innerHTML = data.visibility + " m";
-      description.innerHTML = data.weather[0].description;
-
-      if (data.weather[0].id >= 200 && data.weather[0].id <= 232) {
-        weatherImg.setAttribute("src", "weather/thunderstorm.png");
-      } else if (data.weather[0].id >= 300 && data.weather[0].id <= 321) {
-        weatherImg.setAttribute("src", "weather/drizzle.png");
-      } else if (data.weather[0].id >= 500 && data.weather[0].id <= 531) {
-        weatherImg.setAttribute("src", "weather/rain.png");
-      } else if (data.weather[0].id >= 600 && data.weather[0].id <= 622) {
-        weatherImg.setAttribute("src", "weather/snow.png");
-      } else if (data.weather[0].id >= 701 && data.weather[0].id <= 781) {
-        weatherImg.setAttribute("src", "weather/fog.png");
-      } else if (data.weather[0].id === 800 && hours > 6 && hours < 21) {
-        weatherImg.setAttribute("src", "weather/sun.png");
-      } else if (data.weather[0].id === 800 && (hours > 21 || hours < 6)) {
-        weatherImg.setAttribute("src", "weather/moon.png");
-      } else {
-        weatherImg.setAttribute("src", "weather/cloud.png");
-      }
-    }
   })
   .catch((err) => {
     console.log(err);
   });
+
+function displayData(data) {
+  city.innerHTML = data.name;
+  if (data.sys.country === undefined) {
+    country.innerHTML = "";
+  } else {
+    country.innerHTML = ", " + data.sys.country;
+  }
+
+  temperature.innerHTML = Math.floor(data.main.temp - 273.15);
+  wind.innerHTML = data.wind.speed + " km/hour";
+  humidity.innerHTML = data.main.humidity + " %";
+  pressure.innerHTML = data.main.pressure + " hPa";
+  visibility.innerHTML = data.visibility + " m";
+  description.innerHTML = data.weather[0].description;
+
+  if (data.weather[0].id >= 200 && data.weather[0].id <= 232) {
+    weatherImg.setAttribute("src", "weather/thunderstorm.png");
+  } else if (data.weather[0].id >= 300 && data.weather[0].id <= 321) {
+    weatherImg.setAttribute("src", "weather/drizzle.png");
+  } else if (data.weather[0].id >= 500 && data.weather[0].id <= 531) {
+    weatherImg.setAttribute("src", "weather/rain.png");
+  } else if (data.weather[0].id >= 600 && data.weather[0].id <= 622) {
+    weatherImg.setAttribute("src", "weather/snow.png");
+  } else if (data.weather[0].id >= 701 && data.weather[0].id <= 781) {
+    weatherImg.setAttribute("src", "weather/fog.png");
+  } else if (data.weather[0].id === 800 && hours > 6 && hours < 21) {
+    weatherImg.setAttribute("src", "weather/sun.png");
+  } else if (data.weather[0].id === 800 && (hours > 21 || hours < 6)) {
+    weatherImg.setAttribute("src", "weather/moon.png");
+  } else {
+    weatherImg.setAttribute("src", "weather/cloud.png");
+  }
+}
