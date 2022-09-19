@@ -3,7 +3,7 @@ function GeneralsItem({ item }) {
     <div key={item.name}>
       <p>{item.name}</p>
       <p>{item.text}</p>
-      {/* <img></img> */}
+      <img alt={item.name} src={`./Images/${item.id}.jpeg`}></img>
     </div>
   );
 }
