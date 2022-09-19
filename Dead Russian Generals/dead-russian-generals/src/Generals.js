@@ -1,12 +1,21 @@
 import Links from "./Links";
 import GeneralsInfo from "./GeneralsInfo";
 import ScrollToTopButton from "./ScrollToTopButton";
+import App from "./App";
 // import { useRef } from "react";
 
 function Generals() {
   // const scrollToSection = (elementRef) => {
   //   window.scrollTo({
   //     top: elementRef.current.offsetTop,
+  //     behavior: "smooth",
+  //   });
+  // };
+
+  // const scrollToTop = () => {
+  //   window.scrollTo({
+  //     top: 0,
+  //     left: 0,
   //     behavior: "smooth",
   //   });
   // };
