@@ -1,10 +1,8 @@
 import Links from "./Links";
 import GeneralsInfo from "./GeneralsInfo";
 import ScrollToTopButton from "./ScrollToTopButton";
-import App from "./App";
-// import { useRef } from "react";
 
-function Generals() {
+function Generals({ toggle, setToggle }) {
   // const scrollToSection = (elementRef) => {
   //   window.scrollTo({
   //     top: elementRef.current.offsetTop,
@@ -22,6 +20,7 @@ function Generals() {
 
   return (
     <div className="general-box">
+      <button onClick={() => setToggle(!toggle)}>^^^</button>
       <div className="links-box">
         <Links arr={arr} />
       </div>

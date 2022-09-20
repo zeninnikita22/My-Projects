@@ -1,13 +1,4 @@
-import * as Scroll from "react-scroll";
-import {
-  Link,
-  Button,
-  Element,
-  Events,
-  animateScroll as scroll,
-  scrollSpy,
-  scroller,
-} from "react-scroll";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 function Links({ arr }) {
   console.log(arr);
@@ -16,15 +7,18 @@ function Links({ arr }) {
     <div className="generals-links">
       {arr.map((item) => {
         return (
-          <a
+          <Link
             href="blah"
             key={item.name}
+            to={item.id}
+            smooth={true}
+            duration={700}
             // onClick={() => {
             //   scrollToSection(section8);
             // }}
           >
             {item.name}
-          </a>
+          </Link>
         );
       })}
     </div>
