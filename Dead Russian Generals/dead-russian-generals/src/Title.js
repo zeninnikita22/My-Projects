@@ -1,8 +1,7 @@
 function Title({ toggle, setToggle }) {
   return (
-    <div className="wrapping-wrapper">
+    <div className="title-wrapper">
       <div className="title-box">
-        {/* background grey photo? + beheaded emblem */}
         <div className="text-box">
           <p>
             After the full-scale invasion of Russia in Ukraine in February 2022,
