@@ -5,6 +5,9 @@
   align-items: center;
 }
 
+.generals-box {
+}
+
 .title-wrapper {
   display: flex;
   flex-direction: column;

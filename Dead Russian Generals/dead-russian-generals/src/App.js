@@ -1,24 +1,35 @@
 import "./App.css";
 import Generals from "./Generals";
-import { useState } from "react";
-import { Collapse } from "react-collapse";
+import { useState, useRef, useLayoutEffect } from "react";
+// import { Collapse } from "react-collapse";
 import Title from "./Title";
+import BeheadedGeneralsImage from "./Images/Beheaded.png";
 
 function App() {
   const [toggle, setToggle] = useState(false);
+  const [containerHeight, setContainerHeight] = useState(0);
+  const refContainterHeight = useRef(null);
+
+  useLayoutEffect(() => {
+    setContainerHeight(refContainterHeight.current.clientHeight);
+  }, []);
 
   return (
     <div className="App">
-      <div className="container">
+      <div className="container" ref={refContainterHeight}>
         <h1>9 Russian Generals Killed in Ukraine</h1>{" "}
-        <img src="./Images/Beheaded.png" alt="dead-generals"></img>
-        <Collapse isOpened={true || false}>
-          {toggle ? (
-            <Generals toggle={toggle} setToggle={setToggle} />
-          ) : (
-            <Title toggle={toggle} setToggle={setToggle} />
-          )}
-        </Collapse>
+        {/* <img src={BeheadedGeneralsImage} alt="dead-generals" /> */}
+        {/* <Collapse isOpened={true}> */}
+        {toggle ? (
+          <Generals
+            toggle={toggle}
+            setToggle={setToggle}
+            containerHeight={containerHeight}
+          />
+        ) : (
+          <Title toggle={toggle} setToggle={setToggle} />
+        )}
+        {/* </Collapse> */}
       </div>
     </div>
   );

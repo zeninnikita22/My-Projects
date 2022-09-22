@@ -2,7 +2,7 @@ import Links from "./Links";
 import GeneralsInfo from "./GeneralsInfo";
 import ScrollToTopButton from "./ScrollToTopButton";
 
-function Generals({ toggle, setToggle }) {
+function Generals({ toggle, setToggle, containerHeight }) {
   // const scrollToSection = (elementRef) => {
   //   window.scrollTo({
   //     top: elementRef.current.offsetTop,
@@ -19,7 +19,14 @@ function Generals({ toggle, setToggle }) {
   // };
 
   return (
-    <div className="general-box">
+    <div
+      className="generals-box"
+      style={
+        toggle
+          ? { height: 0, transition: "height 3s ease-out" }
+          : { height: { containerHeight }, transition: "height 3s ease-out" }
+      }
+    >
       <button onClick={() => setToggle(!toggle)}>^^^</button>
       <div className="links-box">
         <Links arr={arr} />
