@@ -13,9 +13,6 @@ function Links({ arr }) {
             to={item.id}
             smooth={true}
             duration={700}
-            // onClick={() => {
-            //   scrollToSection(section8);
-            // }}
           >
             {item.name}
           </Link>
