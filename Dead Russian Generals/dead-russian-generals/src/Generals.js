@@ -18,13 +18,25 @@ function Generals({ toggle, setToggle, containerHeight }) {
   //   });
   // };
 
+  console.log({ containerHeight });
+
   return (
     <div
-      className="generals-box"
+      // className="generals-box"
       style={
         toggle
-          ? { height: 0, transition: "height 3s ease-out" }
-          : { height: { containerHeight }, transition: "height 3s ease-out" }
+          ? {
+              // display: "none",
+              // overflowY: "hidden",
+              maxHeight: 0,
+              transition: "all 3s ease-out",
+            }
+          : {
+              // display: "block",
+              // overflowY: "auto",
+              maxHeight: "1000px",
+              transition: "all 3s ease-out",
+            }
       }
     >
       <button onClick={() => setToggle(!toggle)}>^^^</button>
