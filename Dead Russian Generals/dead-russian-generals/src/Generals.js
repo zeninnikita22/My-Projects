@@ -18,8 +18,6 @@ function Generals({ toggle, setToggle, containerHeight }) {
   //   });
   // };
 
-  console.log({ containerHeight });
-
   return (
     <div
       // className="generals-box"
