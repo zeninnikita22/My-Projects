@@ -6,6 +6,9 @@
 }
 
 .generals-box {
+  background: #ccc;
+  overflow: hidden;
+  transition: height 200ms;
 }
 
 .title-wrapper {
@@ -16,29 +19,6 @@
   /* justify-self: center; */
 }
 
-.title-box {
-  /* display: flex;
-  flex-direction: column;
-  align-items: center; */
-  padding: 10px;
-}
-
-.general {
-  padding: 60px 0;
-}
-
-.click {
-  padding: 0px 10px;
-}
-
-.generals-links {
-  margin: 30px 0px;
-}
-
-.generals-links a {
-  padding: 5px 5px;
-}
-
 .scrolltotop {
   background-color: rgb(192, 23, 43);
   border: none;
@@ -47,8 +27,4 @@
   padding: 12px 16px;
   font-size: 16px;
   cursor: pointer;
-}
-
-.ReactCollapse--collapse {
-  transition: height 2s;
 }

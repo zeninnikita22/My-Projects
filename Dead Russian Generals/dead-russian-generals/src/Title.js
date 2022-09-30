@@ -1,23 +1,6 @@
 function Title({ toggle, setToggle }) {
   return (
-    <div
-      className="title-wrapper"
-      style={
-        toggle
-          ? {
-              // display: "block",
-              // overflowY: "auto",
-              maxHeight: "1000px",
-              transition: "all 3s ease-out",
-            }
-          : {
-              // display: "none",
-              // overflowY: "none",
-              maxHeight: 0,
-              transition: "all 3s ease-out",
-            }
-      }
-    >
+    <div className="title-wrapper">
       <div className="title-box">
         <div className="text-box">
           <p>

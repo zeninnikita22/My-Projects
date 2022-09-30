@@ -1,31 +1,29 @@
 import "./App.css";
 import Generals from "./Generals";
-import { useState, useRef, useLayoutEffect } from "react";
-// import { Collapse } from "react-collapse";
+import { useState } from "react";
 import Title from "./Title";
+import SmoothCollapse from "react-smooth-collapse";
 import BeheadedGeneralsImage from "./Images/Beheaded.png";
 
 function App() {
   const [toggle, setToggle] = useState(false);
-  const [containerHeight, setContainerHeight] = useState(0);
-  const refContainterHeight = useRef(null);
-
-  useLayoutEffect(() => {
-    setContainerHeight(refContainterHeight.current.clientHeight);
-  }, []);
-
-  console.log(containerHeight);
 
   return (
     <div className="App">
-      <div className="container" ref={refContainterHeight}>
-        <h1>9 Russian Generals Killed in Ukraine</h1>{" "}
-        <Generals
-          toggle={toggle}
-          setToggle={setToggle}
-          containerHeight={containerHeight}
-        />
-        <Title toggle={toggle} setToggle={setToggle} />
+      <div className="container">
+        <h1>
+          9 Russian Generals Killed in Ukraine{" "}
+          {toggle ? (
+            <button onClick={() => setToggle(!toggle)}>\\\</button>
+          ) : null}
+        </h1>
+        <SmoothCollapse expanded={!toggle}>
+          <Title toggle={toggle} setToggle={setToggle} />
+        </SmoothCollapse>
+        <SmoothCollapse expanded={toggle}>
+          <Generals />
+        </SmoothCollapse>
+        {/* {toggle ? <Generals /> : null} */}
       </div>
     </div>
   );
