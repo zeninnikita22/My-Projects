@@ -5,7 +5,7 @@ function GeneralsItem({ item }) {
     <Element key={item.name} name={item.id}>
       <p>{item.name}</p>
       <p>{item.text}</p>
-      <img alt={item.name} src={`./Images/${item.id}.jpeg`}></img>
+      <img alt={item.name} src={require(`./Images/${item.id}.jpeg`)}></img>
     </Element>
   );
 }

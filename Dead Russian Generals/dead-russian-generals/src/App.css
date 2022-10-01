@@ -1,6 +1,9 @@
+@import url(https://fonts.googleapis.com/css?family=Kanit:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
 body {
   background-image: url(./Images/destruction.jpeg);
   background-size: 100%;
+  font-family: "Kanit";
 }
 
 .wrapper {
@@ -45,12 +48,13 @@ body {
 
 .toggle:hover {
   margin-left: 20px;
-  background-color: rgb(198, 3, 3);
+  background-color: rgb(192, 23, 43);
   border: none;
   padding: 4px;
   border-radius: 30px;
   transition: all 0.5s;
   font-size: 20px;
+  cursor: pointer;
 }
 
 .title-box {
@@ -87,6 +91,25 @@ body {
   cursor: pointer;
 }
 
-/* .beheaded {
-  width: 10%;
-} */
+.list-button {
+  background-color: rgb(192, 23, 43);
+  color: white;
+  font-family: "Kanit";
+  padding: 3px 5px;
+  border: 2px solid rgb(192, 23, 43);
+  border-radius: 3px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.list-button:hover {
+  transform: scale(110%);
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+img {
+  max-width: 150px;
+  min-height: 200px;
+  object-fit: cover;
+}

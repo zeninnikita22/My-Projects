@@ -5,7 +5,6 @@ import Intro from "./Intro";
 import SmoothCollapse from "react-smooth-collapse";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronUp } from "@fortawesome/free-solid-svg-icons";
-// import BeheadedGeneralsImage from "./Images/Beheaded.png";
 
 function App() {
   const [toggle, setToggle] = useState(false);
@@ -22,7 +21,6 @@ function App() {
               </button>
             ) : null}
           </div>
-          {/* <img className="beheaded" src={BeheadedGeneralsImage} alt="beheaded" /> */}
 
           <SmoothCollapse expanded={!toggle}>
             <Intro toggle={toggle} setToggle={setToggle} />
@@ -30,7 +28,6 @@ function App() {
           <SmoothCollapse expanded={toggle}>
             <Generals />
           </SmoothCollapse>
-          {/* {toggle ? <Generals /> : null} */}
         </div>
       </div>
     </div>
