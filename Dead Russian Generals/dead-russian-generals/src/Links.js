@@ -2,14 +2,14 @@ import { Link, animateScroll as scroll } from "react-scroll";
 import { useState, useEffect } from "react";
 
 function Links({ arr, toggle }) {
-  const [mounted, setMounted] = useState(true);
+  // const [mounted, setMounted] = useState(true);
 
-  useEffect(() => {
-    setMounted(!mounted);
-  }, [toggle]);
+  // useEffect(() => {
+  //   setMounted(!mounted);
+  // }, [toggle]);
 
   return (
-    <div className={mounted ? "generals-links" : "generals-links active"}>
+    <div className={toggle ? "generals-links active" : "generals-links"}>
       {arr.map((item) => {
         return (
           <Link
