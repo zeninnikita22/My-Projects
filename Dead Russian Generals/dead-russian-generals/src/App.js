@@ -4,10 +4,12 @@ import { useState } from "react";
 import Intro from "./Intro";
 import SmoothCollapse from "react-smooth-collapse";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faChevronUp } from "@fortawesome/free-solid-svg-icons";
+import { faBugSlash, faChevronUp } from "@fortawesome/free-solid-svg-icons";
 
 function App() {
   const [toggle, setToggle] = useState(false);
+
+  console.log(window.clientHeight);
 
   return (
     <div className="App">

@@ -108,8 +108,54 @@ body {
   cursor: pointer;
 }
 
-img {
+.links-box {
+  position: fixed;
+  top: 150px;
+  left: 10px;
+}
+
+.generals-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.links-box img {
+  max-width: 30px;
+  min-height: 30px;
+  object-fit: cover;
+}
+
+.generals-box img {
   max-width: 150px;
   min-height: 200px;
   object-fit: cover;
+}
+
+.generals-links {
+  border: 1px solid rgb(28, 26, 26);
+  border-radius: 5px;
+  background-color: rgb(28, 26, 26);
+  transition: all 1s;
+  transform: translateX(-150%);
+}
+
+.generals-links a {
+  color: rgb(219, 219, 219);
+  text-decoration: none;
+  font-size: 12px;
+  padding: 3px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+}
+
+.link-name {
+  margin-left: 5px;
+}
+
+.active {
+  transition: all 1s;
+  transform: translateX(0%);
 }
