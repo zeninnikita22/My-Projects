@@ -8,7 +8,8 @@ import { faBugSlash, faChevronUp } from "@fortawesome/free-solid-svg-icons";
 import Links from "./Links";
 
 function App() {
-  const [toggle, setToggle] = useState(false);
+  const [listopen, setListopen] = useState(false);
+  console.log(window.scrollY);
 
   return (
     <div className="App">
@@ -16,19 +17,19 @@ function App() {
         <div className="app-box">
           <div className="title-box">
             <h1>RUSSIAN GENERALS KILLED IN UKRAINE</h1>
-            {toggle ? (
-              <button className="toggle" onClick={() => setToggle(!toggle)}>
+            {listopen ? (
+              <button className="toggle" onClick={() => setListopen(!listopen)}>
                 <FontAwesomeIcon icon={faChevronUp} color="white" />
               </button>
             ) : null}
           </div>{" "}
           <div className="links-box">
-            <Links arr={arr} toggle={toggle} />
+            <Links arr={arr} listopen={listopen} />
           </div>
-          <SmoothCollapse expanded={!toggle}>
-            <Intro toggle={toggle} setToggle={setToggle} />
+          <SmoothCollapse expanded={!listopen}>
+            <Intro toggle={listopen} setListopen={setListopen} />
           </SmoothCollapse>
-          <SmoothCollapse expanded={toggle}>
+          <SmoothCollapse expanded={listopen}>
             <Generals arr={arr} />
           </SmoothCollapse>
         </div>

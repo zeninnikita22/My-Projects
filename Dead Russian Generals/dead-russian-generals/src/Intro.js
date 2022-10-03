@@ -1,4 +1,4 @@
-function Intro({ toggle, setToggle }) {
+function Intro({ listopen, setListopen }) {
   return (
     <div className="intro-wrapper">
       <div className="intro-box">
@@ -26,7 +26,7 @@ function Intro({ toggle, setToggle }) {
           </p>
         </div>
       </div>
-      <button className="list-button" onClick={() => setToggle(!toggle)}>
+      <button className="list-button" onClick={() => setListopen(!listopen)}>
         Show the list
       </button>
     </div>
