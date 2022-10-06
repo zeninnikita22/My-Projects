@@ -81,6 +81,11 @@ body {
   /* justify-self: center; */
 }
 
+.scrolltotop-box {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .scrolltotop {
   background-color: rgb(192, 23, 43);
   border: none;
@@ -89,6 +94,21 @@ body {
   padding: 12px 16px;
   font-size: 16px;
   cursor: pointer;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  animation: bounce 3s infinite;
+}
+
+@keyframes bounce {
+  0% {
+    transform: scale(0.8);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(0.8);
+  }
 }
 
 .list-button {
@@ -158,4 +178,17 @@ body {
 .active {
   transition: all 1s;
   transform: translateX(0%);
+}
+
+.general-item {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  margin-bottom: 40px;
+}
+
+.general-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
 }

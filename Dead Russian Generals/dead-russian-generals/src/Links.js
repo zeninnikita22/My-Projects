@@ -13,12 +13,15 @@ function Links({ arr, listopen }) {
       {arr.map((item) => {
         return (
           <Link
+            activeClass="active"
             className="link"
             href="blah"
             key={item.fullname}
             to={item.id}
             smooth={true}
             duration={1000}
+            spy={true}
+            hashSpy={true}
           >
             <img alt={item.fullname} src={require(`./Images/skull.png`)}></img>
             <p className="link-name">{item.surname}</p>

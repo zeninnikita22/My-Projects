@@ -1,6 +1,6 @@
 import "./App.css";
 import Generals from "./Generals";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Intro from "./Intro";
 import SmoothCollapse from "react-smooth-collapse";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -9,7 +9,20 @@ import Links from "./Links";
 
 function App() {
   const [listopen, setListopen] = useState(false);
+  const [scrollstate, setScrollstate] = useState();
+
   console.log(window.scrollY);
+
+  useEffect(() => {
+    const handleScroll = (e) => {
+      setScrollstate();
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    // Remove listener when component unmounts
+    window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   return (
     <div className="App">

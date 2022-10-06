@@ -21,7 +21,7 @@ function Generals({ arr }) {
   return (
     <div className="generals-wrapper">
       <div className="generals-box">
-        <GeneralsInfo arr={arr} />;
+        <GeneralsInfo arr={arr} />
         <ScrollToTopButton />
       </div>
     </div>
