@@ -17,6 +17,12 @@ function Tickets({ toggleTickets }) {
     console.log(origin);
   };
 
+  // const handleChangeSelect = (e) => {
+  //   e.preventDefault();
+  //   console.log(e.target.value);
+  //   setCurrency(e.target.value);
+  // };
+
   console.log(currency);
 
   const handleSubmit = (e) => {
