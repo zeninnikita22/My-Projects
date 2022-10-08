@@ -17,6 +17,8 @@ function Tickets({ toggleTickets }) {
     console.log(origin);
   };
 
+  console.log(currency);
+
   const handleSubmit = (e) => {
     e.preventDefault();
     setCurrency(e.target.elements.currency.value);
@@ -95,6 +97,8 @@ function Tickets({ toggleTickets }) {
       // fix a problem with first fetch here
       .catch((err) => console.error(err));
   }, [origin]);
+
+  console.log(flights);
 
   return (
     <div className={toggleTickets ? "tickets-box toggled" : "tickets-box"}>

@@ -12,6 +12,7 @@ body {
   display: none;
   font-family: "IBM Plex Sans Arabic", sans-serif;
   font-weight: 500;
+  margin: 100px 0;
 }
 
 .toggled {
