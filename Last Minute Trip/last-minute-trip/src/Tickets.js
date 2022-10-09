@@ -14,7 +14,7 @@ function Tickets({ toggleTickets }) {
   const handleChange = (e) => {
     e.preventDefault();
     setOrigin(e.target.value);
-    console.log(origin);
+    // console.log(origin);
   };
 
   // const handleChangeSelect = (e) => {
@@ -23,7 +23,7 @@ function Tickets({ toggleTickets }) {
   //   setCurrency(e.target.value);
   // };
 
-  console.log(currency);
+  // console.log(currency);
 
   const handleSubmit = (e) => {
     e.preventDefault();
