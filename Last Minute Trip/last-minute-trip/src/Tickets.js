@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import React from "react";
 import airlines from "./data/airlines.json";
 import cities from "./data/cities.json";
@@ -27,7 +27,11 @@ function Tickets({ toggleTickets }) {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    // console.log(url);
     setCurrency(e.target.elements.currency.value);
+    console.log(currency);
+  };
+  useEffect(() => {
     const url = `https://travelpayouts-travelpayouts-flight-data-v1.p.rapidapi.com/v1/prices/cheap?origin=${code}&page=None&currency=${currency}&destination=-`;
     const options = {
       method: "GET",
@@ -38,6 +42,7 @@ function Tickets({ toggleTickets }) {
           "travelpayouts-travelpayouts-flight-data-v1.p.rapidapi.com",
       },
     };
+    console.log(currency);
     fetch(url, options)
       .then((response) => response.json())
       .then((response) => {
@@ -77,7 +82,7 @@ function Tickets({ toggleTickets }) {
       })
       .then(console.log(flights))
       .catch((err) => console.error(err));
-  };
+  }, [currency, code]);
 
   const handleClick = (code, name) => {
     setCode(code);
