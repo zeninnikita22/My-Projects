@@ -1,6 +1,7 @@
 import "./App.css";
 import Tickets from "./Tickets";
 import { React, useState, useEffect } from "react";
+import TravelImage from "./images/travel.jpg";
 
 function App() {
   const [toggleTickets, setToggleTickets] = useState(false);
@@ -13,10 +14,10 @@ function App() {
   return (
     <div className="app">
       <div className="wrapper">
-        <div
-          className={starterstate ? "starter-box transformed" : "starter-box"}
-        >
-          {/* maybe logo here? */}
+        <div className="starter-box">
+          <nav className="navbar">
+            <img src="" alt="logo"></img>
+          </nav>
           <h1>Last Minute Trip</h1>
           <p>
             This website is to organize your spontaneous trip. No more long
@@ -29,6 +30,7 @@ function App() {
           >
             Get Started!
           </button>
+          <img src={TravelImage} alt="travel" className="travel-image" />
         </div>
         <Tickets toggleTickets={toggleTickets} />
       </div>

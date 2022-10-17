@@ -1,9 +1,5 @@
 body {
-  background-image: url(./images/mitsuo-komoriya-NTCWFoiQuxE-unsplash.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
+  background-color: white;
 }
 
 /* font-family: 'Kalam', cursive; */
@@ -46,12 +42,6 @@ body {
 
 .starter-box {
   border: 2px solid black;
-  transform: translateY(-300px);
-  transition: all 3.5s;
-}
-
-.transformed {
-  transform: translateY(100px);
 }
 
 .starter-box h1 {
@@ -63,4 +53,8 @@ body {
 .starter-box p {
   font-family: "IBM Plex Sans Arabic", sans-serif;
   font-weight: 400;
+}
+
+.travel-image {
+  max-width: 50%;
 }
