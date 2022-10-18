@@ -43,69 +43,81 @@ body {
 }
 
 .wrapper {
-  padding: 10px 60px;
+  padding: 8px 60px;
 }
 
 .starter-box {
-  border: 2px solid black;
+  /* border: 2px solid black; */
   display: flex;
 }
 
 .starter-box h1 {
   font-family: "Rasa";
-  font-size: 70px;
+  font-size: 78px;
   font-weight: 900;
   color: #071f53;
-  margin: 0;
+  margin: 0 0 20px 0;
   line-height: 0.8;
 }
 
 .starter-box p {
   font-family: "Rasa";
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 100;
   color: #5a5e66;
-  margin: 0;
+  margin: 0 0 20px 0;
 }
 
 .travel-image {
-  max-width: 70%;
+  max-width: 650px;
 }
 
 .navbar {
-  border: 2px solid green;
+  /* border: 2px solid green; */
+  display: flex;
 }
+
 .navbar img {
-  margin: 40px 0 40px 0px;
+  max-width: 50px;
+  margin: 30px 15px 30px 0px;
+}
+
+.navbar h2 {
+  font-family: "Rasa";
+  font-size: 40px;
+  font-weight: 700;
+  font-style: italic;
+  color: #071f53;
+  margin-top: 36px;
 }
 
 .starter-text-box {
-  border: 2px solid salmon;
+  /* border: 2px solid salmon; */
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-right: 70px;
 }
 
 .starter-image-box {
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .toggle-button {
-  margin: 10px 10px;
   border: 1px solid #fb949c;
   border-radius: 10px;
   padding: 4px 16px;
   background-color: #f0707a;
   font-family: "Rasa";
   font-weight: 500;
-  font-size: 16px;
+  font-size: 20px;
   color: #071f53;
 }
 
 .toggle-button:hover {
-  transition: all 1s;
+  transition: all 0.5s;
   border: 2px solid #071f53;
 }

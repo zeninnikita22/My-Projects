@@ -2,6 +2,7 @@ import "./App.css";
 import Tickets from "./Tickets";
 import { React, useState } from "react";
 import TravelImage from "./images/travel.jpg";
+import LogoImage from "./images/logo.png";
 
 function App() {
   const [toggleTickets, setToggleTickets] = useState(false);
@@ -10,7 +11,8 @@ function App() {
     <div className="app">
       <div className="wrapper">
         <nav className="navbar">
-          <img src="" alt="logo"></img>
+          <img src={LogoImage} alt="logo" className="logo"></img>
+          <h2>Last Minute Tickets</h2>
         </nav>
         <div className="starter-box">
           <div className="starter-text-box">
