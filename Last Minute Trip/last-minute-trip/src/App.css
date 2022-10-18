@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Rasa:300,regular,500,600,700,300italic,italic,500italic,600italic,700italic);
+
 body {
   background-color: white;
 }
@@ -40,21 +42,70 @@ body {
   padding: 1px 5px;
 }
 
+.wrapper {
+  padding: 10px 60px;
+}
+
 .starter-box {
   border: 2px solid black;
+  display: flex;
 }
 
 .starter-box h1 {
-  font-family: "Kalam", cursive;
-  font-size: 60px;
+  font-family: "Rasa";
+  font-size: 70px;
   font-weight: 900;
+  color: #071f53;
+  margin: 0;
+  line-height: 0.8;
 }
 
 .starter-box p {
-  font-family: "IBM Plex Sans Arabic", sans-serif;
-  font-weight: 400;
+  font-family: "Rasa";
+  font-size: 14px;
+  font-weight: 100;
+  color: #5a5e66;
+  margin: 0;
 }
 
 .travel-image {
-  max-width: 50%;
+  max-width: 70%;
+}
+
+.navbar {
+  border: 2px solid green;
+}
+.navbar img {
+  margin: 40px 0 40px 0px;
+}
+
+.starter-text-box {
+  border: 2px solid salmon;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.starter-image-box {
+  border: 2px solid blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.toggle-button {
+  margin: 10px 10px;
+  border: 1px solid #fb949c;
+  border-radius: 10px;
+  padding: 4px 16px;
+  background-color: #f0707a;
+  font-family: "Rasa";
+  font-weight: 500;
+  font-size: 16px;
+  color: #071f53;
+}
+
+.toggle-button:hover {
+  transition: all 1s;
+  border: 2px solid #071f53;
 }
