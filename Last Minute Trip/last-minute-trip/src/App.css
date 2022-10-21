@@ -4,8 +4,6 @@ body {
   background-color: white;
 }
 
-/* font-family: 'Kalam', cursive; */
-
 .tickets-box {
   display: none;
   font-family: "IBM Plex Sans Arabic", sans-serif;
@@ -47,7 +45,6 @@ body {
 }
 
 .starter-box {
-  /* border: 2px solid black; */
   display: flex;
 }
 
@@ -73,7 +70,6 @@ body {
 }
 
 .navbar {
-  /* border: 2px solid green; */
   display: flex;
 }
 
@@ -92,7 +88,6 @@ body {
 }
 
 .starter-text-box {
-  /* border: 2px solid salmon; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -100,7 +95,6 @@ body {
 }
 
 .starter-image-box {
-  /* border: 2px solid blue; */
   display: flex;
   justify-content: center;
   align-items: center;
