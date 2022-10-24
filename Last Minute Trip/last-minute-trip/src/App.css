@@ -22,6 +22,20 @@ body {
 
 .tickets-form {
   display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.currency-box input {
+  min-width: 100px;
+}
+
+.origin-box input {
+  min-width: 500px;
+}
+
+.buttons-box {
+  display: flex;
   flex-direction: column;
 }
 

@@ -119,52 +119,58 @@ function Tickets({ toggleTickets }) {
     >
       <div className="tickets-box">
         <form onSubmit={handleSubmit} className="tickets-form">
-          <label htmlFor="currency">Select currency</label>
-          <select
-            onChange={(e) => {
-              setCurrency(e.target.value);
-            }}
-            name="currency"
-            id="currency"
-          >
-            <option className="currency-option" value="USD">
-              USD
-            </option>
-            <option className="currency-option" value="EUR">
-              EUR
-            </option>
-            <option className="currency-option" value="UAH">
-              UAH
-            </option>
-          </select>
-          <label htmlFor="origin">Departure city</label>
-          <input
-            name="origin"
-            type="text"
-            id="origin"
-            value={origin}
-            onChange={handleChange}
-          />
-          {suggestions.map(({ code, name, country_name }) => {
-            return (
-              <div
-                className={
-                  suggestionsClass ? "suggestion not-active" : "suggestion"
-                }
-                key={code}
-                onClick={() => handleOriginChange(code, name)}
-              >
-                <p>
-                  {name}, {country_name}
-                </p>
-                <p>{code}</p>
-              </div>
-            );
-          })}
-          <button type="submit">Search</button>
-          <button type="button" onClick={clearFields}>
-            Clear
-          </button>
+          <div className="currency-box">
+            <label htmlFor="currency">Select currency</label>
+            <select
+              onChange={(e) => {
+                setCurrency(e.target.value);
+              }}
+              name="currency"
+              id="currency"
+            >
+              <option className="currency-option" value="USD">
+                USD
+              </option>
+              <option className="currency-option" value="EUR">
+                EUR
+              </option>
+              <option className="currency-option" value="UAH">
+                UAH
+              </option>
+            </select>
+          </div>
+          <div className="origin-box">
+            <label htmlFor="origin">Departure city</label>
+            <input
+              name="origin"
+              type="text"
+              id="origin"
+              value={origin}
+              onChange={handleChange}
+            />
+            {suggestions.map(({ code, name, country_name }) => {
+              return (
+                <div
+                  className={
+                    suggestionsClass ? "suggestion not-active" : "suggestion"
+                  }
+                  key={code}
+                  onClick={() => handleOriginChange(code, name)}
+                >
+                  <p>
+                    {name}, {country_name}
+                  </p>
+                  <p>{code}</p>
+                </div>
+              );
+            })}
+          </div>
+          <div className="buttons-box">
+            <button type="submit">Search</button>
+            <button type="button" onClick={clearFields}>
+              Clear
+            </button>
+          </div>
         </form>
         {flights.map(({ price, airport, airline, flight_number }, index) => {
           return (
