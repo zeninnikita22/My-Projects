@@ -4,21 +4,31 @@ body {
   background-color: white;
 }
 
-.tickets-box {
+.tickets-wrapper {
   display: none;
-  font-family: "IBM Plex Sans Arabic", sans-serif;
+  font-family: "Rasa", sans-serif;
   font-weight: 500;
-  margin: 100px 0;
+  margin: 10px 0;
 }
 
 .toggled {
   display: block;
 }
 
+/* .tickets-box {
+  display: flex;
+  flex-direction: row;
+} */
+
 .tickets-form {
   display: flex;
   flex-direction: column;
-  width: 30%;
+}
+
+#currency {
+}
+
+#origin {
 }
 
 .suggestion {
@@ -103,7 +113,7 @@ body {
 .toggle-button {
   border: 1px solid #fb949c;
   border-radius: 10px;
-  padding: 4px 16px;
+  padding: 8px 20px;
   background-color: #f0707a;
   font-family: "Rasa";
   font-weight: 500;

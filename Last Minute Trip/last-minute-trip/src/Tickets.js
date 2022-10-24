@@ -114,68 +114,71 @@ function Tickets({ toggleTickets }) {
   }, [origin]);
 
   return (
-    <div className={toggleTickets ? "tickets-box toggled" : "tickets-box"}>
-      <p>Last Minute Tickets</p>
-      <form onSubmit={handleSubmit} className="tickets-form">
-        <label htmlFor="currency">Select currency</label>
-        <select
-          onChange={(e) => {
-            setCurrency(e.target.value);
-          }}
-          name="currency"
-          id="currency"
-        >
-          <option className="currency-option" value="USD">
-            USD
-          </option>
-          <option className="currency-option" value="EUR">
-            EUR
-          </option>
-          <option className="currency-option" value="UAH">
-            UAH
-          </option>
-        </select>
-        <label htmlFor="origin">Departure city</label>
-        <input
-          name="origin"
-          type="text"
-          id="origin"
-          value={origin}
-          onChange={handleChange}
-        />
-        {suggestions.map(({ code, name, country_name }) => {
+    <div
+      className={toggleTickets ? "tickets-wrapper toggled" : "tickets-wrapper"}
+    >
+      <div className="tickets-box">
+        <form onSubmit={handleSubmit} className="tickets-form">
+          <label htmlFor="currency">Select currency</label>
+          <select
+            onChange={(e) => {
+              setCurrency(e.target.value);
+            }}
+            name="currency"
+            id="currency"
+          >
+            <option className="currency-option" value="USD">
+              USD
+            </option>
+            <option className="currency-option" value="EUR">
+              EUR
+            </option>
+            <option className="currency-option" value="UAH">
+              UAH
+            </option>
+          </select>
+          <label htmlFor="origin">Departure city</label>
+          <input
+            name="origin"
+            type="text"
+            id="origin"
+            value={origin}
+            onChange={handleChange}
+          />
+          {suggestions.map(({ code, name, country_name }) => {
+            return (
+              <div
+                className={
+                  suggestionsClass ? "suggestion not-active" : "suggestion"
+                }
+                key={code}
+                onClick={() => handleOriginChange(code, name)}
+              >
+                <p>
+                  {name}, {country_name}
+                </p>
+                <p>{code}</p>
+              </div>
+            );
+          })}
+          <button type="submit">Search</button>
+          <button type="button" onClick={clearFields}>
+            Clear
+          </button>
+        </form>
+        {flights.map(({ price, airport, airline, flight_number }, index) => {
           return (
-            <div
-              className={
-                suggestionsClass ? "suggestion not-active" : "suggestion"
-              }
-              key={code}
-              onClick={() => handleOriginChange(code, name)}
-            >
+            <div className="flight" key={index}>
               <p>
-                {name}, {country_name}
+                Price is {price} {currencyDisplay}
               </p>
-              <p>{code}</p>
+              <p>Arrival city is {airport}</p>
+              <p>Airline is {airline}</p>
+              <p>Your flight number is {flight_number}</p>
             </div>
           );
         })}
-        <button type="submit">Search</button>
-        <button type="button" onClick={clearFields}>
-          Clear
-        </button>
-      </form>
-      {flights.map(({ price, airport, airline, flight_number }, index) => {
-        return (
-          <div className="flight" key={index}>
-            <p>
-              Price is {price} {currencyDisplay}
-            </p>
-            <p>Arrival city is {airport}</p>
-            <p>Airline is {airline}</p>
-            <p>Your flight number is {flight_number}</p>
-          </div>
-        );
-      })}
+      </div>
     </div>
   );
 }
