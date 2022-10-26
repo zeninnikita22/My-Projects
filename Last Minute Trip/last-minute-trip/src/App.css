@@ -24,10 +24,19 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  font-size: 24px;
 }
 
 .currency-box input {
   min-width: 100px;
+}
+
+.currency-box label {
+  margin-right: 10px;
+}
+
+.origin-box label {
+  margin-right: 10px;
 }
 
 .origin-box input {
@@ -37,6 +46,14 @@ body {
 .buttons-box {
   display: flex;
   flex-direction: column;
+}
+
+.buttons-box button {
+  font-size: 16px;
+  margin-bottom: 8px;
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 8px 16px;
 }
 
 #currency {
