@@ -120,7 +120,7 @@ function Tickets({ toggleTickets }) {
       <div className="tickets-box">
         <form onSubmit={handleSubmit} className="tickets-form">
           <div className="currency-box">
-            <label htmlFor="currency">Select currency</label>
+            <p>Select currency</p>
             <select
               onChange={(e) => {
                 setCurrency(e.target.value);
@@ -140,7 +140,7 @@ function Tickets({ toggleTickets }) {
             </select>
           </div>
           <div className="origin-box">
-            <label htmlFor="origin">Departure city</label>
+            <p>Departure city</p>
             <input
               name="origin"
               type="text"

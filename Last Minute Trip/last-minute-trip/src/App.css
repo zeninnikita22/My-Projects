@@ -12,7 +12,8 @@ body {
 }
 
 .toggled {
-  display: block;
+  display: flex;
+  justify-content: center;
 }
 
 /* .tickets-box {
@@ -22,7 +23,6 @@ body {
 
 .tickets-form {
   display: flex;
-  justify-content: space-around;
   align-items: center;
   font-size: 24px;
 }
@@ -45,21 +45,55 @@ body {
 
 .buttons-box {
   display: flex;
-  flex-direction: column;
+  margin-top: 40px;
 }
 
 .buttons-box button {
-  font-size: 16px;
+  font-size: 14px;
   margin-bottom: 8px;
-  border: 2px solid black;
+  margin-right: 4px;
+  border: 1px solid black;
   border-radius: 8px;
   padding: 8px 16px;
 }
 
+.currency-box {
+  margin-right: 20px;
+}
+
+.currency-box p {
+  font-family: "Rasa", sans-serif;
+  font-weight: 600;
+  margin: 4px 0;
+  font-size: 20px;
+}
+
 #currency {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-right: 20px;
+  padding: 8px;
+  font-size: 14px;
+  color: black;
+  width: 100%;
+}
+
+.origin-box p {
+  font-family: "Rasa", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  margin: 4px 0;
 }
 
 #origin {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-right: 20px;
+  padding: 8px;
+  font-size: 14px;
+  color: black;
 }
 
 .suggestion {
