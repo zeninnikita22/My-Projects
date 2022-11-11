@@ -126,7 +126,7 @@ function Tickets({ toggleTickets }) {
                 setCurrency(e.target.value);
               }}
               name="currency"
-              id="currency"
+              className="currency"
             >
               <option className="currency-option" value="USD">
                 USD
@@ -172,15 +172,27 @@ function Tickets({ toggleTickets }) {
             </button>
           </div>
         </form>
+        <div
+          className={
+            flights.length === 0
+              ? "flights-top not-active"
+              : "flights-top active"
+          }
+        >
+          <p>Price</p>
+          <p>Arrival city</p>
+          <p>Airline</p>
+          <p>Flight number</p>
+        </div>
         {flights.map(({ price, airport, airline, flight_number }, index) => {
           return (
             <div className="flight" key={index}>
               <p>
-                Price is {price} {currencyDisplay}
+                {price} {currencyDisplay}
               </p>
-              <p>Arrival city is {airport}</p>
-              <p>Airline is {airline}</p>
-              <p>Your flight number is {flight_number}</p>
+              <p>{airport}</p>
+              <p>{airline}</p>
+              <p>{flight_number}</p>
             </div>
           );
         })}

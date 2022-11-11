@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Rasa:300,regular,500,600,700,300italic,italic,500italic,600italic,700italic);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic);
 
 body {
   background-color: white;
@@ -6,8 +7,6 @@ body {
 
 .tickets-wrapper {
   display: none;
-  font-family: "Rasa", sans-serif;
-  font-weight: 500;
   margin: 10px 0;
 }
 
@@ -23,8 +22,7 @@ body {
 
 .tickets-form {
   display: flex;
-  align-items: center;
-  font-size: 24px;
+  font-size: 16px;
 }
 
 .currency-box input {
@@ -45,7 +43,8 @@ body {
 
 .buttons-box {
   display: flex;
-  margin-top: 40px;
+  align-items: flex-start;
+  margin-top: 38px;
 }
 
 .buttons-box button {
@@ -57,51 +56,109 @@ body {
   padding: 8px 16px;
 }
 
+.buttons-box button:hover {
+  font-size: 14px;
+  margin-bottom: 8px;
+  margin-right: 4px;
+  border: 1px solid #f0707a;
+  border-radius: 8px;
+  padding: 8px 16px;
+  transition: all 0.5s;
+}
+
 .currency-box {
   margin-right: 20px;
 }
 
 .currency-box p {
-  font-family: "Rasa", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 600;
-  margin: 4px 0;
-  font-size: 20px;
+  margin: 6px 0;
+  font-size: 16px;
 }
 
-#currency {
+select {
   background-color: white;
-  border: 1px solid black;
+  border: thin solid rgb(0, 0, 0);
   border-radius: 10px;
-  margin-right: 20px;
-  padding: 8px;
-  font-size: 14px;
-  color: black;
+  display: inline-block;
+  font: inherit;
+  line-height: 1.5em;
+  padding: 0.5em 3.5em 0.5em 1em;
   width: 100%;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+select.currency {
+  background-image: linear-gradient(45deg, transparent 50%, gray 50%),
+    linear-gradient(135deg, gray 50%, transparent 50%),
+    linear-gradient(to right, #ccc, #ccc);
+  background-position: calc(100% - 20px) calc(1em + 2px),
+    calc(100% - 15px) calc(1em + 2px), calc(100% - 2.5em) 0.5em;
+  background-size: 5px 5px, 5px 5px, 1px 1.5em;
+  background-repeat: no-repeat;
+}
+
+select.currency:focus {
+  background-image: linear-gradient(45deg, #f0707a 50%, transparent 50%),
+    linear-gradient(135deg, transparent 50%, #f0707a 50%),
+    linear-gradient(to right, #ccc, #ccc);
+  background-position: calc(100% - 15px) 1em, calc(100% - 20px) 1em,
+    calc(100% - 2.5em) 0.5em;
+  background-size: 5px 5px, 5px 5px, 1px 1.5em;
+  background-repeat: no-repeat;
+  /* border-color: #f0707a; */
+  outline-color: #f0707a;
+}
+
+select:-moz-focusring {
+  color: transparent;
+  text-shadow: 0 0 0 #000;
 }
 
 .origin-box p {
-  font-family: "Rasa", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 600;
-  font-size: 20px;
-  margin: 4px 0;
+  font-size: 16px;
+  margin: 6px 0;
 }
 
 #origin {
-  background-color: white;
-  border: 1px solid black;
+  background-color: rgb(255, 255, 255);
+  border: thin solid black;
   border-radius: 10px;
   margin-right: 20px;
-  padding: 8px;
   font-size: 14px;
   color: black;
+  line-height: 1.5em;
+  padding: 0.65em 3.5em 0.65em 1em;
+}
+
+#origin:focus {
+  outline-color: #f0707a;
 }
 
 .suggestion {
   display: flex;
-  border: 1px solid black;
+  border: 1px solid rgb(88, 82, 82);
+  border-radius: 10px;
   justify-content: space-between;
-  padding: 0 5px;
+  padding: 4px 4px;
   cursor: pointer;
+  width: 95%;
+  font-style: italic;
+  font-weight: 100;
+  font-family: "Open Sans";
+}
+
+.suggestion:hover {
+  color: #f0707a;
+  border: 1px solid #f0707a;
 }
 
 .not-active {
@@ -109,10 +166,25 @@ body {
 }
 
 .flight {
-  border: 1px solid grey;
-  display: flex;
-  justify-content: space-between;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   padding: 1px 5px;
+}
+
+.active {
+  display: grid;
+}
+
+.flights-top {
+  padding: 1px 5px;
+  font-style: bold;
+  font-weight: 800;
+  color: #071f53;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 10px;
 }
 
 .wrapper {
