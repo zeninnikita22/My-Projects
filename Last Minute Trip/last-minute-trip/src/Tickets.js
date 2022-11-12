@@ -15,18 +15,10 @@ function Tickets({ toggleTickets }) {
   const handleChange = (e) => {
     e.preventDefault();
     setOrigin(e.target.value);
-    // console.log(origin);
   };
-
-  // const handleChangeSelect = (e) => {
-  //   e.preventDefault();
-  //   console.log(e.target.value);
-  //   setCurrency(e.target.value);
-  // };
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // setCurrency(e.target.elements.currency.value);
     console.log(currency);
     setCurrencyDisplay(currency);
     if (origin) {
@@ -84,10 +76,6 @@ function Tickets({ toggleTickets }) {
     }
   };
 
-  // useEffect(() => {
-
-  // }, [origin, code, currency]);
-
   const handleOriginChange = (code, name) => {
     setCode(code);
     console.log(code, name);
@@ -108,8 +96,6 @@ function Tickets({ toggleTickets }) {
     )
       .then((response) => response.json())
       .then((response) => setSuggestions(response))
-      // .then(console.log(suggestions))
-      // fix a problem with first fetch here
       .catch((err) => console.error(err));
   }, [origin]);
 

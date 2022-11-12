@@ -6,7 +6,6 @@ import LogoImage from "./images/logo.png";
 import SmoothCollapse from "react-smooth-collapse";
 
 function App() {
-  // const [togglePage, setTogglePage] = useState(false)
   const [toggleTickets, setToggleTickets] = useState(false);
 
   return (
@@ -17,10 +16,7 @@ function App() {
           <h2>Last Minute Tickets</h2>
         </nav>
         <SmoothCollapse expanded={!toggleTickets}>
-          <div
-            className="starter-box"
-            // animate={{ x: toggleTickets ? 100 : 0 }}
-          >
+          <div className="starter-box">
             <div className="starter-text-box">
               <h1>Start your spontaneous trip now.</h1>
               <p>
