@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function ExperienceInfo() {
+function ExperienceInfo({ formData, setFormData }) {
   return (
     <div>
       <div className="newbie">newbie img</div>

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function WaterInfo() {
+function WaterInfo({ formData, setFormData }) {
   return (
     <div>
       <p>Average litres of water you drink per day:</p>

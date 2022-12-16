@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function BodyTypeInfo() {
+function BodyTypeInfo({ formData, setFormData }) {
   return (
     <div>
       <div className="ectomorph">ectomorph img</div>

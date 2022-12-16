@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function HeightInfo() {
+function HeightInfo({ formData, setFormData }) {
   return (
     <div>
       <p>Please enter your height:</p>

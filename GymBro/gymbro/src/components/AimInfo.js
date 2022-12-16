@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function AimInfo() {
+function AimInfo({ formData, setFormData }) {
   return (
     <div>
       <div className="increase">increase weight img</div>

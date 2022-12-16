@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function WeightInfo() {
+function WeightInfo({ formData, setFormData }) {
   return (
     <div>
       <p>Please enter your weight:</p>

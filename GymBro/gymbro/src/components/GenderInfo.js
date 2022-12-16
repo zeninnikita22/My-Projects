@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function GenderInfo() {
+function GenderInfo({ formData, setFormData }) {
   return (
     <div>
       <div className="male">male img</div>

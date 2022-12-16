@@ -11,14 +11,14 @@ import WeightInfo from "./components/WeightInfo";
 function Form() {
   const [page, setPage] = useState(0);
   const [formData, setFormData] = useState({
-    // email: "",
-    // password: "",
-    // confirmPassword: "",
-    // firstName: "",
-    // lastName: "",
-    // username: "",
-    // nationality: "",
-    // other: "",
+    height: 0,
+    weight: 0,
+    gender: "",
+    bodytype: "",
+    aim: "",
+    experience: "",
+    sleep: 0,
+    water: 0,
   });
 
   const PageDisplay = () => {
@@ -68,7 +68,7 @@ function Form() {
       <div className="form-container">{PageDisplay()}</div>
       <div className="footer">
         <button
-          disabled={page == 0}
+          disabled={page === 0}
           onClick={() => {
             setPage((currPage) => currPage - 1);
           }}
@@ -80,6 +80,7 @@ function Form() {
             if (page === 7) {
               alert("FORM SUBMITTED");
               console.log(formData);
+              /// change above
             } else {
               setPage((currPage) => currPage + 1);
             }
