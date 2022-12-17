@@ -11,14 +11,14 @@ import WeightInfo from "./components/WeightInfo";
 function Form() {
   const [page, setPage] = useState(0);
   const [formData, setFormData] = useState({
-    height: 0,
-    weight: 0,
+    height: "",
+    weight: "",
     gender: "",
     bodytype: "",
     aim: "",
     experience: "",
-    sleep: 0,
-    water: 0,
+    sleep: "",
+    water: "",
   });
 
   const PageDisplay = () => {
@@ -39,6 +39,129 @@ function Form() {
     } else {
       return <WaterInfo formData={formData} setFormData={setFormData} />;
     }
+  };
+
+  const handleSubmit = () => {
+    alert("FORM SUBMITTED");
+    console.log(formData);
+    const processedData = {
+      ...formData,
+      height: parseInt(formData.height) / 100,
+      weight: parseInt(formData.weight),
+      sleep: parseInt(formData.sleep),
+      water: parseInt(formData.water),
+      bmi:
+        (formData.weight / formData.height ** 2) * 10000 <= 18.5
+          ? "underweight"
+          : (formData.weight / formData.height ** 2) * 10000 > 18.5 &&
+            (formData.weight / formData.height ** 2) * 10000 <= 25
+          ? "normal"
+          : "overweight",
+    };
+
+    let excersisetype = "";
+
+    // switch(formData.gender) {
+    //     case "male":
+    //       switch (formData.bmi) {
+    //         case "underweigh":
+    //             switch (formData.aim) {
+    //                 case "increase":
+    //                     let excersisetype = "strength";
+    //                     break;
+    //             case "keep form":
+    //                 let excersisetype = "plyometrics";
+    //                 default:
+    //                     break;
+    //             }
+    //             break;
+
+    //         default:
+    //             break;
+    //       }
+
+    //       break;
+    //     case "female":
+    //       // code block
+    //       break;
+    //     default:
+    //       // code block
+    //   }
+
+    if (formData.gender === "male") {
+      if (formData.bmi === "underweight") {
+        if (formData.aim === "increase") {
+          let excersisetype = "strength";
+          return excersisetype;
+        } else if (formData.aim === "keep form") {
+          let excersisetype = "plyometrics";
+          return excersisetype;
+        } else {
+          let excersisetype = "cardio";
+          return excersisetype;
+        }
+      } else if (formData.bmi === "normal") {
+        if (formData.aim === "increase") {
+          let excersisetype = "powerlifting";
+          return excersisetype;
+        } else if (formData.aim === "keep form") {
+          let excersisetype = "strength";
+          return excersisetype;
+        } else {
+          let excersisetype = "cardio";
+          return excersisetype;
+        }
+      } else {
+        if (formData.aim === "increase") {
+          let excersisetype = "powerlifting";
+          return excersisetype;
+        } else if (formData.aim === "keep form") {
+          let excersisetype = "plyometrics";
+          return excersisetype;
+        } else {
+          let excersisetype = "cardio";
+          return excersisetype;
+        }
+      }
+    } else {
+      if (formData.bmi === "underweight") {
+        if (formData.aim === "increase") {
+          let excersisetype = "strength";
+          return excersisetype;
+        } else if (formData.aim === "keep form") {
+          let excersisetype = "plyometrics";
+          return excersisetype;
+        } else {
+          let excersisetype = "cardio";
+          return excersisetype;
+        }
+      } else if (formData.bmi === "normal") {
+        if (formData.aim === "increase") {
+          let excersisetype = "strength";
+          return excersisetype;
+        } else if (formData.aim === "keep form") {
+          let excersisetype = "plyometrics";
+          return excersisetype;
+        } else {
+          let excersisetype = "cardio";
+          return excersisetype;
+        }
+      } else {
+        if (formData.aim === "increase") {
+          let excersisetype = "plyometrics";
+          return excersisetype;
+        } else if (formData.aim === "keep form") {
+          let excersisetype = "cardio";
+          return excersisetype;
+        } else {
+          let excersisetype = "cardio";
+          return excersisetype;
+        }
+      }
+    }
+
+    console.log(processedData);
+    console.log(excersisetype);
   };
 
   return (
@@ -78,9 +201,7 @@ function Form() {
         <button
           onClick={() => {
             if (page === 7) {
-              alert("FORM SUBMITTED");
-              console.log(formData);
-              /// change above
+              handleSubmit();
             } else {
               setPage((currPage) => currPage + 1);
             }
