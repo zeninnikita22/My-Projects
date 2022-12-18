@@ -4,9 +4,9 @@ function ExperienceInfo({ formData, setFormData }) {
   return (
     <div>
       <div
-        className="newbie"
+        className="beginner"
         onClick={() => {
-          setFormData({ ...formData, experience: "newbie" });
+          setFormData({ ...formData, experience: "beginner" });
         }}
       >
         newbie img
