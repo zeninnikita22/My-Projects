@@ -15,7 +15,7 @@ function GenderInfo({ formData, setFormData }) {
         onClick={() => {
           setFormData({ ...formData, gender: "female" });
         }}
-        lassName="female"
+        className="female"
       >
         female img
       </div>

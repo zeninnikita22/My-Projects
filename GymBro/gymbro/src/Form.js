@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import axios from "axios";
 import AimInfo from "./components/AimInfo";
 import BodyTypeInfo from "./components/BodyTypeInfo";
@@ -21,7 +21,9 @@ function Form() {
     sleep: "",
     water: "",
   });
-  const [excersisetype, setExerciseType] = useState("");
+  const [firstExType, setFirstExType] = useState("");
+  const [secondExType, setSecondExType] = useState("");
+  const [exersiseList, setExersiseList] = useState([]);
 
   const PageDisplay = () => {
     if (page === 0) {
@@ -43,12 +45,10 @@ function Form() {
     }
   };
 
-  let processedData = { blah: "mlah" };
-
-  const handleSubmit = (processedData) => {
+  const handleSubmit = () => {
     alert("FORM SUBMITTED");
     console.log(formData);
-    processedData = {
+    setFormData({
       ...formData,
       height: parseInt(formData.height) / 100,
       weight: parseInt(formData.weight),
@@ -61,152 +61,137 @@ function Form() {
             (formData.weight / formData.height ** 2) * 10000 <= 25
           ? "normal"
           : "overweight",
-    };
-
-    // let excersisetype = "";
-
-    // switch(formData.gender) {
-    //     case "male":
-    //       switch (formData.bmi) {
-    //         case "underweigh":
-    //             switch (formData.aim) {
-    //                 case "increase":
-    //                     let excersisetype = "strength";
-    //                     break;
-    //             case "keep form":
-    //                 let excersisetype = "plyometrics";
-    //                 default:
-    //                     break;
-    //             }
-    //             break;
-
-    //         default:
-    //             break;
-    //       }
-
-    //       break;
-    //     case "female":
-    //       // code block
-    //       break;
-    //     default:
-    //       // code block
-    //   }
+    });
 
     if (formData.gender === "male") {
       if (formData.bmi === "underweight") {
         if (formData.aim === "increase") {
-          //   let excersisetype = "strength";
-          //   return excersisetype;
-          setExerciseType("strength");
+          setFirstExType("strength");
+          setSecondExType("powerlifting");
         } else if (formData.aim === "keep form") {
-          //   let excersisetype = "plyometrics";
-          //   return excersisetype;
-          setExerciseType("plyometrics");
+          setFirstExType("plyometrics");
+          setSecondExType("strength");
         } else {
-          //   let excersisetype = "cardio";
-          //   return excersisetype;
-          setExerciseType("cardio");
+          setFirstExType("cardio");
+          setSecondExType("plyometrics");
         }
       } else if (formData.bmi === "normal") {
         if (formData.aim === "increase") {
-          //   let excersisetype = "powerlifting";
-          //   return excersisetype;
-          setExerciseType("powerlifting");
+          setFirstExType("powerlifting");
+          setSecondExType("strength");
         } else if (formData.aim === "keep form") {
-          //   let excersisetype = "strength";
-          //   return excersisetype;
-          setExerciseType("strength");
+          setFirstExType("strength");
+          setSecondExType("cardio");
         } else {
-          //   let excersisetype = "cardio";
-          //   return excersisetype;
-          setExerciseType("cardio");
+          setFirstExType("cardio");
+          setSecondExType("plyometrics");
         }
       } else {
         if (formData.aim === "increase") {
-          //   let excersisetype = "powerlifting";
-          //   return excersisetype;
-          setExerciseType("powerlifting");
+          setFirstExType("cadio");
+          setSecondExType("strength");
         } else if (formData.aim === "keep form") {
-          //   let excersisetype = "plyometrics";
-          //   return excersisetype;
-          setExerciseType("plyometrics");
+          setFirstExType("plyometrics");
+          setSecondExType("strength");
         } else {
-          //   let excersisetype = "cardio";
-          //   return excersisetype;
-          setExerciseType("cardio");
+          setFirstExType("cardio");
+          setSecondExType("plyometrics");
         }
       }
     } else {
       if (formData.bmi === "underweight") {
         if (formData.aim === "increase") {
-          //   let excersisetype = "strength";
-          //   return excersisetype;
-          setExerciseType("strength");
+          setFirstExType("strength");
+          setSecondExType("plyometrics");
         } else if (formData.aim === "keep form") {
-          //   let excersisetype = "plyometrics";
-          //   return excersisetype;
-          setExerciseType("plyometrics");
+          setFirstExType("plyometrics");
+          setSecondExType("stretching");
         } else {
-          //   let excersisetype = "cardio";
-          //   return excersisetype;
-          setExerciseType("cardio");
+          setFirstExType("cardio");
+          setSecondExType("plyometrics");
         }
       } else if (formData.bmi === "normal") {
         if (formData.aim === "increase") {
-          //   let excersisetype = "strength";
-          //   return excersisetype;
-          setExerciseType("strength");
+          setFirstExType("strength");
+          setSecondExType("plyometrics");
         } else if (formData.aim === "keep form") {
-          //   let excersisetype = "plyometrics";
-          //   return excersisetype;
-          setExerciseType("plyometrics");
+          setFirstExType("plyometrics");
+          setSecondExType("stretching");
         } else {
-          //   let excersisetype = "cardio";
-          //   return excersisetype;
-          setExerciseType("cardio");
+          setFirstExType("cardio");
+          setSecondExType("plyometrics");
         }
       } else {
         if (formData.aim === "increase") {
-          //   let excersisetype = "plyometrics";
-          //   return excersisetype;
-          setExerciseType("plyometrics");
+          setFirstExType("plyometrics");
+          setSecondExType("strength");
         } else if (formData.aim === "keep form") {
-          //   let excersisetype = "cardio";
-          //   return excersisetype;
-          setExerciseType("cardio");
+          setFirstExType("cardio");
+          setSecondExType("stretching");
         } else {
-          //   let excersisetype = "cardio";
-          //   return excersisetype;
-          setExerciseType("cardio");
+          setFirstExType("cardio");
+          setSecondExType("plyometrics");
         }
       }
     }
-    return processedData;
     // console.log(processedData);
     // console.log(excersisetype);
   };
 
-  //   console.log(processedData);
-
-  useEffect(
-    (processedData) => {
-      console.log(processedData);
-      axios
-        .get("https://api.api-ninjas.com/v1/exercises?", {
+  useEffect(() => {
+    if (firstExType && secondExType) {
+      Promise.all([
+        axios.get("https://api.api-ninjas.com/v1/exercises?", {
           params: {
-            type: excersisetype,
-            // difficulty: processedData.experience,
+            type: firstExType,
+            difficulty: formData.experience,
           },
           headers: {
-            // "X-Api-Key"
+            // "X-Api-Key": ,
           },
-        })
-        .then(function (response) {
+        }),
+
+        axios.get("https://api.api-ninjas.com/v1/exercises?", {
+          params: {
+            type: secondExType,
+            difficulty: formData.experience,
+          },
+          headers: {
+            // "X-Api-Key": ,
+          },
+        }),
+      ])
+        .then((response) => {
           console.log(response);
+          setExersiseList([...response[0].data, ...response[1].data]);
+        })
+        // responseArr.push(...response[0].data);
+        // responseArr.push(...response[1].data);
+        // console.log(responseArr);
+        // setExersiseList(responseArr);
+
+        // const user = response[0].data
+        // const comments = response[1].data
+        // .then(console.log(response))
+        .catch((error) => {
+          console.log(error);
         });
-    },
-    [excersisetype]
-  );
+    }
+
+    // axios
+    //   .get("https://api.api-ninjas.com/v1/exercises?", {
+    //     params: {
+    //       type: firstextype,
+    //       difficulty: formData.experience,
+    //     },
+    //     headers: {
+    //       "X-Api-Key": "KHFTm60ZpU7eN3vhFk4hMg==uIRjxBypxGvBF9HI",
+    //     },
+    //   })
+    //   .then(function (response) {
+    //     console.log(response);
+    //   });
+  }, [firstExType, secondExType]);
 
   // $.ajax({
   //     method: 'GET',
@@ -225,6 +210,11 @@ function Form() {
 
   return (
     <div className="form">
+      {/* <div className="test">
+        {exersiseList.map((item) => {
+          return <div>{item.name}</div>;
+        })}
+      </div> */}
       <div className="progressbar">
         <div
           style={{
