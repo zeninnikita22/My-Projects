@@ -1,5 +1,6 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect } from "react";
 import axios from "axios";
+import Loading from "./Loading";
 import AimInfo from "./components/AimInfo";
 import BodyTypeInfo from "./components/BodyTypeInfo";
 import ExperienceInfo from "./components/ExperienceInfo";
@@ -9,21 +10,17 @@ import SleepInfo from "./components/SleepInfo";
 import WaterInfo from "./components/WaterInfo";
 import WeightInfo from "./components/WeightInfo";
 
-function Form() {
+function Form({
+  formData,
+  setFormData,
+  exersiseList,
+  setExersiseList,
+  // isSubmitted,
+  // setIsSubmitted,
+}) {
   const [page, setPage] = useState(0);
-  const [formData, setFormData] = useState({
-    height: "",
-    weight: "",
-    gender: "",
-    bodytype: "",
-    aim: "",
-    experience: "",
-    sleep: "",
-    water: "",
-  });
   const [firstExType, setFirstExType] = useState("");
   const [secondExType, setSecondExType] = useState("");
-  const [exersiseList, setExersiseList] = useState([]);
 
   const PageDisplay = () => {
     if (page === 0) {
@@ -47,6 +44,7 @@ function Form() {
 
   const handleSubmit = () => {
     alert("FORM SUBMITTED");
+    // setIsSubmitted("true");
     console.log(formData);
     setFormData({
       ...formData,
@@ -147,7 +145,7 @@ function Form() {
             difficulty: formData.experience,
           },
           headers: {
-            // "X-Api-Key": ,
+            "X-Api-Key": "YOUR_API_KEY",
           },
         }),
 
@@ -157,7 +155,7 @@ function Form() {
             difficulty: formData.experience,
           },
           headers: {
-            // "X-Api-Key": ,
+            "X-Api-Key": "YOUR_API_KEY",
           },
         }),
       ])
@@ -185,7 +183,7 @@ function Form() {
     //       difficulty: formData.experience,
     //     },
     //     headers: {
-    //       "X-Api-Key": "KHFTm60ZpU7eN3vhFk4hMg==uIRjxBypxGvBF9HI",
+    //       "X-Api-Key": YOUR_API_KEY',
     //     },
     //   })
     //   .then(function (response) {
@@ -210,11 +208,6 @@ function Form() {
 
   return (
     <div className="form">
-      {/* <div className="test">
-        {exersiseList.map((item) => {
-          return <div>{item.name}</div>;
-        })}
-      </div> */}
       <div className="progressbar">
         <div
           style={{
@@ -259,6 +252,7 @@ function Form() {
           {page === 7 ? "Submit" : "Next"}
         </button>
       </div>
+      <Loading exersiseList={exersiseList} />
     </div>
   );
 }

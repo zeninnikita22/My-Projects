@@ -3,10 +3,23 @@ import "./App.css";
 // import Register from "./Register";
 import { useState } from "react";
 import Form from "./Form";
+import Advice from "./Advice";
+import Loading from "./Loading";
 
 function App() {
   // const [switchToRegister, setSwitchToRegister] = useState(false);
-
+  const [formData, setFormData] = useState({
+    height: "",
+    weight: "",
+    gender: "",
+    bodytype: "",
+    aim: "",
+    experience: "",
+    sleep: "",
+    water: "",
+  });
+  const [exersiseList, setExersiseList] = useState([]);
+  // const [isSubmitted, setIsSubmitted] = useState("false");
   return (
     <div className="App">
       {/* {switchToRegister ? (
@@ -20,7 +33,24 @@ function App() {
           setSwitchToRegister={setSwitchToRegister}
         />
       )} */}
-      <Form />
+      {exersiseList.length > 1 ? (
+        <Loading />
+      ) : (
+        <Form
+          formData={formData}
+          setFormData={setFormData}
+          exersiseList={exersiseList}
+          setExersiseList={setExersiseList}
+          // isSubmitted={isSubmitted}
+          // setIsSubmitted={setIsSubmitted}
+        />
+      )}
+      {/* <Advice
+        formData={formData}
+        setFormData={setFormData}
+        exersiseList={exersiseList}
+        setExersiseList={setExersiseList}
+      /> */}
     </div>
   );
 }
