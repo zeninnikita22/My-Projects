@@ -1,9 +1,6 @@
-// import { useState } from "react";
 import ClipLoader from "react-spinners/ClipLoader";
 
 function Loading() {
-  //   let [loading, setLoading] = useState(true);
-  //   let [color, setColor] = useState("#ffffff");
   return (
     <div className="loading-box">
       <div className="loading-box__message">

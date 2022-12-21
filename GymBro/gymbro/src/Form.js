@@ -132,8 +132,6 @@ function Form({
         }
       }
     }
-    // console.log(processedData);
-    // console.log(excersisetype);
   };
 
   useEffect(() => {
@@ -163,48 +161,11 @@ function Form({
           console.log(response);
           setExersiseList([...response[0].data, ...response[1].data]);
         })
-        // responseArr.push(...response[0].data);
-        // responseArr.push(...response[1].data);
-        // console.log(responseArr);
-        // setExersiseList(responseArr);
-
-        // const user = response[0].data
-        // const comments = response[1].data
-        // .then(console.log(response))
         .catch((error) => {
           console.log(error);
         });
     }
-
-    // axios
-    //   .get("https://api.api-ninjas.com/v1/exercises?", {
-    //     params: {
-    //       type: firstextype,
-    //       difficulty: formData.experience,
-    //     },
-    //     headers: {
-    //       "X-Api-Key": YOUR_API_KEY',
-    //     },
-    //   })
-    //   .then(function (response) {
-    //     console.log(response);
-    //   });
   }, [firstExType, secondExType]);
-
-  // $.ajax({
-  //     method: 'GET',
-  //     url: 'https://api.api-ninjas.com/v1/exercises?muscle="biceps"',
-  //     headers: { 'X-Api-Key': 'YOUR_API_KEY'},
-  //     contentType: 'application/json',
-  //     success: function(result) {
-  //         console.log(result);
-  //     },
-  //     error: function ajaxError(jqXHR) {
-  //         console.error('Error: ', jqXHR.responseText);
-  //     }
-  // });
-
-  //   useEffect(() => {}, []);
 
   return (
     <div className="form">
