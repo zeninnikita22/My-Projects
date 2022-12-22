@@ -8,6 +8,7 @@ import Loading from "./Loading";
 
 function App() {
   // const [switchToRegister, setSwitchToRegister] = useState(false);
+  const [isSubmitted, setIsSubmitted] = useState(false);
   const [formData, setFormData] = useState({
     height: "",
     weight: "",
@@ -33,7 +34,7 @@ function App() {
           setSwitchToRegister={setSwitchToRegister}
         />
       )} */}
-      {exersiseList.length > 1 ? (
+      {isSubmitted ? (
         <Loading />
       ) : (
         <Form
@@ -41,8 +42,8 @@ function App() {
           setFormData={setFormData}
           exersiseList={exersiseList}
           setExersiseList={setExersiseList}
-          // isSubmitted={isSubmitted}
-          // setIsSubmitted={setIsSubmitted}
+          isSubmitted={isSubmitted}
+          setIsSubmitted={setIsSubmitted}
         />
       )}
       {/* <Advice

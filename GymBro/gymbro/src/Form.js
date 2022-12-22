@@ -15,8 +15,8 @@ function Form({
   setFormData,
   exersiseList,
   setExersiseList,
-  // isSubmitted,
-  // setIsSubmitted,
+  isSubmitted,
+  setIsSubmitted,
 }) {
   const [page, setPage] = useState(0);
   const [firstExType, setFirstExType] = useState("");
@@ -160,12 +160,14 @@ function Form({
         .then((response) => {
           console.log(response);
           setExersiseList([...response[0].data, ...response[1].data]);
+          console.log("Loading started");
+          setIsSubmitted(true);
         })
         .catch((error) => {
           console.log(error);
         });
     }
-  }, [firstExType, secondExType]);
+  }, [firstExType, secondExType, isSubmitted]);
 
   return (
     <div className="form">
