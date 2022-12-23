@@ -44,7 +44,7 @@ function Form({
 
   const handleSubmit = () => {
     alert("FORM SUBMITTED");
-    // setIsSubmitted("true");
+    setIsSubmitted("true");
     console.log(formData);
     setFormData({
       ...formData,
@@ -135,38 +135,43 @@ function Form({
   };
 
   useEffect(() => {
-    if (firstExType && secondExType) {
-      Promise.all([
-        axios.get("https://api.api-ninjas.com/v1/exercises?", {
-          params: {
-            type: firstExType,
-            difficulty: formData.experience,
-          },
-          headers: {
-            "X-Api-Key": "YOUR_API_KEY",
-          },
-        }),
+    async function getData() {
+      if (firstExType && secondExType) {
+        let result = await Promise.all([
+          axios.get("https://api.api-ninjas.com/v1/exercises?", {
+            params: {
+              type: firstExType,
+              difficulty: formData.experience,
+            },
+            headers: {
+              "X-Api-Key": "YOUR API KEY",
+            },
+          }),
 
-        axios.get("https://api.api-ninjas.com/v1/exercises?", {
-          params: {
-            type: secondExType,
-            difficulty: formData.experience,
-          },
-          headers: {
-            "X-Api-Key": "YOUR_API_KEY",
-          },
-        }),
-      ])
-        .then((response) => {
-          console.log(response);
-          setExersiseList([...response[0].data, ...response[1].data]);
-          console.log("Loading started");
-          setIsSubmitted(true);
-        })
-        .catch((error) => {
-          console.log(error);
-        });
+          axios.get("https://api.api-ninjas.com/v1/exercises?", {
+            params: {
+              type: secondExType,
+              difficulty: formData.experience,
+            },
+            headers: {
+              "X-Api-Key": "YOUR API KEY",
+            },
+          }),
+        ]);
+        // console.log(isSubmitted);
+        // .then((response) => {
+        //   console.log(response);
+        setExersiseList([...result[0].data, ...result[1].data]);
+        console.log("Loading started");
+        // setIsSubmitted(true);
+        console.log(isSubmitted);
+        // })
+        // .catch((error) => {
+        //   console.log(error);
+        // });
+      }
     }
+    getData();
   }, [firstExType, secondExType, isSubmitted]);
 
   return (
@@ -215,7 +220,7 @@ function Form({
           {page === 7 ? "Submit" : "Next"}
         </button>
       </div>
-      <Loading exersiseList={exersiseList} />
+      {/* <Loading exersiseList={exersiseList} /> */}
     </div>
   );
 }
