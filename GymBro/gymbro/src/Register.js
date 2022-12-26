@@ -1,6 +1,53 @@
+import { useState, useRef, useEffect } from "react";
+
 function Register({ switchToRegister, setSwitchToRegister }) {
+  const EMAIL_REGEX =
+    /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+  const PASSWORD_REGEX =
+    /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%]).{8,24}$/;
+
+  const nameRef = useRef();
+  const errRef = useRef();
+
+  const [name, setName] = useState("");
+
+  const [email, setEmail] = useState("");
+  const [validEmail, setValidEmail] = useState(false);
+  const [userFocus, setUserFocus] = useState(false);
+
+  const [password, setPassword] = useState("");
+  const [validPassword, setValidPassword] = useState(false);
+  const [pwdFocus, setPwdFocus] = useState(false);
+
+  const [matchPassworld, setMatchPassword] = useState("");
+  const [validMatch, setValidMatch] = useState(false);
+  const [matchFocus, setMatchFocus] = useState(false);
+
+  const [errMsg, setErrMsg] = useState("");
+  const [success, setSuccess] = useState(false);
+
+  useEffect(() => {
+    nameRef.current.focus();
+  }, []);
+
+  useEffect(() => {
+    setValidEmail(EMAIL_REGEX.test(email));
+  }, [email]);
+
+  useEffect(() => {
+    setValidPassword(PASSWORD_REGEX.test(password));
+    setValidMatch(password === matchPassworld);
+  }, [password, matchPassworld]);
+
+  useEffect(() => {
+    setErrMsg("");
+  }, [email, password, matchPassworld]);
+
   return (
     <div className="register-box">
+      <p ref={errRef} className={errMsg ? "errmsg" : "offscreen"}>
+        {errMsg}
+      </p>
       <form>
         <div className="name-box">
           <div className="name-box__label">Your name</div>
@@ -9,6 +56,10 @@ function Register({ switchToRegister, setSwitchToRegister }) {
             placeholder="type your name here"
             id="name"
             name="name"
+            ref={nameRef}
+            autoComplete="off"
+            value={name}
+            required
           ></input>
         </div>
         <div className="email-box">

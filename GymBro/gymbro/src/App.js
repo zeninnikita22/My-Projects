@@ -1,13 +1,13 @@
 import "./App.css";
-// import Login from "./Login";
-// import Register from "./Register";
+import Login from "./Login";
+import Register from "./Register";
 import { useState } from "react";
 import Form from "./Form";
 import Advice from "./Advice";
 import Loading from "./Loading";
 
 function App() {
-  // const [switchToRegister, setSwitchToRegister] = useState(false);
+  const [switchToRegister, setSwitchToRegister] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [formData, setFormData] = useState({
     height: "",
@@ -23,7 +23,7 @@ function App() {
   // const [isSubmitted, setIsSubmitted] = useState("false");
   return (
     <div className="App">
-      {/* {switchToRegister ? (
+      {switchToRegister ? (
         <Register
           switchToRegister={switchToRegister}
           setSwitchToRegister={setSwitchToRegister}
@@ -33,8 +33,8 @@ function App() {
           switchToRegister={switchToRegister}
           setSwitchToRegister={setSwitchToRegister}
         />
-      )} */}
-      {isSubmitted ? (
+      )}
+      {/* {isSubmitted ? (
         <Loading />
       ) : (
         <Form
@@ -45,7 +45,7 @@ function App() {
           isSubmitted={isSubmitted}
           setIsSubmitted={setIsSubmitted}
         />
-      )}
+      )} */}
       {/* <Advice
         formData={formData}
         setFormData={setFormData}

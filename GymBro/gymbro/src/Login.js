@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 function Login({ switchToRegister, setSwitchToRegister }) {
   return (
     <div className="login-box">
