@@ -143,3 +143,23 @@ input {
 input:focus {
   border: 3px solid rgb(98, 0, 255);
 }
+
+.showvalid {
+  display: block;
+}
+
+.showinvalid {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.instructions {
+  display: block;
+}
+
+.offscreen {
+  display: none;
+}
