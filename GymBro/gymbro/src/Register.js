@@ -179,7 +179,16 @@ function Register({ switchToRegister, setSwitchToRegister }) {
           </p>
         </div>
         <div className="register-button-box">
-          <button type="submit">Register</button>
+          <button
+            type="submit"
+            disabled={
+              !validEmail || !validPassword || !validConfirmPassword
+                ? true
+                : false
+            }
+          >
+            Register
+          </button>
         </div>
       </form>
       <button
