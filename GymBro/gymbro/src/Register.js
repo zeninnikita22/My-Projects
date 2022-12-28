@@ -42,10 +42,16 @@ function Register({ switchToRegister, setSwitchToRegister }) {
     setErrMsg("");
   }, [email, password, confirmPassword]);
 
+  function handleSubmit(e) {
+    e.preventDefault();
+    console.log(email, password);
+    setSuccess(true);
+  }
+
   return (
     <div className="register-box">
       <p style={{ display: errMsg ? "block" : "none" }}>{errMsg}</p>
-      <form>
+      <form onSubmit={handleSubmit}>
         <div className="name-box">
           <div className="name-box__label">Your name</div>
           <input

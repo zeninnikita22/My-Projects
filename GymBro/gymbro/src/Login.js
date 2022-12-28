@@ -1,9 +1,33 @@
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 
 function Login({ switchToRegister, setSwitchToRegister }) {
+  const emailRef = useRef();
+
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [errMsg, setErrMsg] = useState("");
+  const [success, setSuccess] = useState(false);
+
+  useEffect(() => {
+    emailRef.current.focus();
+  }, []);
+
+  useEffect(() => {
+    setErrMsg("");
+  }, [email, password]);
+
+  function handleSubmit(e) {
+    e.preventDefault();
+    console.log("Submitted!");
+    console.log(email, password);
+    setEmail("");
+    setPassword("");
+    setSuccess(true);
+  }
+
   return (
     <div className="login-box">
-      <form>
+      <form onSubmit={handleSubmit}>
         <div className="email-box">
           <div className="email-box__label">Email</div>
           <input
@@ -11,6 +35,11 @@ function Login({ switchToRegister, setSwitchToRegister }) {
             placeholder="your email adress"
             id="email"
             name="email"
+            ref={emailRef}
+            autoComplete="off"
+            onChange={(e) => setEmail(e.target.value)}
+            value={email}
+            required
           ></input>
         </div>
         <div className="password-box">
@@ -20,6 +49,9 @@ function Login({ switchToRegister, setSwitchToRegister }) {
             placeholder="your password"
             id="password"
             name="password"
+            onChange={(e) => setPassword(e.target.value)}
+            value={password}
+            required
           ></input>
         </div>
         <div className="login-button-box">

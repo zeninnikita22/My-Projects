@@ -5,6 +5,7 @@ import { useState } from "react";
 import Form from "./Form";
 import Advice from "./Advice";
 import Loading from "./Loading";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   const [switchToRegister, setSwitchToRegister] = useState(false);
@@ -20,40 +21,53 @@ function App() {
     water: "",
   });
   const [exersiseList, setExersiseList] = useState([]);
-  // const [isSubmitted, setIsSubmitted] = useState("false");
+
   return (
-    <div className="App">
-      {switchToRegister ? (
-        <Register
-          switchToRegister={switchToRegister}
-          setSwitchToRegister={setSwitchToRegister}
-        />
-      ) : (
-        <Login
-          switchToRegister={switchToRegister}
-          setSwitchToRegister={setSwitchToRegister}
-        />
-      )}
-      {/* {isSubmitted ? (
-        <Loading />
-      ) : (
-        <Form
-          formData={formData}
-          setFormData={setFormData}
-          exersiseList={exersiseList}
-          setExersiseList={setExersiseList}
-          isSubmitted={isSubmitted}
-          setIsSubmitted={setIsSubmitted}
-        />
-      )} */}
-      {/* <Advice
-        formData={formData}
-        setFormData={setFormData}
-        exersiseList={exersiseList}
-        setExersiseList={setExersiseList}
-      /> */}
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Login />}></Route>
+        <Route path="signup" element={<Register />}></Route>
+        <Route path="data" element={<Form />}></Route>
+        <Route path="exersise" element={<Advice />}></Route>
+      </Routes>
+    </BrowserRouter>
   );
+
+  //   // const [isSubmitted, setIsSubmitted] = useState("false");
+
+  //   return (
+  //     <div className="App">
+  //       {switchToRegister ? (
+  //         <Register
+  //           switchToRegister={switchToRegister}
+  //           setSwitchToRegister={setSwitchToRegister}
+  //         />
+  //       ) : (
+  //         <Login
+  //           switchToRegister={switchToRegister}
+  //           setSwitchToRegister={setSwitchToRegister}
+  //         />
+  //       )}
+  //       {/* {isSubmitted ? (
+  //         <Loading />
+  //       ) : (
+  //         <Form
+  //           formData={formData}
+  //           setFormData={setFormData}
+  //           exersiseList={exersiseList}
+  //           setExersiseList={setExersiseList}
+  //           isSubmitted={isSubmitted}
+  //           setIsSubmitted={setIsSubmitted}
+  //         />
+  //       )} */}
+  //       {/* <Advice
+  //         formData={formData}
+  //         setFormData={setFormData}
+  //         exersiseList={exersiseList}
+  //         setExersiseList={setExersiseList}
+  //       /> */}
+  //     </div>
+  //   );
 }
 
 export default App;
