@@ -1,12 +1,16 @@
 import { useState, useRef, useEffect } from "react";
+import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
-function Register({ switchToRegister, setSwitchToRegister }) {
+function Register() {
   const EMAIL_REGEX =
     /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
   const PASSWORD_REGEX =
     /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%]).{8,24}$/;
 
   const nameRef = useRef();
+
+  const navigateRegister = useNavigate();
 
   const [name, setName] = useState("");
 
@@ -47,6 +51,12 @@ function Register({ switchToRegister, setSwitchToRegister }) {
     console.log(email, password);
     setSuccess(true);
   }
+
+  useEffect(() => {
+    if (success) {
+      return navigateRegister("/data");
+    }
+  }, [success]);
 
   return (
     <div className="register-box">
@@ -197,12 +207,9 @@ function Register({ switchToRegister, setSwitchToRegister }) {
           </button>
         </div>
       </form>
-      <button
-        className="login-link"
-        onClick={() => setSwitchToRegister(!switchToRegister)}
-      >
+      <Link to="/" className="login-link">
         Already have an account? Log in here
-      </button>
+      </Link>
     </div>
   );
 }

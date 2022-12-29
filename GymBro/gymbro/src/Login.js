@@ -1,8 +1,10 @@
 import { useState, useRef, useEffect } from "react";
+import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
-function Login({ switchToRegister, setSwitchToRegister }) {
+function Login() {
   const emailRef = useRef();
-
+  const navigateLogin = useNavigate();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [errMsg, setErrMsg] = useState("");
@@ -24,6 +26,12 @@ function Login({ switchToRegister, setSwitchToRegister }) {
     setPassword("");
     setSuccess(true);
   }
+
+  useEffect(() => {
+    if (success) {
+      return navigateLogin("/data");
+    }
+  }, [success]);
 
   return (
     <div className="login-box">
@@ -58,12 +66,9 @@ function Login({ switchToRegister, setSwitchToRegister }) {
           <button type="submit">Log In</button>
         </div>
       </form>
-      <button
-        className="register-link"
-        onClick={() => setSwitchToRegister(!switchToRegister)}
-      >
+      <Link to="/signup" className="register-link">
         Don't have an account? Register here
-      </button>
+      </Link>
     </div>
   );
 }

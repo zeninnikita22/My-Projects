@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import Loading from "./Loading";
 import AimInfo from "./components/AimInfo";
@@ -10,7 +11,7 @@ import SleepInfo from "./components/SleepInfo";
 import WaterInfo from "./components/WaterInfo";
 import WeightInfo from "./components/WeightInfo";
 
-function Form({
+function Data({
   formData,
   setFormData,
   exersiseList,
@@ -21,6 +22,9 @@ function Form({
   const [page, setPage] = useState(0);
   const [firstExType, setFirstExType] = useState("");
   const [secondExType, setSecondExType] = useState("");
+  const [success, setSuccess] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const navigateAdvice = useNavigate();
 
   const PageDisplay = () => {
     if (page === 0) {
@@ -137,6 +141,7 @@ function Form({
   useEffect(() => {
     async function getData() {
       if (firstExType && secondExType) {
+        setLoading(true);
         let result = await Promise.all([
           axios.get("https://api.api-ninjas.com/v1/exercises?", {
             params: {
@@ -144,7 +149,7 @@ function Form({
               difficulty: formData.experience,
             },
             headers: {
-              "X-Api-Key": "YOUR API KEY",
+              "X-Api-Key": "KHFTm60ZpU7eN3vhFk4hMg==uIRjxBypxGvBF9HI",
             },
           }),
 
@@ -154,18 +159,15 @@ function Form({
               difficulty: formData.experience,
             },
             headers: {
-              "X-Api-Key": "YOUR API KEY",
+              "X-Api-Key": "KHFTm60ZpU7eN3vhFk4hMg==uIRjxBypxGvBF9HI",
             },
           }),
         ]);
-        // console.log(isSubmitted);
-        // .then((response) => {
-        //   console.log(response);
         setExersiseList([...result[0].data, ...result[1].data]);
-        console.log("Loading started");
-        // setIsSubmitted(true);
-        console.log(isSubmitted);
-        // })
+        setLoading(false);
+        if (exersiseList) {
+          setSuccess(true);
+        }
         // .catch((error) => {
         //   console.log(error);
         // });
@@ -174,7 +176,15 @@ function Form({
     getData();
   }, [firstExType, secondExType, isSubmitted]);
 
-  return (
+  useEffect(() => {
+    if (success) {
+      return navigateAdvice("/advice");
+    }
+  }, [success]);
+
+  return loading ? (
+    <Loading exersiseList={exersiseList} />
+  ) : (
     <div className="form">
       <div className="progressbar">
         <div
@@ -220,9 +230,8 @@ function Form({
           {page === 7 ? "Submit" : "Next"}
         </button>
       </div>
-      {/* <Loading exersiseList={exersiseList} /> */}
     </div>
   );
 }
 
-export default Form;
+export default Data;
