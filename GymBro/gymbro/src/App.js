@@ -5,6 +5,7 @@ import { useState } from "react";
 import Data from "./Data";
 import Advice from "./Advice";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import StartingPage from "./StartingPage";
 
 function App() {
   const [isSubmitted, setIsSubmitted] = useState(false);
@@ -23,7 +24,8 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Login />}></Route>
+        <Route path="/" element={<StartingPage />}></Route>
+        <Route path="login" element={<Login />}></Route>
         <Route path="signup" element={<Register />}></Route>
         <Route
           path="data"
