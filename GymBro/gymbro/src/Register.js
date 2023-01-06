@@ -207,7 +207,7 @@ function Register() {
           </button>
         </div>
       </form>
-      <Link to="/" className="login-link">
+      <Link to="/login" className="login-link">
         Already have an account? Log in here
       </Link>
     </div>
