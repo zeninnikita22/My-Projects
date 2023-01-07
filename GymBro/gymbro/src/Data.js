@@ -10,6 +10,7 @@ import HeightInfo from "./components/HeightInfo";
 import SleepInfo from "./components/SleepInfo";
 import WaterInfo from "./components/WaterInfo";
 import WeightInfo from "./components/WeightInfo";
+import Logo from "./images/gymbro-logo.png";
 import "./styles/Data.css";
 
 function Data({
@@ -188,6 +189,7 @@ function Data({
   ) : (
     <div className="wrapper">
       <div className="form-box">
+        <img className="logo" alt="gymbro-logo" src={Logo}></img>
         <div className="form-box__progressbar">
           <div
             style={{

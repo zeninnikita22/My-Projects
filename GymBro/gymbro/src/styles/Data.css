@@ -9,6 +9,11 @@ body {
 .wrapper {
 }
 
+.logo {
+  max-width: 300px;
+  margin-bottom: 25px;
+}
+
 .form-box {
   width: 100%;
   height: 100%;
@@ -32,6 +37,11 @@ body {
   height: fit-content;
   min-width: 450px;
   padding: 12px 12px;
+}
+
+.form-box__footer {
+  display: flex;
+  justify-content: center;
 }
 
 /* .form-box__container .header {
