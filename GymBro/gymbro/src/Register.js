@@ -1,6 +1,10 @@
 import { useState, useRef, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
+import "./styles/Register.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCheck } from "@fortawesome/free-solid-svg-icons";
+import { faXmark } from "@fortawesome/free-solid-svg-icons";
 
 function Register() {
   const EMAIL_REGEX =
@@ -59,157 +63,165 @@ function Register() {
   }, [success]);
 
   return (
-    <div className="register-box">
-      <p style={{ display: errMsg ? "block" : "none" }}>{errMsg}</p>
-      <form onSubmit={handleSubmit}>
-        <div className="name-box">
-          <div className="name-box__label">Your name</div>
-          <input
-            type="text"
-            placeholder="type your name here"
-            id="name"
-            name="name"
-            ref={nameRef}
-            autoComplete="off"
-            value={name}
-            required
-            onChange={(e) => setName(e.target.value)}
-          ></input>
+    <div className="wrapper">
+      <div className="register-box">
+        <div className="register-box__title">Register</div>
+        <p style={{ display: errMsg ? "block" : "none" }}>{errMsg}</p>
+        <form className="register-box__form" onSubmit={handleSubmit}>
+          <div className="name-box">
+            <div className="name-box__label">Your name</div>
+            <input
+              type="text"
+              // placeholder="type your name here"
+              id="name"
+              name="name"
+              ref={nameRef}
+              autoComplete="off"
+              value={name}
+              required
+              onChange={(e) => setName(e.target.value)}
+            ></input>
+          </div>
+          <div className="email-box">
+            <div className="email-box__label">
+              <div className="email-box__label-text">Email</div>
+              <FontAwesomeIcon
+                icon={faCheck}
+                className={validEmail ? "showvalid" : "hide"}
+              />
+              <FontAwesomeIcon
+                icon={faXmark}
+                className={validEmail || !email ? "hide" : "showinvalid"}
+              />
+            </div>
+            <input
+              type="email"
+              // placeholder="your email adress"
+              id="email"
+              name="email"
+              autoComplete="off"
+              value={email}
+              required
+              onChange={(e) => setEmail(e.target.value)}
+              onFocus={(e) => setEmailFocus(true)}
+              onBlur={(e) => setEmailFocus(false)}
+            ></input>
+            <p
+              id="email-message"
+              className={
+                emailFocus && email && !validEmail
+                  ? "instructions"
+                  : "offscreen"
+              }
+            >
+              4 to 24 characters. Must begin with a letter. Letters, numbers,
+              underscores, hyphens allowed.
+            </p>
+          </div>
+          <div className="password-box">
+            <div className="password-box__label">
+              <div className="password-box__label-text">Password</div>
+              <FontAwesomeIcon
+                icon={faCheck}
+                className={validPassword ? "showvalid" : "hide"}
+              />
+              <FontAwesomeIcon
+                icon={faXmark}
+                className={
+                  validPassword === false && password ? "showinvalid" : "hide"
+                }
+              />
+            </div>
+            <input
+              type="password"
+              // placeholder="your password"
+              id="password"
+              name="password"
+              autoComplete="off"
+              value={password}
+              required
+              onChange={(e) => setPassword(e.target.value)}
+              onFocus={(e) => setPasswordFocus(true)}
+              onBlur={(e) => setPasswordFocus(false)}
+            ></input>
+            <p
+              id="password-message"
+              className={
+                passwordFocus && !validPassword ? "instructions" : "offscreen"
+              }
+            >
+              8 to 24 characters.
+              <br />
+              Must include uppercase and lowercase letters, a number and a
+              special character.
+              <br />
+              Allowed special characters: <span>!</span> <span>@</span>{" "}
+              <span>#</span> <span>$</span> <span>%</span>
+            </p>
+          </div>
+          <div className="check-password-box">
+            <div className="check-password-box__label">
+              <div className="check-password-box__label-text">
+                Confirm your password
+              </div>
+              <FontAwesomeIcon
+                icon={faCheck}
+                className={
+                  validConfirmPassword && confirmPassword ? "showvalid" : "hide"
+                }
+              />
+              <FontAwesomeIcon
+                icon={faXmark}
+                className={
+                  validConfirmPassword === false && confirmPassword
+                    ? "showinvalid"
+                    : "hide"
+                }
+              />
+            </div>
+            <input
+              type="password"
+              // placeholder="confirm your password"
+              id="confirm-password"
+              name="confirm-password"
+              autoComplete="off"
+              value={confirmPassword}
+              required
+              onChange={(e) => setConfirmPassword(e.target.value)}
+              onFocus={(e) => setConfirmPasswordFocus(true)}
+              onBlur={(e) => setConfirmPasswordFocus(false)}
+            ></input>
+            <p
+              id="confirmpassword-message"
+              className={
+                confirmPasswordFocus && !validConfirmPassword
+                  ? "instructions"
+                  : "offscreen"
+              }
+            >
+              Must match the first password input field.
+            </p>
+          </div>
+          <div className="register-button-box">
+            <button
+              className="register-button-box__button"
+              type="submit"
+              disabled={
+                !validEmail || !validPassword || !validConfirmPassword
+                  ? true
+                  : false
+              }
+            >
+              Register
+            </button>
+          </div>
+        </form>
+        <div className="link-box">
+          <Link to="/login" className="link-box__login-link">
+            Already have an account? Log in here
+          </Link>
         </div>
-        <div className="email-box">
-          <div className="email-box__label">Email</div>
-          <p className={validEmail ? "showvalid" : "hide"}>Email is valid!</p>
-          <p className={validEmail === false && email ? "showinvalid" : "hide"}>
-            Email is invalid!
-          </p>
-
-          {/* <FontAwesomeIcon icon={faCheck} className={validName ? "valid" : "hide"} />
-          <FontAwesomeIcon icon={faTimes} className={validName || !user ? "hide" : "invalid"} /> */}
-          <input
-            type="email"
-            placeholder="your email adress"
-            id="email"
-            name="email"
-            autoComplete="off"
-            value={email}
-            required
-            onChange={(e) => setEmail(e.target.value)}
-            onFocus={(e) => setEmailFocus(true)}
-            onBlur={(e) => setEmailFocus(false)}
-          ></input>
-          <p
-            id="email-message"
-            className={
-              emailFocus && email && !validEmail ? "instructions" : "offscreen"
-            }
-          >
-            4 to 24 characters.
-            <br />
-            Must begin with a letter.
-            <br />
-            Letters, numbers, underscores, hyphens allowed.
-          </p>
-        </div>
-        <div className="password-box">
-          <div className="password-box__label">Password</div>
-          <p className={validPassword ? "showvalid" : "hide"}>
-            Password is valid!
-          </p>
-          <p
-            className={
-              validPassword === false && password ? "showinvalid" : "hide"
-            }
-          >
-            Password is invalid!
-          </p>
-          {/* <FontAwesomeIcon icon={faCheck} className={validPwd ? "valid" : "hide"} />
-          <FontAwesomeIcon icon={faTimes} className={validPwd || !pwd ? "hide" : "invalid"} /> */}
-          <input
-            type="password"
-            placeholder="your password"
-            id="password"
-            name="password"
-            autoComplete="off"
-            value={password}
-            required
-            onChange={(e) => setPassword(e.target.value)}
-            onFocus={(e) => setPasswordFocus(true)}
-            onBlur={(e) => setPasswordFocus(false)}
-          ></input>
-          <p
-            id="password-message"
-            className={
-              passwordFocus && !validPassword ? "instructions" : "offscreen"
-            }
-          >
-            {/* <FontAwesomeIcon icon={faInfoCircle} /> */}
-            8 to 24 characters.
-            <br />
-            Must include uppercase and lowercase letters, a number and a special
-            character.
-            <br />
-            Allowed special characters: <span>!</span> <span>@</span>{" "}
-            <span>#</span> <span>$</span> <span>%</span>
-          </p>
-        </div>
-        <div className="check-password-box">
-          <div className="check-password-box__label">Confirm your password</div>
-          <p
-            className={
-              validConfirmPassword && confirmPassword ? "showvalid" : "hide"
-            }
-          >
-            Confirm password mathces!
-          </p>
-          <p
-            className={
-              validConfirmPassword === false && confirmPassword
-                ? "showinvalid"
-                : "hide"
-            }
-          >
-            Confirm password doesnt match!
-          </p>
-          <input
-            type="password"
-            placeholder="confirm your password"
-            id="confirm-password"
-            name="confirm-password"
-            autoComplete="off"
-            value={confirmPassword}
-            required
-            onChange={(e) => setConfirmPassword(e.target.value)}
-            onFocus={(e) => setConfirmPasswordFocus(true)}
-            onBlur={(e) => setConfirmPasswordFocus(false)}
-          ></input>
-          <p
-            id="confirmpassword-message"
-            className={
-              confirmPasswordFocus && !validConfirmPassword
-                ? "instructions"
-                : "offscreen"
-            }
-          >
-            {/* <FontAwesomeIcon icon={faInfoCircle} /> */}
-            Must match the first password input field.
-          </p>
-        </div>
-        <div className="register-button-box">
-          <button
-            type="submit"
-            disabled={
-              !validEmail || !validPassword || !validConfirmPassword
-                ? true
-                : false
-            }
-          >
-            Register
-          </button>
-        </div>
-      </form>
-      <Link to="/login" className="login-link">
-        Already have an account? Log in here
-      </Link>
+      </div>
     </div>
   );
 }

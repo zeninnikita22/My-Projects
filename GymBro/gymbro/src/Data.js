@@ -10,6 +10,7 @@ import HeightInfo from "./components/HeightInfo";
 import SleepInfo from "./components/SleepInfo";
 import WaterInfo from "./components/WaterInfo";
 import WeightInfo from "./components/WeightInfo";
+import "./styles/Data.css";
 
 function Data({
   formData,
@@ -185,50 +186,54 @@ function Data({
   return loading ? (
     <Loading exersiseList={exersiseList} />
   ) : (
-    <div className="form">
-      <div className="progressbar">
-        <div
-          style={{
-            width:
-              page === 0
-                ? "12.5%"
-                : page === 1
-                ? "25%"
-                : page === 2
-                ? "37.5%"
-                : page === 3
-                ? "50%"
-                : page === 4
-                ? "62.5%"
-                : page === 5
-                ? "75%"
-                : page === 6
-                ? "87.5%"
-                : "100%",
-          }}
-        ></div>
-      </div>
-      <div className="form-container">{PageDisplay()}</div>
-      <div className="footer">
-        <button
-          disabled={page === 0}
-          onClick={() => {
-            setPage((currPage) => currPage - 1);
-          }}
-        >
-          Prev
-        </button>
-        <button
-          onClick={() => {
-            if (page === 7) {
-              handleSubmit();
-            } else {
-              setPage((currPage) => currPage + 1);
-            }
-          }}
-        >
-          {page === 7 ? "Submit" : "Next"}
-        </button>
+    <div className="wrapper">
+      <div className="form-box">
+        <div className="form-box__progressbar">
+          <div
+            style={{
+              width:
+                page === 0
+                  ? "12.5%"
+                  : page === 1
+                  ? "25%"
+                  : page === 2
+                  ? "37.5%"
+                  : page === 3
+                  ? "50%"
+                  : page === 4
+                  ? "62.5%"
+                  : page === 5
+                  ? "75%"
+                  : page === 6
+                  ? "87.5%"
+                  : "100%",
+            }}
+          ></div>
+        </div>
+        <div className="form-box__container">{PageDisplay()}</div>
+        <div className="form-box__footer">
+          <button
+            className="form-box__footer-prev-button"
+            disabled={page === 0}
+            onClick={() => {
+              setPage((currPage) => currPage - 1);
+            }}
+          >
+            <span>Prev</span>
+          </button>
+          <button
+            className="form-box__footer-next-button"
+            onClick={() => {
+              if (page === 7) {
+                handleSubmit();
+              } else {
+                setPage((currPage) => currPage + 1);
+              }
+            }}
+          >
+            {page === 7 ? "Submit" : "Next"}
+          </button>
+        </div>
       </div>
     </div>
   );

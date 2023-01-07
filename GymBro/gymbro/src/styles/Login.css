@@ -132,7 +132,7 @@ body {
   text-transform: none;
   user-select: none;
   -webkit-user-select: none;
-  width: fit-content;
+  width: 100%;
   /* clip-path: polygon(
     0 0,
     100% 0,

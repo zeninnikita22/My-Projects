@@ -21,7 +21,7 @@
   ); */
 }
 
-body {
+/* body {
   margin: 0%;
   padding: 0%;
   font-family: montserrat, arial, verdana;
@@ -112,7 +112,7 @@ body {
 }
 
 /* PROGRESS BAR */
-.progressbar {
+/* .progressbar {
   width: 400px;
   height: 10px;
   background-color: white;
@@ -149,24 +149,4 @@ input {
 
 input:focus {
   border: 3px solid rgb(98, 0, 255);
-}
-
-.showvalid {
-  display: block;
-}
-
-.showinvalid {
-  display: block;
-}
-
-.hide {
-  display: none;
-}
-
-.instructions {
-  display: block;
-}
-
-.offscreen {
-  display: none;
-}
+} */
