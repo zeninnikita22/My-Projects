@@ -4,7 +4,7 @@ import Register from "./Register";
 import { useState } from "react";
 import Data from "./Data";
 import Advice from "./Advice";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import StartingPage from "./StartingPage";
 
 function App() {
@@ -51,6 +51,7 @@ function App() {
             />
           }
         ></Route>
+        <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
     </BrowserRouter>
   );

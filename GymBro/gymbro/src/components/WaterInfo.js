@@ -5,6 +5,7 @@ function WaterInfo({ formData, setFormData }) {
     <div>
       <div className="number-input-box">
         <input
+          required
           className="number-input"
           type="number"
           placeholder="Average litres of water you drink per day"

@@ -65,6 +65,9 @@ function Data({
             (formData.weight / formData.height ** 2) * 10000 <= 25
           ? "normal"
           : "overweight",
+      neededWaterConsumption: Number.parseFloat(
+        formData.weight * 0.0333
+      ).toFixed(2),
     });
 
     if (formData.gender === "male") {
@@ -144,6 +147,7 @@ function Data({
     async function getData() {
       if (firstExType && secondExType) {
         setLoading(true);
+        console.log(formData);
         let result = await Promise.all([
           axios.get("https://api.api-ninjas.com/v1/exercises?", {
             params: {

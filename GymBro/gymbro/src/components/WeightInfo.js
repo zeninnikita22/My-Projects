@@ -5,6 +5,7 @@ function WeightInfo({ formData, setFormData }) {
     <div className="weight-info">
       <div className="number-input-box">
         <input
+          required
           className="number-input"
           type="number"
           value={formData.weight}

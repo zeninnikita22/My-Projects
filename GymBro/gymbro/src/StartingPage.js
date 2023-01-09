@@ -22,7 +22,7 @@ function StartingPage() {
   return (
     <div className="wrapper">
       <div className="left-container">
-        <div className="logo">
+        <div className="starting-page__logo">
           <img alt="gymbro-logo" src={Logo}></img>
         </div>
         <div className="left-container__text">

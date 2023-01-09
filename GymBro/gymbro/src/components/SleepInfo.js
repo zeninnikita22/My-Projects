@@ -7,6 +7,7 @@ function SleepInfo({ formData, setFormData }) {
         <input
           className="number-input"
           type="number"
+          required
           value={formData.sleep}
           placeholder="How many average hours do you sleep per day?"
           onChange={(e) => {

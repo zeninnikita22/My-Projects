@@ -10,6 +10,7 @@ function HeightInfo({ formData, setFormData }) {
       </div> */}
       <div className="number-input-box">
         <input
+          required
           className="number-input"
           placeholder="Please type in your height in centimeters"
           type="number"

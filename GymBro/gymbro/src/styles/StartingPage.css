@@ -41,12 +41,12 @@
     clip-path: polygon(45% 0, 100% 0%, 100% 100%, 0% 100%); */
 }
 
-.logo {
+.starting-page__logo {
   margin-top: 3%;
   margin-left: 5%;
 }
 
-.logo img {
+.starting-page__logo img {
   max-width: 20%;
 }
 
