@@ -49,7 +49,6 @@ function Data({
   };
 
   const handleSubmit = () => {
-    alert("FORM SUBMITTED");
     setIsSubmitted("true");
     console.log(formData);
     setFormData({

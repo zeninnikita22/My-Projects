@@ -26,13 +26,6 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #71c70f;
-  /* clip-path: polygon(
-    0 0,
-    100% 0,
-    100% calc(100% - 80px),
-    calc(100% - 80px) 100%,
-    0 100%
-  ); */
   height: fit-content;
   min-width: 450px;
   padding: 12px 12px;
@@ -43,38 +36,6 @@ body {
   justify-content: center;
 }
 
-/* .form-box__container .header {
-  flex: 20%;
-  display: grid;
-  place-items: center;
-}
-
-.form-box__container .body {
-  flex: 60%;
-}
-
-.form-box__container .footer {
-  flex: 20%;
-  display: flex;
-  justify-content: center;
-} */
-
-/* .form-box__container .form-box__footer button {
-  border-radius: 7px;
-  width: 100px;
-  height: 40px;
-  background-color: rgb(255, 0, 140);
-  font-weight: bold;
-  color: white;
-  border: 0 none;
-  border-radius: 1px;
-  cursor: pointer;
-  padding: 10px 5px;
-  margin: 10px 5px;
-  margin: 5px;
-} */
-
-/* PROGRESS BAR */
 .form-box__progressbar {
   width: 400px;
   height: 10px;
@@ -94,9 +55,6 @@ body {
 }
 
 .height-info {
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center; */
   height: 100%;
 }
 
@@ -124,7 +82,6 @@ body {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  /* position: absolute; */
   width: 100%;
   height: 100%;
   background: none;
@@ -223,14 +180,6 @@ input[type="number"] {
   padding: 10px;
 }
 
-/* .male-hover img {
-  float: left;
-  width: 200px;
-  height: 300px;
-  object-fit: cover;
-  padding: 10px;
-} */
-
 .female {
 }
 
@@ -248,14 +197,6 @@ input[type="number"] {
   transition: all 0.2s ease;
   cursor: pointer;
 }
-
-/* .female img {
-  float: left;
-  width: 200px;
-  height: 300px;
-  object-fit: cover;
-  padding: 10px;
-} */
 
 .clicked {
   border: 8px solid #1c2d29;

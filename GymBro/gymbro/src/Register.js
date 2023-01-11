@@ -72,7 +72,6 @@ function Register() {
             <div className="name-box__label">Your name</div>
             <input
               type="text"
-              // placeholder="type your name here"
               id="name"
               name="name"
               ref={nameRef}
@@ -96,7 +95,6 @@ function Register() {
             </div>
             <input
               type="email"
-              // placeholder="your email adress"
               id="email"
               name="email"
               autoComplete="off"
@@ -134,7 +132,6 @@ function Register() {
             </div>
             <input
               type="password"
-              // placeholder="your password"
               id="password"
               name="password"
               autoComplete="off"
@@ -181,7 +178,6 @@ function Register() {
             </div>
             <input
               type="password"
-              // placeholder="confirm your password"
               id="confirm-password"
               name="confirm-password"
               autoComplete="off"

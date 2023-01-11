@@ -40,7 +40,6 @@ function Login() {
         <div className="login-box__title">Login</div>
         <form className="login-box__form" onSubmit={handleSubmit}>
           <div className="email-box">
-            {/* <div className="email-box__label">Email</div> */}
             <input
               type="email"
               placeholder="Your e-mail"
@@ -54,7 +53,6 @@ function Login() {
             ></input>
           </div>
           <div className="password-box">
-            {/* <div className="password-box__label">Password</div> */}
             <input
               type="password"
               placeholder="Your password"

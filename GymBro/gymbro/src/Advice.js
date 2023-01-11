@@ -5,12 +5,9 @@ import Water from "./images/water-glass.png";
 import Sleep from "./images/sleep.png";
 
 function Advice({ formData, setFormData, exersiseList, setExersiseList }) {
-  // const [activated, setActivated] = useState(false);
-  // const [activeItemsIds, setActiveItemsIds] = useState([]);
   const [activated, setActivated] = useState();
 
   console.log(exersiseList);
-  // console.log(activeItemsIds);
 
   return (
     <div className="wrapper-advice">
